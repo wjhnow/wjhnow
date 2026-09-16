@@ -665,7 +665,7 @@ a[href*="/categories/"]:hover {
 .about-author-card .author-name,
 .article-content .author-title,
 .author-name {
-  font-size: 1.6.0rem !important;
+  font-size: 1.6rem !important;
   font-weight: 700 !important;
   margin-bottom: 0.3rem !important;
 }
@@ -881,6 +881,17 @@ img.author-inline-avatar {
     gap: 7px 8px !important;
   }
 
+  .article-tags a,
+  .post-tags a,
+  .tags a,
+  .article-header .category a,
+  .article-header .article-category a,
+  .article-header .categories a,
+  .article-categories a,
+  .article-header .category-badge {
+    font-size: 0.85rem !important; /* Matched to .my-custom-related-block h2 size */
+  }
+
   .author-title,
   .author-name {
     font-size: 1.4rem !important;
@@ -910,8 +921,13 @@ img.author-inline-avatar {
 @media (max-width: 480px) {
   .article-tags a,
   .post-tags a,
-  .tags a {
-    font-size: 0.95rem !important;
+  .tags a,
+  .article-header .category a,
+  .article-header .article-category a,
+  .article-header .categories a,
+  .article-categories a,
+  .article-header .category-badge {
+    font-size: 0.85rem !important; /* Matched to .my-custom-related-block h2 size */
     padding: 0 8px 0 0 !important;
   }
 }
@@ -952,3 +968,4 @@ footer hr,
   border: none !important;
   height: 0 !important;
 }
+
