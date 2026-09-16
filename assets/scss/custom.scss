@@ -128,25 +128,27 @@ body {
     color: inherit;
     line-height: 1;
 
-    .logo-title {
-      font-family: var(--serif-editorial) !important;
-      font-size: 2.0rem !important;;
-      font-weight: 700;
-      line-height: 0.85 !important;
-      color: #111 !important;
-      letter-spacing: -0.06em !important;;
-    }
+   .logo-title {
+  font-family: var(--serif-editorial) !important;
+  font-size: 2.0rem !important;
+  font-weight: 700;
+  line-height: 0.85 !important;
+  color: #111 !important;
+  letter-spacing: -0.06em !important;
+  margin-bottom: 4px !important;   /* ← add this for the gap */
+}
 
-    .logo-tagline {
-      font-family: var(--sans-ui) !important;
-      font-size: 0.75rem;
-      font-weight: 700;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      color: #555 !important;
-      opacity: 0.85;
-      line-height: 1.2;
-    }
+.logo-tagline {
+  font-family: var(--sans-ui) !important;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #555 !important;
+  opacity: 0.85;
+  line-height: 1.2;
+  margin-top: 0;                   /* keep it tight */
+}
   }
 
   .header-right {
