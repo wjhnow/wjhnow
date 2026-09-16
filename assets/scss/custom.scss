@@ -170,12 +170,12 @@ body {
   }
 }
 
-/* --- 3. Masthead Tagline (Exact PC & Mobile Lock) --- */
+/* --- 3. Masthead Tagline (Mobile Scaled Down & PC Locked) --- */
 .site-masthead-tagline {
   width: 100% !important;
   max-width: var(--max-width) !important;
-  margin: 0 auto 1.8rem auto !important;
-  padding: 0.9rem 16px 1.3rem !important;
+  margin: 0 auto 1.2rem auto !important;
+  padding: 0.5rem 16px 1rem !important;
   border-bottom: 1px solid var(--border-color) !important;
   text-align: left !important;
 }
@@ -195,26 +195,26 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  /* --- Mobile: Small & Compact --- */
-  font-size: 11px !important;
-  line-height: 1.4 !important;
+  /* --- Mobile: Ultra-Compact & Clean --- */
+  font-size: 9.5px !important;
+  line-height: 1.35 !important;
   font-weight: 600 !important;
-  letter-spacing: 0.03em !important;
+  letter-spacing: 0.02em !important;
   max-width: 100% !important;
 
-  /* --- Desktop PC: Crisp 14px 2-Line Editorial Wrap --- */
+  /* --- Desktop PC: Untouched (Locks to Screenshot Layout) --- */
   @media (min-width: 768px) {
     font-size: 14px !important;
     line-height: 1.55 !important;
     font-weight: 600 !important;
     letter-spacing: 0.04em !important;
-    max-width: 500px !important; /* Forces PC view to wrap into 2 sharp, readable lines */
+    max-width: 500px !important;
   }
 }
 
 /* Nested under header when structure places it inside .ad-header */
 .ad-header .site-masthead-tagline {
-  padding: 4px 16px 16px !important;
+  padding: 2px 16px 12px !important;
   margin-top: -4px !important;
   border-bottom: none !important;
 }
