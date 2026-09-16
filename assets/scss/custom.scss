@@ -97,29 +97,11 @@ body {
 
   .logo-title {
     font-family: var(--serif-editorial) !important;
-    font-size: 1.6rem !important;
+    font-size: 2.6rem !important;
     font-weight: 700 !important;
     color: #111 !important;
     line-height: 1.05 !important;
   }
-
-  .logo-tagline {
-    font-family: 'Cinzel', serif !important;
-    font-size: 0.65rem !important;
-    font-weight: 700 !important;
-    letter-spacing: 0.14em !important;
-    text-transform: uppercase !important;
-    color: #333 !important;
-    line-height: 1.2 !important;
-  }
-
-  /* Force right-aligned logo icon to hide if duplicate */
-  .header-right,
-  .header-right img,
-  .header-container > img {
-    display: none !important;
-  }
-}
 
 /* --- 3. Masthead Sub-Header (Cinzel Font Direct Override) --- */
 .site-masthead-tagline,
@@ -142,7 +124,6 @@ header + div,
     line-height: 1.45 !important;
     color: #1a1a1a !important;
     letter-spacing: 0.08em !important;
-    text-transform: uppercase !important;
     margin: 0 !important;
     display: block !important;
     opacity: 1 !important;
