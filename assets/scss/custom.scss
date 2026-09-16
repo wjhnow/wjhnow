@@ -130,16 +130,16 @@ body {
 
     .logo-title {
       font-family: var(--serif-editorial) !important;
-      font-size: 1.25rem;
+      font-size: 2.6rem !important;;
       font-weight: 700;
-      line-height: 1.1;
+      line-height: 0.85 !important;
       color: #111 !important;
-      letter-spacing: -0.03em;
+      letter-spacing: -0.06em !important;;
     }
 
     .logo-tagline {
       font-family: var(--sans-ui) !important;
-      font-size: 0.65rem;
+      font-size: 1.0rem;
       font-weight: 700;
       letter-spacing: 0.08em;
       text-transform: uppercase;
