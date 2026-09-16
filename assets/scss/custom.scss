@@ -142,10 +142,10 @@ body {
       font-weight: 700;
       letter-spacing: 0.08em;
       text-transform: uppercase;
-      color: #555 !important;
-      opacity: 0.85;
+      color: #38342e !important;
+      opacity: 1;
       line-height: 1.2;
-      margin-top: 0;
+      margin-top: 2px;
     }
   }
 
@@ -153,14 +153,15 @@ body {
     display: flex !important;
     align-items: center !important;
     justify-content: flex-end !important;
+    display: none !important; /* Removed duplicate logo icon — left wordmark is now the single brand anchor */
 
     .ad-logo-img {
-      display: inline-block;
+      display: none !important;
       text-decoration: none;
     }
 
     .logo-img {
-      display: block !important;
+      display: none !important;
       width: auto !important;
       height: 68px !important;      /* Increased from 52px */
       max-height: 72px !important;  /* Increased from 56px */
@@ -212,8 +213,8 @@ body {
 
 /* Nested under header when structure places it inside .ad-header */
 .ad-header .site-masthead-tagline {
-  padding: 2px 16px 12px !important;
-  margin-top: -4px !important;
+  padding: 10px 16px 14px !important;
+  margin-top: 4px !important;
   border-bottom: none !important;
 }
 /* --- 4. Navigation Drawer --- */
