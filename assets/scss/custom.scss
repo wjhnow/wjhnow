@@ -1,12 +1,14 @@
 /* ==========================================================================
    WJH.now / Hugotest – Complete Master Stylesheet (cleaned)
    ========================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
 :root {
   --body-background: #f4efe6;
   --text-main: #1f1d1a;
   --text-muted: #635e57;
   --border-color: #e0d9cd;
-  --serif-editorial: "Didot", "Bodoni MT", "Cormorant Garamond", "Playfair Display", "Georgia", serif;
+  --serif-editorial: "Libre Baskerville", Georgia, "Times New Roman", serif;
   --sans-ui: "Inter", "Helvetica Neue", -apple-system, BlinkMacSystemFont, Arial, sans-serif;
   --accent-bar: #1a2b3c;
   --max-width: 1080px;
