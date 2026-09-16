@@ -226,24 +226,22 @@ body {
   text-align: left;
 }
 
-.site-masthead-tagline .tagline-title {
-  display: none !important;
-}
+  .site-masthead-tagline {
+    padding: 4px 16px 12px;
+    margin-top: 2px;
 
-.site-masthead-tagline .tagline-text {
-  font-family: var(--sans-ui) !important;
-  font-size: 0.8125rem !important;           /* 13px – quieter on mobile */
-  line-height: 1.45 !important;
-  font-weight: 400 !important;
-  font-style: italic;
-  color: #6b6560 !important;                 /* softer muted tone */
-  letter-spacing: 0.01em;
-  margin: 0;
-  opacity: 0.88;
-  max-width: 640px;
-}
+    .tagline-text {
+      font-style: normal !important;
+      font-family: var(--sans-ui) !important;
+      font-size: 0.825rem;
+      line-height: 1.4;
+      color: var(--text-muted);
+      letter-spacing: 0.01em;
+      margin: 0;
+    }
+  }
 
-
+ 
 
 
 /* --- 4. Navigation Drawer --- */
