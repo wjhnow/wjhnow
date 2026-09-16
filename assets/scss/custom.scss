@@ -1,7 +1,7 @@
-/* --- Font Import (Includes Cinzel 400, 600, 700) --- */
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap');
+
 /* ==========================================================================
-   WJH.now / Hugotest – Complete Master Stylesheet
+   WJH.now / Hugotest – Complete Master Stylesheet (cleaned)
    ========================================================================== */
 :root {
   --body-background: #f4efe6;
@@ -13,7 +13,6 @@
   --accent-bar: #1a2b3c;
   --max-width: 1080px;
 }
-
 
 /* --- 1. Global Reset & Layout --- */
 body {
@@ -35,6 +34,7 @@ body {
 .article-translations {
   display: none !important;
 }
+
 .main,
 #main-content,
 .main-container {
@@ -62,100 +62,188 @@ body {
   }
 }
 
-/* --- 2. Header --- */
+/* --- 2. Header (consolidated) --- */
 .ad-header {
   position: relative !important;
   width: 100% !important;
   background-color: #ffffff !important;
   border-bottom: 1px solid var(--border-color);
   z-index: 1000 !important;
-  padding: 0.7rem 1.25rem;
+  padding: 0.65rem 1.25rem 0.5rem;
+
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 12px 16px;
+    gap: 1rem;
+  }
+
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .hamburger-menu {
+    background: transparent !important;
+    border: none !important;
+    cursor: pointer !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    width: 22px !important;
+    height: 15px !important;
+    padding: 0 !important;
+    z-index: 1001 !important;
+    flex-shrink: 0;
+  }
+
+  .hamburger-menu span {
+    display: block !important;
+    width: 100% !important;
+    height: 1.5px !important;
+    background-color: #111 !important;
+    transition: transform 0.25s ease, opacity 0.2s ease !important;
+    transform-origin: center !important;
+  }
+
+  .hamburger-menu.open span:nth-child(1) {
+    transform: translateY(6.5px) rotate(45deg) !important;
+  }
+  .hamburger-menu.open span:nth-child(2) {
+    opacity: 0 !important;
+  }
+  .hamburger-menu.open span:nth-child(3) {
+    transform: translateY(-6.5px) rotate(-45deg) !important;
+  }
+
+  .ad-logo-text {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: inherit;
+    line-height: 1;
+
+    .logo-title {
+      font-family: var(--serif-editorial) !important;
+      font-size: 1.25rem;
+      font-weight: 700;
+      line-height: 1.1;
+      color: #111 !important;
+      letter-spacing: -0.03em;
+    }
+
+    .logo-tagline {
+      font-family: var(--sans-ui) !important;
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #555 !important;
+      opacity: 0.85;
+      line-height: 1.2;
+    }
+  }
+
+  .header-right {
+    display: flex;
+    align-items: center;
+
+    .ad-logo-img {
+      display: inline-block;
+      text-decoration: none;
+    }
+
+    .logo-img {
+      display: block;
+      width: auto;
+      height: 40px;
+      max-height: 48px;
+      object-fit: contain;
+    }
+  }
 }
 
-.header-container {
-  display: flex;
-  align-items: center;
-  gap: 1.1rem;
-  max-width: var(--max-width);
-  margin: 0 auto;
+/* Legacy logo support (in case old markup still exists) */
+.ad-logo {
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.75rem !important;
+  text-decoration: none !important;
+  color: inherit !important;
+  line-height: 1 !important;
 }
 
-.hamburger-menu {
-  background: transparent !important;
-  border: none !important;
-  cursor: pointer !important;
+.logo-img {
+  width: 46px !important;
+  height: 46px !important;
+  object-fit: contain !important;
+  flex-shrink: 0 !important;
+  display: block !important;
+}
+
+.logo-text {
   display: flex !important;
   flex-direction: column !important;
-  justify-content: space-between !important;
-  width: 22px !important;
-  height: 15px !important;
-  padding: 0 !important;
-  z-index: 1001 !important;
+  justify-content: center !important;
+  gap: 1px !important;
 }
 
-.hamburger-menu span {
-  display: block !important;
-  width: 100% !important;
-  height: 1.5px !important;
-  background-color: #111 !important;
-  transition: transform 0.25s ease, opacity 0.2s ease !important;
-  transform-origin: center !important;
-}
-
-.hamburger-menu.open span:nth-child(1) {
-  transform: translateY(6.5px) rotate(45deg) !important;
-}
-.hamburger-menu.open span:nth-child(2) {
-  opacity: 0 !important;
-}
-.hamburger-menu.open span:nth-child(3) {
-  transform: translateY(-6.5px) rotate(-45deg) !important;
-}
-
-.ad-logo {
+.logo-title {
   font-family: var(--serif-editorial) !important;
-  font-size: 2.6rem !important;
+  font-size: 1.55rem !important;
   font-weight: 700 !important;
-  color: #000 !important;
-  text-decoration: none !important;
-  letter-spacing: -0.06em !important;
-  line-height: 0.85 !important;
-  display: inline-block;
-  margin-top: -1px;
+  color: #111 !important;
+  letter-spacing: -0.03em !important;
+  line-height: 1.1 !important;
+  display: block !important;
 }
 
-/* --- 3. Masthead Tagline --- */
+.logo-tagline {
+  font-family: var(--sans-ui) !important;
+  font-size: 0.68rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.14em !important;
+  text-transform: uppercase !important;
+  color: #555 !important;
+  line-height: 1.2 !important;
+  display: block !important;
+}
+
+/* --- 3. Masthead Tagline (unified) --- */
 .site-masthead-tagline {
   max-width: var(--max-width);
-  margin: 0 auto 2rem auto !important;
-  padding: 1.4rem 0 1.6rem !important;
+  margin: 0 auto 1.8rem auto !important;
+  padding: 0.9rem 0 1.3rem !important;
   border-bottom: 1px solid var(--border-color) !important;
   text-align: left;
 }
 
 .site-masthead-tagline .tagline-title {
-  font-family: var(--sans-ui) !important;
-  font-size: 11px !important;
-  font-weight: 700 !important;
-  text-transform: uppercase !important;
-  letter-spacing: 0.18em !important;
-  color: #111 !important;
-  margin-bottom: 6px !important;
-  display: block !important;
+  display: none !important;
 }
 
-.site-masthead-tagline p,
 .site-masthead-tagline .tagline-text {
-  font-family: "Cormorant Garamond", Georgia, serif !important;
-  font-size: 20px !important;
-  font-style: italic !important;
-  line-height: 1.45 !important;
-  color: #444 !important;
-  font-weight: 400 !important;
-  margin: 0 !important;
-  max-width: 780px !important;
+  font-style: italic;
+  font-family: var(--sans-ui) !important;
+  font-size: 0.95rem;
+  line-height: 1.35;
+  color: var(--text-muted) !important;
+  letter-spacing: 0.03em;
+  margin: 0;
+  opacity: 0.9;
 }
 
+/* Nested under header when structure places it inside .ad-header */
+.ad-header .site-masthead-tagline {
+  padding: 4px 16px 16px;
+  margin-top: -4px;
+  border-bottom: none;
+}
 
 /* --- 4. Navigation Drawer --- */
 .nav-drawer {
@@ -446,7 +534,7 @@ h1.entry-title,
 .post-content p,
 .article-content p {
   font-family: Georgia, "Times New Roman", Book Antiqua, serif !important;
-  font-size: 1.55rem !important;          /* ← increased */
+  font-size: 1.55rem !important;
   line-height: 1.8 !important;
   color: #222222 !important;
   margin-bottom: 1.7rem !important;
@@ -458,7 +546,7 @@ h1.entry-title,
   .entry-content p,
   .post-content p,
   .article-content p {
-    font-size: 1.62rem !important;        /* ← increased */
+    font-size: 1.62rem !important;
   }
 }
 
@@ -528,7 +616,6 @@ p.has-dropcap .first-letter {
   font-weight: 700 !important;
 }
 
-
 /* Captions */
 figcaption,
 .caption,
@@ -563,15 +650,15 @@ figcaption,
 .taxonomy-term,
 .badge,
 a[href*="/categories/"] {
-  background-color: #efeee9 !important;      /* ← Softened subtle tone */
-  color: #222222 !important;                  /* ← Crisp readable dark text */
+  background-color: #efeee9 !important;
+  color: #222222 !important;
   padding: 5px 12px !important;
   border-radius: 3px !important;
   font-size: 0.74rem !important;
   font-weight: 700 !important;
   text-transform: uppercase !important;
   letter-spacing: 0.08em !important;
-  border: 1px solid #e0ded8 !important;      /* ← Very faint refined edge */
+  border: 1px solid #e0ded8 !important;
   text-decoration: none !important;
   transition: all 0.2s ease !important;
   display: inline-block !important;
@@ -611,9 +698,7 @@ a[href*="/categories/"]:hover {
   color: #444444 !important;
 }
 
-/* --- 7. Custom Related Content (Direct Class Targeting) --- */
-
-/* Silence the theme's native related widget */
+/* --- 7. Custom Related Content --- */
 .related-contents,
 aside.related-contents,
 .related-content-section,
@@ -621,11 +706,10 @@ aside.related-contents,
   display: none !important;
 }
 
-/* Custom Live Section Overrides */
 aside.my-custom-related-block,
 .my-custom-related-block {
   display: block !important;
-  margin-top: 4.5rem !important;             /* ← Generous gap above section */
+  margin-top: 4.5rem !important;
   padding-top: 2rem !important;
   border-top: 1px solid var(--border-color) !important;
 }
@@ -642,7 +726,7 @@ aside.my-custom-related-block,
 
 .my-custom-related-block a img {
   width: 100% !important;
-  max-height: 280px !important;             /* ← Capped image height */
+  max-height: 280px !important;
   height: 280px !important;
   object-fit: cover !important;
   border-radius: 4px !important;
@@ -652,7 +736,7 @@ aside.my-custom-related-block,
 .my-custom-related-block h3,
 .my-custom-related-block h3 a {
   font-family: var(--sans-ui) !important;
-  font-size: 1.25rem !important;             /* ← Refined title sizing */
+  font-size: 1.25rem !important;
   font-weight: 600 !important;
   line-height: 1.35 !important;
   color: #111111 !important;
@@ -697,7 +781,7 @@ footer.site-footer,
 }
 
 .live-updates strong {
-  font-size: 0.92rem !important;          /* ← increased */
+  font-size: 0.92rem !important;
   font-weight: 700 !important;
   letter-spacing: 0.1em !important;
   text-transform: uppercase !important;
@@ -705,7 +789,7 @@ footer.site-footer,
 }
 
 .live-updates a {
-  font-size: 0.92rem !important;          /* ← increased */
+  font-size: 0.92rem !important;
   font-weight: 600 !important;
   letter-spacing: 0.06em !important;
   color: #222 !important;
@@ -722,7 +806,7 @@ footer.site-footer,
 }
 
 .site-footer .copyright {
-  font-size: 1.05rem !important;          /* ← increased */
+  font-size: 1.05rem !important;
   color: #333 !important;
   margin-bottom: 0.6rem !important;
   font-weight: 500 !important;
@@ -731,7 +815,7 @@ footer.site-footer,
 .footer-domain,
 .site-footer small,
 .site-footer .footer-info {
-  font-size: 0.90rem !important;          /* ← increased */
+  font-size: 0.90rem !important;
   color: #777 !important;
   letter-spacing: 0.03em !important;
 }
@@ -797,7 +881,7 @@ img.author-inline-avatar {
   .article-body p,
   .entry-content p,
   .article-content p {
-    font-size: 1.35rem !important;        /* ← increased */
+    font-size: 1.35rem !important;
   }
 
   .article-body h2,
@@ -832,7 +916,6 @@ img.author-inline-avatar {
     font-size: 1rem !important;
   }
 
-  /* Custom Related Content mobile adjustments */
   aside.my-custom-related-block,
   .my-custom-related-block {
     margin-top: 3.5rem !important;
@@ -893,75 +976,4 @@ footer hr,
   content: none !important;
   border: none !important;
   height: 0 !important;
-}
-
-.ad-header {
-  width: 100%;
-  position: relative;
-  background-color: transparent;
-
-  .header-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    padding: 12px 16px;
-  }
-
-  .header-left {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-  }
-
-  .ad-logo-text {
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    color: inherit;
-
-    .logo-title {
-      font-size: 1.25rem;
-      font-weight: 700;
-      line-height: 1.1;
-    }
-
-    .logo-tagline {
-      font-size: 0.65rem;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      opacity: 0.85;
-    }
-  }
-
-  .header-right {
-    display: flex;
-    align-items: center;
-
-    .ad-logo-img {
-      display: inline-block;
-      text-decoration: none;
-    }
-
-    .logo-img {
-      display: block;
-      width: auto;
-      height: 40px;
-      max-height: 48px;
-      object-fit: contain;
-    }
-  }
-
-  .site-masthead-tagline {
-    padding: 4px 16px 16px;
-    margin-top: -4px;
-
-    .tagline-text {
-      font-style: italic;
-      margin: 0;
-      font-size: 0.95rem;
-      line-height: 1.35;
-      opacity: 0.9;
-    }
-  }
 }
