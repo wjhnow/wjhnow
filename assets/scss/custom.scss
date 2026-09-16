@@ -163,13 +163,12 @@ body {
     .logo-img {
       display: block !important;
       width: auto !important;
-      height: 52px !important;
-      max-height: 56px !important;
+      height: 68px !important;      /* Increased from 52px */
+      max-height: 72px !important;  /* Increased from 56px */
       object-fit: contain !important;
     }
   }
 }
-
 /* --- 3. Masthead Tagline (Mobile Scaled Down & PC Locked) --- */
 .site-masthead-tagline {
   width: 100% !important;
