@@ -420,7 +420,7 @@ h1.entry-title,
   padding: 0 !important;
   border-radius: 0 !important;
   font-family: Georgia, "Times New Roman", Book Antiqua, serif !important;
-  font-size: 0.98rem !important;
+  font-size: 1.1rem !important;
   font-weight: 700 !important;
   font-variant: small-caps !important;
   text-transform: lowercase !important;
@@ -627,7 +627,7 @@ a[href*="/categories/"] {
   padding: 0 8px 0 0 !important;
   border-radius: 0 !important;
   font-family: Georgia, "Times New Roman", Book Antiqua, serif !important;
-  font-size: 0.95rem !important;
+  font-size: 1.1rem !important;
   font-weight: 700 !important;
   font-variant: small-caps !important;
   text-transform: lowercase !important;
@@ -665,7 +665,7 @@ a[href*="/categories/"]:hover {
 .about-author-card .author-name,
 .article-content .author-title,
 .author-name {
-  font-size: 1.18rem !important;
+  font-size: 1.32rem !important;
   font-weight: 700 !important;
   margin-bottom: 0.3rem !important;
 }
@@ -673,7 +673,7 @@ a[href*="/categories/"]:hover {
 .author-bio,
 .author-description,
 .author-card p {
-  font-size: 1.05rem !important;
+  font-size: 1.15rem !important;
   line-height: 1.55 !important;
   color: #444444 !important;
 }
@@ -855,8 +855,8 @@ img.author-inline-avatar {
   .article-body p,
   .entry-content p,
   .article-content p {
-    font-size: 1.05rem !important; /* Scaled down for balanced mobile reading */
-    line-height: 1.6 !important;
+    font-size: 1.2rem !important; /* Increased from 1.05rem — was reading too small against desktop's 1.55rem+ */
+    line-height: 1.65 !important;
   }
 
   .article-body h2,
@@ -883,12 +883,12 @@ img.author-inline-avatar {
 
   .author-title,
   .author-name {
-    font-size: 1.1rem !important;
+    font-size: 1.25rem !important;
   }
 
   .author-bio,
   .author-description {
-    font-size: 1rem !important;
+    font-size: 1.1rem !important;
   }
 
   aside.my-custom-related-block,
