@@ -826,14 +826,7 @@ img.author-inline-avatar {
 
 /* --- 10. Mobile Responsive Adjustments --- */
 @media (max-width: 768px) {
-  .site-masthead-tagline {
-    padding: 1.1rem 0 1.3rem !important;
-    margin-bottom: 1.5rem !important;
-  }
-
-  .site-masthead-tagline .tagline-text {
-    font-size: 17px !important;
-  }
+  /* NOTE: Tagline overrides removed to allow Section 3 to control mobile tagline sizing */
 
   .ad-logo {
     font-size: 2.2rem !important;
@@ -842,18 +835,20 @@ img.author-inline-avatar {
   .article-title,
   h1.article-title,
   .single-post h1 {
-    font-size: 2.3rem !important;
+    font-size: 2.1rem !important;
   }
 
   .single-post .article-subtitle,
   .single-post .deck {
-    font-size: 1.2rem !important;
+    font-size: 1.15rem !important;
   }
 
+  /* Body Text & Headings */
   .article-body p,
   .entry-content p,
   .article-content p {
-    font-size: 1.35rem !important;
+    font-size: 1.05rem !important; /* Scaled down for balanced mobile reading */
+    line-height: 1.6 !important;
   }
 
   .article-body h2,
@@ -862,7 +857,7 @@ img.author-inline-avatar {
   .entry-content h3,
   .article-content h2,
   .article-content h3 {
-    font-size: 1.25rem !important;
+    font-size: 1.35rem !important; /* Fixed hierarchy to be larger than paragraph text */
   }
 
   p.has-dropcap::first-letter,
