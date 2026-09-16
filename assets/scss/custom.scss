@@ -415,20 +415,21 @@ h1.entry-title,
 .article-header .categories a,
 .article-categories a,
 .article-header .category-badge {
-  background-color: #efeee9 !important;
-  color: #222222 !important;
-  padding: 5px 12px !important;
-  border-radius: 3px !important;
-  font-family: var(--sans-ui) !important;
-  font-size: 0.74rem !important;
+  background-color: transparent !important;
+  color: #444444 !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
+  font-family: Georgia, "Times New Roman", Book Antiqua, serif !important;
+  font-size: 0.98rem !important;
   font-weight: 700 !important;
-  text-transform: uppercase !important;
-  letter-spacing: 0.08em !important;
-  border: 1px solid #e0ded8 !important;
+  font-variant: small-caps !important;
+  text-transform: lowercase !important;
+  letter-spacing: 0.03em !important;
+  border: none !important;
   text-decoration: none !important;
   display: inline-flex !important;
   align-items: center !important;
-  transition: all 0.2s ease !important;
+  transition: color 0.2s ease !important;
 }
 
 /* Vertical Separator Line Between Tags */
@@ -451,9 +452,9 @@ h1.entry-title,
 .article-header .categories a:hover,
 .article-categories a:hover,
 .article-header .category-badge:hover {
-  background-color: #a8583c !important;
-  color: #ffffff !important;
-  border-color: #a8583c !important;
+  background-color: transparent !important;
+  color: #a8583c !important;
+  border-color: transparent !important;
 }
 
 /* Deck / Subtitle */
@@ -468,7 +469,7 @@ h1.entry-title,
   color: #333333 !important;
   font-weight: 400 !important;
   margin: 0.5rem 0 1.4rem 0 !important;
-  max-width: 740px !important;
+  max-width: 760px !important;
   letter-spacing: -0.01em !important;
 }
 
@@ -481,12 +482,13 @@ h1.entry-title,
   border-bottom: 1px solid var(--border-color) !important;
   padding: 11px 0 !important;
   margin: 1.1rem 0 2rem 0 !important;
-  font-family: var(--sans-ui) !important;
-  font-size: 11px !important;
-  letter-spacing: 0.08em !important;
+  font-family: Georgia, "Times New Roman", Book Antiqua, serif !important;
+  font-size: 0.95rem !important;
+  letter-spacing: 0.02em !important;
   color: var(--text-muted) !important;
-  text-transform: uppercase !important;
-  font-weight: 600 !important;
+  font-variant: small-caps !important;
+  text-transform: lowercase !important;
+  font-weight: 700 !important;
   display: flex !important;
   align-items: center !important;
   gap: 1.2rem !important;
@@ -508,7 +510,7 @@ h1.entry-title,
   line-height: 1.8 !important;
   color: #222222 !important;
   margin-bottom: 1.7rem !important;
-  max-width: 700px;
+  max-width: 760px;
 }
 
 @media (min-width: 1200px) {
@@ -620,27 +622,35 @@ figcaption,
 .taxonomy-term,
 .badge,
 a[href*="/categories/"] {
-  background-color: #efeee9 !important;
-  color: #222222 !important;
-  padding: 5px 12px !important;
-  border-radius: 3px !important;
-  font-size: 0.74rem !important;
+  background-color: transparent !important;
+  color: #444444 !important;
+  padding: 0 8px 0 0 !important;
+  border-radius: 0 !important;
+  font-family: Georgia, "Times New Roman", Book Antiqua, serif !important;
+  font-size: 0.95rem !important;
   font-weight: 700 !important;
-  text-transform: uppercase !important;
-  letter-spacing: 0.08em !important;
-  border: 1px solid #e0ded8 !important;
+  font-variant: small-caps !important;
+  text-transform: lowercase !important;
+  letter-spacing: 0.03em !important;
+  border: none !important;
+  border-right: 1px solid #d0cecb !important;
   text-decoration: none !important;
-  transition: all 0.2s ease !important;
+  transition: color 0.2s ease !important;
   display: inline-block !important;
+}
+
+.article-tags a:last-child,
+.post-tags a:last-child,
+.tags a:last-child {
+  border-right: none !important;
+  padding-right: 0 !important;
 }
 
 .article-tags a:hover,
 .post-tags a:hover,
 .tags a:hover,
 a[href*="/categories/"]:hover {
-  background-color: #a8583c !important;
-  color: #ffffff !important;
-  border-color: #a8583c !important;
+  color: #a8583c !important;
 }
 
 /* Author Card */
