@@ -150,26 +150,6 @@ body {
       margin-top: 2px;
     }
   }
-
-  .header-right {
-    display: flex !important;
-    align-items: center !important;
-    justify-content: flex-end !important;
-    display: none !important; /* Removed duplicate logo icon — left wordmark is now the single brand anchor */
-
-    .ad-logo-img {
-      display: none !important;
-      text-decoration: none;
-    }
-
-    .logo-img {
-      display: none !important;
-      width: auto !important;
-      height: 68px !important;      /* Increased from 52px */
-      max-height: 72px !important;  /* Increased from 56px */
-      object-fit: contain !important;
-    }
-  }
 }
 /* --- 3. Masthead Tagline (Mobile Scaled Down & PC Locked) --- */
 .site-masthead-tagline {
