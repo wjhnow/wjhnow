@@ -163,8 +163,8 @@ body {
     .logo-img {
       display: block;
       width: auto;
-      height: 52px;
-      max-height: 58px;
+     height: 52px;          /* increased from 40px */
+     max-height: 56px;      /* increased from 48px */
       object-fit: contain;
     }
   }
