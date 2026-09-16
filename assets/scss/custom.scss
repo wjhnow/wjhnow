@@ -128,32 +128,33 @@ body {
     color: inherit;
     line-height: 1;
 
-   .logo-title {
-  font-family: var(--serif-editorial) !important;
-  font-size: 2.0rem !important;
-  font-weight: 700;
-  line-height: 0.85 !important;
-  color: #111 !important;
-  letter-spacing: -0.06em !important;
-  margin-bottom: 4px !important;   /* ← add this for the gap */
-}
+    .logo-title {
+      font-family: var(--serif-editorial) !important;
+      font-size: 2.0rem !important;
+      font-weight: 700;
+      line-height: 0.85 !important;
+      color: #111 !important;
+      letter-spacing: -0.06em !important;
+      margin-bottom: 4px !important;
+    }
 
-.logo-tagline {
-  font-family: var(--sans-ui) !important;
-  font-size: 0.75rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: #555 !important;
-  opacity: 0.85;
-  line-height: 1.2;
-  margin-top: 0;                   /* keep it tight */
-}
+    .logo-tagline {
+      font-family: var(--sans-ui) !important;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #555 !important;
+      opacity: 0.85;
+      line-height: 1.2;
+      margin-top: 0;
+    }
   }
 
   .header-right {
-    display: flex;
-    align-items: center;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
 
     .ad-logo-img {
       display: inline-block;
@@ -161,66 +162,20 @@ body {
     }
 
     .logo-img {
-      display: block;
-      width: auto;
-     height: 52px;          /* increased from 40px */
-     max-height: 56px;      /* increased from 48px */
-      object-fit: contain;
+      display: block !important;
+      width: auto !important;
+      height: 52px !important;
+      max-height: 56px !important;
+      object-fit: contain !important;
     }
   }
 }
 
-/* Legacy logo support (in case old markup still exists) */
-.ad-logo {
-  display: flex !important;
-  align-items: center !important;
-  gap: 0.75rem !important;
-  text-decoration: none !important;
-  color: inherit !important;
-  line-height: 1 !important;
-}
-
-.logo-img {
-  width: 46px !important;
-  height: 46px !important;
-  object-fit: contain !important;
-  flex-shrink: 0 !important;
-  display: block !important;
-}
-
-.logo-text {
-  display: flex !important;
-  flex-direction: column !important;
-  justify-content: center !important;
-  gap: 1px !important;
-}
-
-.logo-title {
-  font-family: var(--serif-editorial) !important;
-  font-size: 1.55rem !important;
-  font-weight: 700 !important;
-  color: #111 !important;
-  letter-spacing: -0.03em !important;
-  line-height: 1.1 !important;
-  display: block !important;
-}
-
-.logo-tagline {
-  font-family: var(--sans-ui) !important;
-  font-size: 0.68rem !important;
-  font-weight: 700 !important;
-  letter-spacing: 0.14em !important;
-  text-transform: uppercase !important;
-  color: #555 !important;
-  line-height: 1.2 !important;
-  display: block !important;
-}
-
-/* --- 3. Masthead Tagline (unified) --- */
+/* --- 3. Masthead Tagline (unified & desktop-optimized) --- */
 .site-masthead-tagline {
   max-width: var(--max-width);
   margin: 0 auto 1.8rem auto !important;
-  padding: 0.9rem 0 1.3rem !important;
+  padding: 0.9rem 16px 1.3rem !important;
   border-bottom: 1px solid var(--border-color) !important;
   text-align: left;
 }
@@ -230,16 +185,24 @@ body {
 }
 
 .site-masthead-tagline .tagline-text {
-  font-family: 'Cinzel', serif !important;
-  font-size: 0.9rem !important;
-  line-height: 1.45 !important;
-  font-weight: 600 !important;
+  font-family: 'Cinzel', Georgia, serif !important;
+  font-size: 0.85rem !important;
+  line-height: 1.55 !important;
+  font-weight: 500 !important;
   font-style: normal !important;
-  color: #5c574f !important;
-  letter-spacing: 0.03em;
+  color: #4a453e !important;
+  letter-spacing: 0.05em !important;
   margin: 0;
-  opacity: 0.9;
-  max-width: 680px;
+  opacity: 0.95;
+  max-width: 780px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  @media (min-width: 768px) {
+    font-size: 0.9rem !important;
+    letter-spacing: 0.07em !important;
+    line-height: 1.6 !important;
+  }
 }
 
 /* Nested under header when structure places it inside .ad-header */
