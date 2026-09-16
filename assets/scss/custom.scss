@@ -696,7 +696,7 @@ aside.my-custom-related-block,
 
 .my-custom-related-block h2 {
   font-family: var(--sans-ui) !important;
-  font-size: 0.85rem !important;
+  font-size: 1rem !important;
   font-weight: 700 !important;
   letter-spacing: 0.12em !important;
   color: #555555 !important;
@@ -889,7 +889,7 @@ img.author-inline-avatar {
   .article-header .categories a,
   .article-categories a,
   .article-header .category-badge {
-    font-size: 0.85rem !important; /* Matched to .my-custom-related-block h2 size */
+    font-size: 1rem !important; /* Matched to .my-custom-related-block h2 size */
   }
 
   .author-title,
@@ -927,7 +927,7 @@ img.author-inline-avatar {
   .article-header .categories a,
   .article-categories a,
   .article-header .category-badge {
-    font-size: 0.85rem !important; /* Matched to .my-custom-related-block h2 size */
+    font-size: 1rem !important; /* Matched to .my-custom-related-block h2 size */
     padding: 0 8px 0 0 !important;
   }
 }
@@ -968,4 +968,3 @@ footer hr,
   border: none !important;
   height: 0 !important;
 }
-
