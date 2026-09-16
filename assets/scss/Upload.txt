@@ -1,0 +1,960 @@
+/* --- Font Import (Includes Cinzel 400, 600, 700) --- */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&display=swap');
+/* ==========================================================================
+   WJH.now / Hugotest – Complete Master Stylesheet
+   ========================================================================== */
+:root {
+  --body-background: #f4efe6;
+  --text-main: #1f1d1a;
+  --text-muted: #635e57;
+  --border-color: #e0d9cd;
+  --serif-editorial: "Didot", "Bodoni MT", "Cormorant Garamond", "Playfair Display", "Georgia", serif;
+  --sans-ui: "Inter", "Helvetica Neue", -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+  --accent-bar: #1a2b3c;
+  --max-width: 1080px;
+}
+
+
+/* --- 1. Global Reset & Layout --- */
+body {
+  background-color: var(--body-background) !important;
+  color: var(--text-main) !important;
+  font-family: var(--sans-ui) !important;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+}
+
+.left-sidebar,
+.sidebar,
+.right-sidebar,
+.sidebar-container,
+#dark-mode-toggle,
+.article-avatar,
+.avatar,
+.article-translations {
+  display: none !important;
+}
+.main,
+#main-content,
+.main-container {
+  max-width: var(--max-width) !important;
+  margin: 0 auto !important;
+  padding: 1.75rem 1.5rem 4.5rem !important;
+  width: 100% !important;
+  overflow: visible !important;
+  display: block !important;
+  flex-direction: unset !important;
+}
+
+.container,
+.wrapper,
+.page,
+.page-content {
+  display: block !important;
+}
+
+@media (max-width: 768px) {
+  .main,
+  #main-content,
+  .main-container {
+    padding: 1rem 16px 3rem !important;
+  }
+}
+
+/* --- 2. Header Layout & Logo Alignment --- */
+.ad-header {
+  position: relative !important;
+  width: 100% !important;
+  background-color: #ffffff !important;
+  border-bottom: 1px solid var(--border-color);
+  z-index: 1000 !important;
+  padding: 0.75rem 1rem !important;
+
+  .header-container {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    width: 100% !important;
+  }
+
+  .header-left {
+    display: flex !important;
+    align-items: center !important;
+    gap: 0.85rem !important;
+  }
+
+  .ad-logo,
+  .ad-logo-text {
+    display: flex !important;
+    align-items: center !important;
+    gap: 0.75rem !important;
+    text-decoration: none !important;
+    color: inherit !important;
+  }
+
+  .logo-title {
+    font-family: var(--serif-editorial) !important;
+    font-size: 1.6rem !important;
+    font-weight: 700 !important;
+    color: #111 !important;
+    line-height: 1.05 !important;
+  }
+
+  .logo-tagline {
+    font-family: 'Cinzel', serif !important;
+    font-size: 0.65rem !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.14em !important;
+    text-transform: uppercase !important;
+    color: #333 !important;
+    line-height: 1.2 !important;
+  }
+
+  /* Force right-aligned logo icon to hide if duplicate */
+  .header-right,
+  .header-right img,
+  .header-container > img {
+    display: none !important;
+  }
+}
+
+/* --- 3. Masthead Sub-Header (Cinzel Font Direct Override) --- */
+.site-masthead-tagline,
+header + div,
+.site-description,
+.site-tagline,
+.masthead-tagline {
+  max-width: var(--max-width) !important;
+  margin: 0 auto 1.5rem auto !important;
+  padding: 0.8rem 1rem 0.9rem !important;
+  border-bottom: 1px solid var(--border-color) !important;
+  text-align: left !important;
+
+  p,
+  span,
+  .tagline-text {
+    font-family: 'Cinzel', serif !important;
+    font-weight: 600 !important;
+    font-size: 0.75rem !important;
+    line-height: 1.45 !important;
+    color: #1a1a1a !important;
+    letter-spacing: 0.08em !important;
+    text-transform: uppercase !important;
+    margin: 0 !important;
+    display: block !important;
+    opacity: 1 !important;
+  }
+}
+
+
+/* --- 4. Navigation Drawer --- */
+.nav-drawer {
+  display: none !important;
+  max-width: var(--max-width) !important;
+  margin: 0 auto !important;
+  background: #fff !important;
+  padding: 1.5rem 0 2rem !important;
+  border-bottom: 1px solid var(--border-color) !important;
+}
+
+.nav-drawer.active {
+  display: block !important;
+}
+
+.nav-links {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 0 2rem 0 !important;
+}
+
+.nav-links li a {
+  font-family: var(--sans-ui) !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.16em !important;
+  color: #000 !important;
+  text-decoration: none !important;
+  display: block !important;
+  padding: 0.85rem 0 !important;
+  border-bottom: 1px solid #eee !important;
+  transition: color 0.2s ease !important;
+}
+
+.nav-links li a:hover {
+  color: #666 !important;
+}
+
+.drawer-social-title {
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.18em !important;
+  color: #777 !important;
+  margin-bottom: 1rem !important;
+  display: block !important;
+}
+
+.drawer-social-links {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 0.9rem !important;
+}
+
+.drawer-social-links a {
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.12em !important;
+  color: #111 !important;
+  text-decoration: none !important;
+}
+
+.drawer-social-links a:hover {
+  color: #666 !important;
+}
+
+/* --- 5. Article List (Homepage) --- */
+.article-list article {
+  border: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  padding: 2.8rem 1.8rem !important;
+  margin-bottom: 0 !important;
+  border-radius: 0 !important;
+}
+
+.article-list article:nth-child(odd) {
+  background-color: #faf9f7 !important;
+}
+
+.article-list article:nth-child(even) {
+  background-color: #f3f1ed !important;
+}
+
+.article-list article + article {
+  border-top: 1px solid #e8e6e3 !important;
+}
+
+.article-list .article-image,
+.article-list .featured-image,
+.article-list .post-thumbnail,
+.article-image,
+.featured-image,
+.post-thumbnail {
+  height: auto !important;
+  max-height: none !important;
+  aspect-ratio: auto !important;
+  overflow: visible !important;
+  margin-bottom: 1.6rem !important;
+}
+
+.article-image img,
+.featured-image img,
+.post-thumbnail img,
+.article-list .article-image img,
+.single-post .article-image img,
+.single-post .featured-image img {
+  width: 100% !important;
+  max-height: 460px !important;
+  height: auto !important;
+  object-fit: cover !important;
+  object-position: center center !important;
+  border-radius: 0 !important;
+  display: block !important;
+}
+
+@media (max-width: 768px) {
+  .article-image img,
+  .featured-image img,
+  .post-thumbnail img,
+  .single-post .article-image img {
+    max-height: 300px !important;
+  }
+}
+
+.article-list .article-category,
+.article-list .article-meta,
+.article-list .article-date,
+.article-list .article-time,
+.article-list svg {
+  display: none !important;
+}
+
+/* Titles */
+.article-title,
+.article-title a,
+h1.article-title,
+h1.entry-title,
+.article-header h1,
+.single-post h1,
+.article-list article .article-title,
+.article-list article h2 a {
+  font-family: var(--serif-editorial) !important;
+  font-size: 3.1rem !important;
+  font-weight: 400 !important;
+  line-height: 1.15 !important;
+  letter-spacing: -0.02em !important;
+  color: #111111 !important;
+  margin: 0.3rem 0 0.6rem 0 !important;
+  text-decoration: none !important;
+  display: block !important;
+}
+
+.article-list article .article-title::after,
+.article-list article h2::after {
+  content: "" !important;
+  display: block !important;
+  width: 40px !important;
+  height: 1px !important;
+  background-color: #111 !important;
+  margin-top: 0.85rem !important;
+  margin-bottom: 1rem !important;
+}
+
+.article-list .article-subtitle,
+.article-list .article-summary,
+.article-list article p {
+  font-family: var(--sans-ui) !important;
+  font-size: 1.05rem !important;
+  line-height: 1.55 !important;
+  color: #222 !important;
+  margin: 0 0 1.5rem 0 !important;
+}
+
+/* --- 6. Single Post --- */
+
+/* Category (top of post) */
+.article-header .category,
+.article-header .article-category,
+.article-header .categories,
+.article-categories {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  margin: 1rem 0 1.5rem 0 !important;
+  width: auto !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-items: center !important;
+  gap: 12px !important;
+}
+
+/* Base Category Badges */
+.article-header .category a,
+.article-header .article-category a,
+.article-header .categories a,
+.article-categories a,
+.article-header .category-badge {
+  background-color: #efeee9 !important;
+  color: #222222 !important;
+  padding: 5px 12px !important;
+  border-radius: 3px !important;
+  font-family: var(--sans-ui) !important;
+  font-size: 0.74rem !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.08em !important;
+  border: 1px solid #e0ded8 !important;
+  text-decoration: none !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  transition: all 0.2s ease !important;
+}
+
+/* Vertical Separator Line Between Tags */
+.article-header .category a:not(:last-child)::after,
+.article-header .article-category a:not(:last-child)::after,
+.article-header .categories a:not(:last-child)::after,
+.article-categories a:not(:last-child)::after {
+  content: "" !important;
+  display: inline-block !important;
+  width: 1px !important;
+  height: 14px !important;
+  background-color: #d0cecb !important;
+  margin-left: 12px !important;
+  margin-right: -4px !important;
+  pointer-events: none !important;
+}
+
+.article-header .category a:hover,
+.article-header .article-category a:hover,
+.article-header .categories a:hover,
+.article-categories a:hover,
+.article-header .category-badge:hover {
+  background-color: #111111 !important;
+  color: #ffffff !important;
+  border-color: #111111 !important;
+}
+
+/* Deck / Subtitle */
+.single-post .article-subtitle,
+.single-post .entry-subtitle,
+.single-post .deck,
+.article-header .subtitle,
+.article-details .article-subtitle {
+  font-family: var(--sans-ui) !important;
+  font-size: 1.4rem !important;
+  line-height: 1.55 !important;
+  color: #333333 !important;
+  font-weight: 400 !important;
+  margin: 0.5rem 0 1.4rem 0 !important;
+  max-width: 740px !important;
+  letter-spacing: -0.01em !important;
+}
+
+/* Meta strip */
+.single-post .article-meta,
+.single-post .post-meta,
+.article-header .meta,
+.article-meta {
+  border-top: 1px solid var(--border-color) !important;
+  border-bottom: 1px solid var(--border-color) !important;
+  padding: 11px 0 !important;
+  margin: 1.1rem 0 2rem 0 !important;
+  font-family: var(--sans-ui) !important;
+  font-size: 11px !important;
+  letter-spacing: 0.08em !important;
+  color: var(--text-muted) !important;
+  text-transform: uppercase !important;
+  font-weight: 600 !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 1.2rem !important;
+  flex-wrap: wrap !important;
+}
+
+.article-meta svg,
+.post-meta svg {
+  display: none !important;
+}
+
+/* Body paragraphs */
+.article-body p,
+.entry-content p,
+.post-content p,
+.article-content p {
+  font-family: Georgia, "Times New Roman", Book Antiqua, serif !important;
+  font-size: 1.55rem !important;          /* ← increased */
+  line-height: 1.8 !important;
+  color: #222222 !important;
+  margin-bottom: 1.7rem !important;
+  max-width: 700px;
+}
+
+@media (min-width: 1200px) {
+  .article-body p,
+  .entry-content p,
+  .post-content p,
+  .article-content p {
+    font-size: 1.62rem !important;        /* ← increased */
+  }
+}
+
+.article-body p a,
+.entry-content p a,
+.article-content p a {
+  color: #111 !important;
+  text-decoration: underline !important;
+  text-underline-offset: 3px !important;
+  text-decoration-thickness: 1px !important;
+}
+
+/* Subheadings */
+.article-body h2,
+.article-body h3,
+.article-body h4,
+.entry-content h2,
+.entry-content h3,
+.entry-content h4,
+.article-content h2,
+.article-content h3,
+.article-content h4 {
+  font-family: var(--sans-ui) !important;
+  font-size: 1.4rem !important;
+  font-weight: 600 !important;
+  letter-spacing: -0.01em !important;
+  line-height: 1.3 !important;
+  color: #000000 !important;
+  margin: 2.6rem 0 1.1rem 0 !important;
+  border-left: 2px solid #888 !important;
+  padding-left: 10px !important;
+}
+
+/* Universal Drop Cap Reset */
+p::first-letter,
+.article-content p::first-letter,
+.article-body p::first-letter,
+.entry-content p::first-letter,
+.first-letter,
+.dropcap,
+span.first-letter,
+span.dropcap,
+.article-content .first-letter,
+.article-content .dropcap {
+  font-family: inherit !important;
+  font-size: inherit !important;
+  float: none !important;
+  line-height: inherit !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  color: inherit !important;
+  font-weight: inherit !important;
+  display: inline !important;
+}
+
+/* Explicit Manual Drop Cap - Cinzel Only */
+p.has-dropcap::first-letter,
+.article-body > p.intro::first-letter,
+p.has-dropcap .first-letter {
+  font-family: 'Cinzel', serif !important;
+  font-size: 3.4rem !important;
+  float: left !important;
+  line-height: 0.8 !important;
+  padding-top: 4px !important;
+  padding-right: 10px !important;
+  color: #000 !important;
+  font-weight: 700 !important;
+}
+
+
+/* Captions */
+figcaption,
+.caption,
+.photo-credit {
+  font-family: var(--sans-ui) !important;
+  font-size: 0.8rem !important;
+  color: #666 !important;
+  line-height: 1.4 !important;
+  margin-top: 0.55rem !important;
+  border-left: 2px solid #111 !important;
+  padding-left: 0.7rem !important;
+}
+
+/* Tags & Softened Category Bar */
+.article-tags,
+.post-tags,
+.tags {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 8px 10px !important;
+  margin: 2.2rem 0 1.8rem 0 !important;
+}
+
+.article-tags a,
+.post-tags a,
+.tags a,
+.tag,
+.category-badge,
+.article-category,
+.entry-category,
+.post-category,
+.taxonomy-term,
+.badge,
+a[href*="/categories/"] {
+  background-color: #efeee9 !important;      /* ← Softened subtle tone */
+  color: #222222 !important;                  /* ← Crisp readable dark text */
+  padding: 5px 12px !important;
+  border-radius: 3px !important;
+  font-size: 0.74rem !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.08em !important;
+  border: 1px solid #e0ded8 !important;      /* ← Very faint refined edge */
+  text-decoration: none !important;
+  transition: all 0.2s ease !important;
+  display: inline-block !important;
+}
+
+.article-tags a:hover,
+.post-tags a:hover,
+.tags a:hover,
+a[href*="/categories/"]:hover {
+  background-color: #111111 !important;
+  color: #ffffff !important;
+  border-color: #111111 !important;
+}
+
+/* Author Card */
+.author-card,
+.article-author,
+.author-box {
+  padding: 1.3rem 1.4rem !important;
+  margin-bottom: 3.5rem !important;
+}
+
+.author-title,
+.about-author-card .author-name,
+.article-content .author-title,
+.author-name {
+  font-size: 1.18rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 0.3rem !important;
+}
+
+.author-bio,
+.author-description,
+.author-card p {
+  font-size: 1.05rem !important;
+  line-height: 1.55 !important;
+  color: #444444 !important;
+}
+
+/* --- 7. Custom Related Content (Direct Class Targeting) --- */
+
+/* Silence the theme's native related widget */
+.related-contents,
+aside.related-contents,
+.related-content-section,
+.article-related {
+  display: none !important;
+}
+
+/* Custom Live Section Overrides */
+aside.my-custom-related-block,
+.my-custom-related-block {
+  display: block !important;
+  margin-top: 4.5rem !important;             /* ← Generous gap above section */
+  padding-top: 2rem !important;
+  border-top: 1px solid var(--border-color) !important;
+}
+
+.my-custom-related-block h2 {
+  font-family: var(--sans-ui) !important;
+  font-size: 0.85rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.12em !important;
+  color: #555555 !important;
+  text-transform: uppercase !important;
+  margin-bottom: 1.5rem !important;
+}
+
+.my-custom-related-block a img {
+  width: 100% !important;
+  max-height: 280px !important;             /* ← Capped image height */
+  height: 280px !important;
+  object-fit: cover !important;
+  border-radius: 4px !important;
+  display: block !important;
+}
+
+.my-custom-related-block h3,
+.my-custom-related-block h3 a {
+  font-family: var(--sans-ui) !important;
+  font-size: 1.25rem !important;             /* ← Refined title sizing */
+  font-weight: 600 !important;
+  line-height: 1.35 !important;
+  color: #111111 !important;
+  text-decoration: none !important;
+  margin-top: 0.5rem !important;
+}
+
+/* --- 8. Footer --- */
+.site-footer,
+footer.site-footer,
+.footer {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  float: none !important;
+  clear: both !important;
+  position: relative !important;
+  order: unset !important;
+  flex: none !important;
+  background-color: #faf9f7 !important;
+  border-top: 1px solid #e5e5e5 !important;
+  padding: 3.2rem 1.5rem 2.8rem !important;
+  margin-top: 4.5rem !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  text-align: center !important;
+}
+
+.live-updates {
+  background: #ffffff !important;
+  border: 1px solid #e8e6e3 !important;
+  border-radius: 6px !important;
+  padding: 1.1rem 1.3rem !important;
+  margin: 0 auto 2rem auto !important;
+  max-width: 680px !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 6px 14px !important;
+  font-family: var(--sans-ui) !important;
+}
+
+.live-updates strong {
+  font-size: 0.92rem !important;          /* ← increased */
+  font-weight: 700 !important;
+  letter-spacing: 0.1em !important;
+  text-transform: uppercase !important;
+  color: #111 !important;
+}
+
+.live-updates a {
+  font-size: 0.92rem !important;          /* ← increased */
+  font-weight: 600 !important;
+  letter-spacing: 0.06em !important;
+  color: #222 !important;
+  text-decoration: none !important;
+}
+
+.live-updates a:hover {
+  color: #000 !important;
+}
+
+.live-updates .sep {
+  color: #ccc !important;
+  margin: 0 2px !important;
+}
+
+.site-footer .copyright {
+  font-size: 1.05rem !important;          /* ← increased */
+  color: #333 !important;
+  margin-bottom: 0.6rem !important;
+  font-weight: 500 !important;
+}
+
+.footer-domain,
+.site-footer small,
+.site-footer .footer-info {
+  font-size: 0.90rem !important;          /* ← increased */
+  color: #777 !important;
+  letter-spacing: 0.03em !important;
+}
+
+.site-footer a {
+  color: #111 !important;
+  text-decoration: none !important;
+}
+
+/* --- 9. About page --- */
+.about-authors-container {
+  display: flex !important;
+  justify-content: center !important;
+  gap: 28px !important;
+  margin: 1.5rem 0 2.5rem !important;
+  padding-bottom: 1.5rem !important;
+  border-bottom: 1px solid var(--border-color) !important;
+}
+
+.about-avatar {
+  width: 76px !important;
+  height: 76px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+  border: 1.5px solid #e0e0e0 !important;
+}
+
+img.author-inline-avatar {
+  width: 42px !important;
+  height: 42px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+  margin: 1.2rem 0 0.4rem !important;
+  border: 1.5px solid #e5e5e5 !important;
+}
+
+/* --- 10. Mobile Responsive Adjustments --- */
+@media (max-width: 768px) {
+  .site-masthead-tagline {
+    padding: 1.1rem 0 1.3rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+
+  .site-masthead-tagline .tagline-text {
+    font-size: 17px !important;
+  }
+
+  .ad-logo {
+    font-size: 2.2rem !important;
+  }
+
+  .article-title,
+  h1.article-title,
+  .single-post h1 {
+    font-size: 2.3rem !important;
+  }
+
+  .single-post .article-subtitle,
+  .single-post .deck {
+    font-size: 1.2rem !important;
+  }
+
+  .article-body p,
+  .entry-content p,
+  .article-content p {
+    font-size: 1.35rem !important;        /* ← increased */
+  }
+
+  .article-body h2,
+  .article-body h3,
+  .entry-content h2,
+  .entry-content h3,
+  .article-content h2,
+  .article-content h3 {
+    font-size: 1.25rem !important;
+  }
+
+  p.has-dropcap::first-letter,
+  .article-body > p.intro::first-letter,
+  p.has-dropcap .first-letter {
+    font-size: 3.4rem !important;
+    padding-right: 10px !important;
+  }
+
+  .article-tags,
+  .post-tags,
+  .tags {
+    gap: 7px 8px !important;
+  }
+
+  .author-title,
+  .author-name {
+    font-size: 1.1rem !important;
+  }
+
+  .author-bio,
+  .author-description {
+    font-size: 1rem !important;
+  }
+
+  /* Custom Related Content mobile adjustments */
+  aside.my-custom-related-block,
+  .my-custom-related-block {
+    margin-top: 3.5rem !important;
+  }
+
+  .my-custom-related-block a img {
+    max-height: 220px !important;
+    height: 220px !important;
+  }
+
+  .my-custom-related-block h3,
+  .my-custom-related-block h3 a {
+    font-size: 1.15rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .article-tags a,
+  .post-tags a,
+  .tags a {
+    font-size: 0.7rem !important;
+    padding: 4px 9px !important;
+  }
+}
+
+/* Remove divider line above article footer */
+.article-footer {
+  border-top: none !important;
+  box-shadow: none !important;
+  padding-top: 0 !important;
+}
+
+.article-footer::before {
+  display: none !important;
+  content: none !important;
+  border: none !important;
+  height: 0 !important;
+}
+
+/* Remove top line above main site footer */
+footer,
+.site-footer,
+#site-footer,
+.footer-wrapper,
+.site-footer-container {
+  border-top: none !important;
+  box-shadow: none !important;
+}
+
+footer::before,
+.site-footer::before,
+#site-footer::before,
+.footer-wrapper::before,
+.site-footer-container::before,
+footer hr,
+.site-footer hr {
+  display: none !important;
+  content: none !important;
+  border: none !important;
+  height: 0 !important;
+}
+
+.ad-header {
+  width: 100%;
+  position: relative;
+  background-color: transparent;
+
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 12px 16px;
+  }
+
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .ad-logo-text {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: inherit;
+
+    .logo-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      line-height: 1.1;
+    }
+
+    .logo-tagline {
+      font-size: 0.65rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      opacity: 0.85;
+    }
+  }
+
+  .header-right {
+    display: flex;
+    align-items: center;
+
+    .ad-logo-img {
+      display: inline-block;
+      text-decoration: none;
+    }
+
+    .logo-img {
+      display: block;
+      width: auto;
+      height: 40px;
+      max-height: 48px;
+      object-fit: contain;
+    }
+  }
+
+  .site-masthead-tagline {
+    padding: 4px 16px 16px;
+    margin-top: -4px;
+
+    .tagline-text {
+      font-style: italic;
+      margin: 0;
+      font-size: 0.95rem;
+      line-height: 1.35;
+      opacity: 0.9;
+    }
+  }
+}
