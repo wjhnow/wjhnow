@@ -1000,3 +1000,63 @@ footer hr,
 }
 
 
+
+/* ==========================================================================
+   DIRECT OVERRIDE: Header & Cinzel Sub-Header
+   ========================================================================== */
+
+/* 1. Force Load Cinzel Font */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&display=swap');
+
+/* 2. Hide Duplicate Right Logo Icon */
+.header-right,
+.header-right img,
+.ad-header img.logo-img:nth-child(2),
+header .header-container > img {
+  display: none !important;
+}
+
+/* 3. Group Left Menu + Logo Text */
+.ad-header .header-container {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+
+.ad-header .header-left {
+  display: flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+}
+
+/* 4. Force Cinzel Font & Editorial Styling on Sub-Header */
+.site-masthead-tagline,
+.site-description,
+.site-tagline,
+header + div,
+div[class*="tagline"] {
+  max-width: 1080px !important;
+  margin: 0 auto 1.5rem auto !important;
+  padding: 0.75rem 1rem !important;
+  border-bottom: 1px solid #e0d9cd !important;
+  text-align: left !important;
+}
+
+/* Universal text override for any paragraph/span inside the sub-header */
+.site-masthead-tagline *,
+.site-description *,
+.site-tagline *,
+header + div p,
+header + div span {
+  font-family: 'Cinzel', serif !important;
+  font-weight: 600 !important;
+  font-size: 0.72rem !important;
+  line-height: 1.5 !important;
+  color: #1a1a1a !important;
+  letter-spacing: 0.07em !important;
+  text-transform: uppercase !important;
+  margin: 0 !important;
+  opacity: 1 !important;
+  display: block !important;
+}
+
