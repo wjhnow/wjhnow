@@ -230,14 +230,16 @@ body {
 }
 
 .site-masthead-tagline .tagline-text {
-  font-style: italic;
-  font-family: var(--sans-ui) !important;
-  font-size: 0.95rem;
-  line-height: 1.35;
-  color: var(--text-muted) !important;
+  font-family: 'Cinzel', serif !important;
+  font-size: 0.9rem !important;
+  line-height: 1.45 !important;
+  font-weight: 600 !important;
+  font-style: normal !important;
+  color: #5c574f !important;
   letter-spacing: 0.03em;
   margin: 0;
   opacity: 0.9;
+  max-width: 680px;
 }
 
 /* Nested under header when structure places it inside .ad-header */
