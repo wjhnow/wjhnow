@@ -279,6 +279,21 @@ body {
   letter-spacing: 0.1em !important;
   color: #444 !important;
   text-decoration: none !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 7px !important;
+}
+
+.drawer-social-links a::before {
+  content: "→" !important;
+  color: #aaa !important;
+  font-size: 11px !important;
+  transition: transform 0.2s ease, color 0.2s ease !important;
+}
+
+.drawer-social-links a:hover::before {
+  color: #111 !important;
+  transform: translateX(2px) !important;
 }
 
 .drawer-social-links a:hover {
