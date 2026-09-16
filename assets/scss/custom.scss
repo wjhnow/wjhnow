@@ -170,7 +170,7 @@ body {
   }
 }
 
-/* --- 3. Masthead Tagline (Responsive Mobile & PC Sizing) --- */
+/* --- 3. Masthead Tagline (Exact PC & Mobile Lock) --- */
 .site-masthead-tagline {
   width: 100% !important;
   max-width: var(--max-width) !important;
@@ -195,20 +195,20 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  /* --- Mobile Default (Smaller & Tight) --- */
-  font-size: 0.72rem !important;
-  line-height: 1.45 !important;
+  /* --- Mobile: Small & Compact --- */
+  font-size: 11px !important;
+  line-height: 1.4 !important;
   font-weight: 600 !important;
-  letter-spacing: 0.04em !important;
+  letter-spacing: 0.03em !important;
   max-width: 100% !important;
 
-  /* --- Desktop PC (Clear, Medium & Balanced) --- */
+  /* --- Desktop PC: Crisp 14px 2-Line Editorial Wrap --- */
   @media (min-width: 768px) {
-    font-size: 0.82rem !important;
+    font-size: 14px !important;
     line-height: 1.55 !important;
     font-weight: 600 !important;
-    letter-spacing: 0.05em !important;
-    max-width: 760px !important; /* Forces PC view to wrap into 2 neat lines */
+    letter-spacing: 0.04em !important;
+    max-width: 500px !important; /* Forces PC view to wrap into 2 sharp, readable lines */
   }
 }
 
