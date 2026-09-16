@@ -170,13 +170,14 @@ body {
   }
 }
 
-/* --- 3. Masthead Tagline (Ultra-Crisp Editorial Sans-Serif) --- */
+/* --- 3. Masthead Tagline (Fluid Sizing & PC Alignment) --- */
 .site-masthead-tagline {
-  max-width: var(--max-width);
+  width: 100% !important;
+  max-width: var(--max-width) !important;
   margin: 0 auto 1.8rem auto !important;
   padding: 0.9rem 16px 1.3rem !important;
   border-bottom: 1px solid var(--border-color) !important;
-  text-align: left;
+  text-align: left !important;
 }
 
 .site-masthead-tagline .tagline-title {
@@ -185,29 +186,32 @@ body {
 
 .site-masthead-tagline .tagline-text {
   font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
-  font-size: 0.75rem !important;
-  line-height: 1.5 !important;
+  /* Dynamically scales between 13px on mobile to 15px on desktop */
+  font-size: clamp(0.85rem, 1.1vw, 0.95rem) !important; 
+  line-height: 1.55 !important;
   font-weight: 600 !important;
-  color: #4a453e !important;
-  letter-spacing: 0.08em !important;
+  color: #38342e !important;
+  letter-spacing: 0.04em !important;
   text-transform: uppercase !important;
-  margin: 0;
-  opacity: 0.9;
-  max-width: 820px;
+  margin: 0 !important;
+  opacity: 0.92 !important;
+  /* Constrains text on PC so it wraps into clean editorial lines instead of 1 long line */
+  max-width: 720px !important; 
+  display: block !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
   @media (min-width: 768px) {
-    font-size: 0.8rem !important;
-    letter-spacing: 0.1em !important;
+    letter-spacing: 0.05em !important;
+    line-height: 1.6 !important;
   }
 }
 
 /* Nested under header when structure places it inside .ad-header */
 .ad-header .site-masthead-tagline {
-  padding: 4px 16px 16px;
-  margin-top: -4px;
-  border-bottom: none;
+  padding: 4px 16px 16px !important;
+  margin-top: -4px !important;
+  border-bottom: none !important;
 }
 /* --- 4. Navigation Drawer --- */
 .nav-drawer {
