@@ -18,9 +18,9 @@ categories:
   - Self Improvement
   - Psychology & Mindset
 ---
-We all say we need to get out of our comfort zone. But we rarely ask what comfort actually is.
+<p class="has-dropcap"> We all say we need to get out of our comfort zone. But we rarely ask what comfort actually is.</p>
 
-In 2015, a researcher named Sheena Culley wrote a thesis at Kingston University called _Comfort: bodies and their boundaries_. Her answer is very different from the usual one. And it explains why chasing comfort might be what keeps us stuck.
+In 2015, a researcher named Sheena Culley wrote a thesis at Kingston University called *Comfort: bodies and their boundaries*. Her answer is very different from the usual one. And it explains why chasing comfort might be what keeps us stuck.
 
 Today we think of the body as a closed box. Separate from the world. Something that needs protection from everything outside.
 
@@ -32,7 +32,7 @@ My life is like that. I have a fixed routine I could say in my sleep: wake up, g
 
 The only day this loop breaks is the last day of the week. I notice it breaking as it happens. No nap, I work straight through the afternoon, and it feels fine because the weekend is coming. It is the only day my routine bends without me feeling bad.
 
-There is a definition by historian John Crowley that I like: comfort is a "self-conscious satisfaction between one's body and its immediate physical environment." The word _between_ is important. Comfort became the gap where the world stops touching you. Sitting comfortably. Comfortably numb. Safe, but you don't care about anything.
+There is a definition by historian John Crowley that I like: comfort is a "self-conscious satisfaction between one's body and its immediate physical environment." The word *between* is important. Comfort became the gap where the world stops touching you. Sitting comfortably. Comfortably numb. Safe, but you don't care about anything.
 
 Culley's point is that this idea of comfort comes from old ideas we never questioned: nature vs culture, body vs mind, inside vs outside, comfort vs discomfort.
 
@@ -49,9 +49,7 @@ And comfort is not about feeling nothing. It is about really meeting something d
 That changes a few things:
 
 - Comfort is not passive. You feel it through contact, not by avoiding feeling.
-
 - The comfort zone is not a place to sit. It is a place you pass through to become a slightly different person.
-
 - Discomfort is not the opposite of comfort. It is part of it. No contact, no change.
 
 Somewhere along the way, comfort became a small prize for surviving the day. When we say "I just want to be comfortable," we often mean "I want stress, risk, and uncertainty to stop touching me."
