@@ -18,7 +18,7 @@ categories:
 ---
 Everyone's version of Hawaii is Waikīkī, a Maui road trip, maybe a volcano hike if they're feeling ambitious.
 
- Niʻihau doesn't fit into any of that. It sits 17 miles off Kauaʻi, and as far as most visitors are concerned, it might as well not exist — no roads, no hotels, no restaurants, no power lines. It's been that way for over 150 years, and honestly, the longer you read about it, the stranger it seems that a place like this still exists at all.
+Niʻihau doesn't fit into any of that. It sits 17 miles off Kauaʻi, and as far as most visitors are concerned, it might as well not exist — no roads, no hotels, no restaurants, no power lines. It's been that way for over 150 years, and honestly, the longer you read about it, the stranger it seems that a place like this still exists at all.
 
 I'll admit, reading about it made me want to see it myself — not the helicopter-tour version, just to witness how much of the old ways actually survived intact.
 
