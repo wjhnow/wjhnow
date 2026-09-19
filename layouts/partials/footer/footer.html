@@ -25,3 +25,68 @@
         Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener">Stack</a></b> designed by <b><a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a></b>
     </section>
 </footer>
+{{ with (where site.RegularPages "Section" "post").ByDate.Reverse }}
+{{ $latest := index . 0 }}
+<style>
+.wjh-live-bar { display:flex; flex-wrap:wrap; gap:.5rem; align-items:center; padding:.6rem 1rem; margin-bottom:1rem; font-size:.9rem; border-radius:8px; background:var(--card-background, #111); color:var(--card-text-color-main, #fff); }
+.wjh-live-bar a { color:inherit; text-decoration:underline; font-weight:600; }
+.live-dot { width:8px; height:8px; border-radius:50%; background:#e11d48; animation:wjh-pulse 1.5s infinite; }
+@keyframes wjh-pulse { 50% { opacity:.3; } }
+</style>
+
+<div class="wjh-live-bar" id="wjh-bar">
+  <span class="live-dot"></span>
+  <span>Last updated
+    <time id="wjh-time" datetime="{{ $latest.Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ $latest.Date.Format "Jan 2, 3:04 PM" }}</time>:
+  </span>
+  <a id="wjh-headline" href="{{ $latest.RelPermalink }}">{{ $latest.Title }}</a>
+</div>
+
+<script>
+(function () {
+  var bar = document.getElementById('wjh-bar');
+  var timeEl = document.getElementById('wjh-time');
+  var linkEl = document.getElementById('wjh-headline');
+  if (!bar || !timeEl || !linkEl) return;
+
+  // Move the bar to the top of the main content area
+  var main = document.querySelector('main.main') || document.querySelector('main');
+  if (main) main.insertBefore(bar, main.firstChild);
+
+  var units = [['year',31536000],['month',2592000],['day',86400],['hour',3600],['minute',60]];
+  function ago(d) {
+    var s = Math.max(0, (Date.now() - d) / 1000);
+    for (var i = 0; i < units.length; i++) {
+      var n = Math.floor(s / units[i][1]);
+      if (n >= 1) return n + ' ' + units[i][0] + (n > 1 ? 's' : '') + ' ago';
+    }
+    return 'just now';
+  }
+  function render() {
+    timeEl.textContent = ago(new Date(timeEl.getAttribute('datetime')));
+  }
+
+  function refresh() {
+    fetch('{{ "post/index.xml" | relURL }}?t=' + Date.now(), { cache: 'no-store' })
+      .then(function (r) { return r.ok ? r.text() : Promise.reject(); })
+      .then(function (txt) {
+        var xml = new DOMParser().parseFromString(txt, 'text/xml');
+        var item = xml.querySelector('item');
+        if (!item) return;
+        var d = new Date(item.querySelector('pubDate').textContent);
+        if (isNaN(d)) return;
+        linkEl.textContent = item.querySelector('title').textContent;
+        linkEl.href = item.querySelector('link').textContent;
+        timeEl.setAttribute('datetime', d.toISOString());
+        render();
+      })
+      .catch(function () { /* keep the built-in version if anything fails */ });
+  }
+
+  render();
+  refresh();
+  setInterval(render, 60000);    // update "x minutes ago" every minute
+  setInterval(refresh, 300000);  // check for a newer post every 5 minutes
+})();
+</script>
+{{ end }}
