@@ -16,7 +16,7 @@ tags:
 categories:
   - Science & Space
 ---
-This was the  headline that stopped my thumb mid-scroll: "Everything you can see in the universe, every star and galaxy any telescope has ever photographed, adds up to about just 5% of what's actually out there."
+<p class="has-dropcap"> This was the  headline that stopped my thumb mid-scroll: "Everything you can see in the universe, every star and galaxy any telescope has ever photographed, adds up to about just 5% of what's actually out there." </p>
 
 It's not 5% of what we've discovered. It's 5% of everything. I had to read that twice. 
 
