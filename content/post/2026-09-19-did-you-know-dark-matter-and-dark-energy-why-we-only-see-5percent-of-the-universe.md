@@ -4,6 +4,7 @@ date: 2026-09-19
 description: >
   We can see only 5% of the universe. Discover what dark matter and dark energy
   are, how scientists found them, and why 95% of reality remains invisible.
+image: /img/2026-09-19_dark_energy.jpeg
 author: Mr. JH
 tags:
   - Dark matter
@@ -15,7 +16,7 @@ tags:
 categories:
   - Science & Space
 ---
-<p class="has-dropcap"> This was the  headline that stopped my thumb mid-scroll: "Everything you can see in the universe, every star and galaxy any telescope has ever photographed, adds up to about just 5% of what's actually out there." </p>
+This was the  headline that stopped my thumb mid-scroll: "Everything you can see in the universe, every star and galaxy any telescope has ever photographed, adds up to about just 5% of what's actually out there."
 
 It's not 5% of what we've discovered. It's 5% of everything. I had to read that twice. 
 
