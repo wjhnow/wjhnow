@@ -79,7 +79,7 @@ The closest real physics I know of is called the holographic principle. Here's t
 
 To be clear, that's a theory, not a proven fact. Nobody has shown that our universe is a hologram, and the idea mostly lives in the math of string theory and quantum gravity. It also doesn't mean life is fake. It only suggests that what we experience might be a kind of display of something deeper. Which brings me back to my wondering. If what we see is a display of something else, is our "now" the original, or a playback? I can't prove it either way. But every time I look up, I can't quite shake the thought.
 
-##So where does that leave us?
+## So where does that leave us?
 
 We started with the night sky, and the same idea has run through every stop since. Looking far away means looking back in time. The stars above you are history, and the light we send out is history too, headed toward someone we'll never meet.
 
