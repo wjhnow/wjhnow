@@ -19,7 +19,7 @@ categories:
   - Space
   - Sciencd
 ---
-<p class="has-dropcap"> Every clear night you look up at the stars and feel like you're seeing them as they are right now. You're not. You're seeing old news.</p>
+Every clear night you look up at the stars and feel like you're seeing them as they are right now. You're not. You're seeing old news.
 
 That one fact led me to a strange question I can't stop chewing on. If someone out there, 2,000 light-years away, pointed a powerful enough telescope at Earth, what would they actually see? Not us, and not today. They'd see the Roman Empire.
 
@@ -43,7 +43,7 @@ So everything you look at is a little in the past:
 
 The stars aren't where they look. You're seeing where they *were*
 
-# 2. Earth is leaking its own history
+## 2. Earth is leaking its own history
 
 Now flip it around. Sunlight bounces off our oceans, our cities and our faces all the time, and that light streams out into space and keeps going.
 
