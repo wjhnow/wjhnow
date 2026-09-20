@@ -19,20 +19,16 @@ categories:
   - Space
   - Sciencd
 ---
-Every clear night you look up at the stars and feel like you're seeing them as they are right now. You're not. You're seeing old news.
+<p class="has-dropcap"> Every clear night you look up at the stars and feel like you're seeing them as they are right now. You're not. You're seeing old news.</p>
 
 That one fact led me to a strange question I can't stop chewing on. If someone out there, 2,000 light-years away, pointed a powerful enough telescope at Earth, what would they actually see? Not us, and not today. They'd see the Roman Empire.
 
 This post walks through how that works, in five stops:
 
 1. Why everything you see is a little out of date
-
 2. How Earth's history is leaking into space
-
 3. Why nobody can see us yet (the telescope problem)
-
 4. What someone out there would be watching
-
 5. A wild thought I can't shake, about whether *our* "now" is old too
 
 ## 1. Everything you see is old
@@ -41,15 +37,12 @@ Light feels instant. You flip a switch and the room is just lit. But light has a
 
 So everything you look at is a little in the past:
 
-* The Moon is about 1.3 seconds behind.
-
-* The Sun is about 8 minutes behind.
-
-* A star 2,000 light-years away shows you what it looked like 2,000 years ago. If it blew up tonight, we wouldn't find out until around the year 4026.
+- The Moon is about 1.3 seconds behind.
+- The Sun is about 8 minutes behind.
+- A star 2,000 light-years away shows you what it looked like 2,000 years ago. If it blew up tonight, we wouldn't find out until around the year 4026.
 
 The stars aren't where they look. You're seeing where they *were*
 
-  
 # 2. Earth is leaking its own history
 
 Now flip it around. Sunlight bounces off our oceans, our cities and our faces all the time, and that light streams out into space and keeps going.
@@ -70,11 +63,9 @@ Or they could use a star as a lens. Einstein predicted that gravity bends light,
 
 It depends on exactly how far away they are:
 
-* **2,000 light-years:** the Pax Romana, with Rome at its peak.
-
-* **About 1,946 light-years:** the Colosseum opening in 80 AD, with a packed crowd.
-
-* **If they aim at China:** the Han Dynasty and the early Silk Road caravans.
+- **2,000 light-years:** the Pax Romana, with Rome at its peak.
+- **About 1,946 light-years:** the Colosseum opening in 80 AD, with a packed crowd.
+- **If they aim at China:** the Han Dynasty and the early Silk Road caravans.
 
 Every distance is a different channel, so the universe is streaming every era of Earth at once.
 
@@ -88,7 +79,6 @@ The closest real physics I know of is called the holographic principle. Here's t
 
 To be clear, that's a theory, not a proven fact. Nobody has shown that our universe is a hologram, and the idea mostly lives in the math of string theory and quantum gravity. It also doesn't mean life is fake. It only suggests that what we experience might be a kind of display of something deeper. Which brings me back to my wondering. If what we see is a display of something else, is our "now" the original, or a playback? I can't prove it either way. But every time I look up, I can't quite shake the thought.
 
-  
 ##So where does that leave us?
 
 We started with the night sky, and the same idea has run through every stop since. Looking far away means looking back in time. The stars above you are history, and the light we send out is history too, headed toward someone we'll never meet.
@@ -102,9 +92,7 @@ The part that gets me is the delay. If they spotted us and waved back, their mes
 **References**
 
 - Hogendoorn, H. (2021). "Perception in real-time: predicting the present, reconstructing the past." *Trends in Cognitive Sciences.* [https://doi.org/10.1016/j.tics.2021.11.003](https://doi.org/10.1016/j.tics.2021.11.003)
-
 - "What you're seeing right now is the past, so your brain is predicting the present." *The Conversation.* [https://theconversation.com/what-youre-seeing-right-now-is-the-past-so-your-brain-is-predicting-the-present-131913](https://theconversation.com/what-youre-seeing-right-now-is-the-past-so-your-brain-is-predicting-the-present-131913)
-
 - Al-Khalili, J. "The present is a story your brain assembles after the fact." *Big Think.* [https://bigthink.com/?p=593499](https://bigthink.com/?p=593499)
-
 - "What if our universe is a hologram?" *ScienceABC.* [https://www.scienceabc.com/nature/universe/what-if-our-universe-is-a-hologram](https://www.scienceabc.com/nature/universe/what-if-our-universe-is-a-hologram)
+
