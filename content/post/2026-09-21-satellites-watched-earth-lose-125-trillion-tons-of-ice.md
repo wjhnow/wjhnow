@@ -31,7 +31,7 @@ sources:
     undefined: ESA press release
     url: https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Faster-flowing_glaciers_fuel_decades_of_polar_ice_loss
 ---
-Satellites Watched Earth Lose 12.5 Trillion Tons of Ice Since 1979
+<p class="has-dropcap">Satellites Watched Earth Lose 12.5 Trillion Tons of Ice Since 1979 </p>
 
 Greenland and Antarctica have lost 12.5 trillion tons of ice since 1979. Enough to bury the entire continental US under 5 feet of ice, coast to coast. And we watched it happen from space.
 
