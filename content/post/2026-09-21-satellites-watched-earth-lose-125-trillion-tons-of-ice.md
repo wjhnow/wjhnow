@@ -2,7 +2,7 @@
 title: Satellites Watched Earth Lose 12.5 Trillion Tons of Ice
 slug: greenland-antarctica-ice-loss-12-trillion-tons
 date: 2026-09-21
-draft: false
+draft: true
 description: Satellites show Greenland and Antarctica lost 12.5 trillion tons of
   ice since 1979, enough to bury the continental US under 5 feet. Here's what it
   means.
