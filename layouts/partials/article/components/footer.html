@@ -1,4 +1,12 @@
 <footer class="article-footer">
+    <!-- Article Sources -->
+    {{ with .Params.sources }}
+    <p class="article-sources">
+      Sources:
+      {{ range $i, $s := . }}{{ if $i }}, {{ end }}{{ if $s.url }}<a href="{{ $s.url }}" target="_blank" rel="noopener">{{ $s.name }}</a>{{ else }}{{ $s.name }}{{ end }}{{ end }}
+    </p>
+    {{ end }}
+
     <!-- Article Tags -->
     {{ partial "article/components/tags" . }}
 
