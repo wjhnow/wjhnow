@@ -24,6 +24,9 @@ sources:
   - name: Associated Press report by Seth Borenstein
     undefined: Associated Press report by Seth Borenstein
     url: https://www.ksl.com/article/51624620/satellites-show-earth-lost-more-than-12-trillion-tons-of-ice-from-greenland-antarctica-in-47-years
+  - name: IMBIE study in Scientific Data
+    undefined: IMBIE study in Scientific Data
+    url: https://www.nature.com/articles/s41597-026-08088-0
 ---
 Earth Lost 12.5 Trillion Tons of Ice. Spread Over the US, That's 5 Feet Deep.
 
