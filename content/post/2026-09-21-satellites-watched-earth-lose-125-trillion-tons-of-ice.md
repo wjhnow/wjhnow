@@ -31,18 +31,56 @@ sources:
     undefined: ESA press release
     url: https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Faster-flowing_glaciers_fuel_decades_of_polar_ice_loss
 ---
-Earth Lost 12.5 Trillion Tons of Ice. Spread Over the US, That's 5 Feet Deep.
+Satellites Watched Earth Lose 12.5 Trillion Tons of Ice Since 1979
 
-We've lost so much ice from Greenland and Antarctica since 1979, it could bury the whole US under 5 feet of ice. Coast to coast. Most of us picture ice going from the top down, cooked by hot air, but thats not really what the satellites show.
+Greenland and Antarctica have lost 12.5 trillion tons of ice since 1979. Enough to bury the entire continental US under 5 feet of ice, coast to coast. And we watched it happen from space.
 
-About 84% of the loss, roughly five-sixths, comes from warmer ocean water working at the ice sheets from underneath and the sides, which lets glaciers flow into the sea faster. Greenland's Jakobshavn glacier is retreating up to 164 feet a day, according to lead author Ines Otosaka, and catching a speed like that takes a long record, which this one is.
+This is not a model or a prediction. This is what 27 satellites actually saw over 47 years.
 
-The record comes from the IMBIE team's study in Scientific Data, which combined 42 independent estimates from 27 satellite missions. Earlier rounds only reached back to the 1990s, but adding older data, including the early Landsat archive, pushed Greenland's record to 1972 and Antarctica's to 1979. Through the 70s, 80s and into the 90s the ice sheets were fairly stable, then the losses started piling up and really took off in the 2010s.
+## What 47 Years of Satellite Data Shows
 
-All of it ended up in the ocean, about 3 quadrillion gallons, which raised global sea level by a bit over an inch (around 31 millimeters), with Greenland responsible for roughly 0.7 inches of that and Antarctica the rest. An inch sounds tiny, but Otosaka says every third of an inch puts another 2 to 3 million people under flooding at least once a year.
+The new study was published in Scientific Data by the IMBIE team — that's the Ice Sheet Mass Balance Inter-Comparison Exercise, a joint project by NASA and the European Space Agency.
 
-The climb wasn't perfectly steady, though. Between 2020 and 2023 the numbers seemed to stall, which the authors put down to short-term weather, since record snowfall in East Antarctica offset fast melting in the west. The study stops at 2023 but Otosaka says newer measurements show the acceleration is back, and co-author Eric Rignot of UC Irvine calls the pause a blip in the long record.
+They combined 42 independent estimates from 27 different satellite missions. Earlier studies only went back to the 1990s. This team dug into the old Landsat archive, the longest Earth imaging program we have, and pushed Greenland's record back to 1972 and Antarctica's back to 1979.
 
-The reason scientists don't read much into the pause is the mechanism itself. Dynamic losses are more abrupt than slow surface melting, Otosaka says, and that's the kind of change that can set off tipping points. David Holland of NYU, who wasn't part of the study, says the pattern matches what an unstable, collapsing ice sheet would look like, and that is what worries him.
+What did they find? For almost 20 years, not much. The ice sheets were fairly stable through the 1970s, 1980s and 1990s. Then the losses started piling up. In the 2010s, it really took off.
 
-Timing is the other problem. Co-author Andrew Shepherd of Northumbria says the ice reacts to warming with a lag of decades, so the melting likely goes on for decades even if heating stopped tomorrow. Ted Scambos of the University of Colorado, who also wasn't involved, puts the uncomfortable part simply: we know where this is heading, and we still haven't acted like it.
+## Why Greenland and Antarctica Are Melting So Fast
+
+Most people think hot air melts ice from the top. That's only a small part of it.
+
+84% of this ice loss comes from warm ocean water melting the ice sheets from underneath and from the sides. The water gets under the glaciers, loosens them, and they start sliding faster into the ocean. Scientists call this dynamic ice loss, and it is more abrupt than surface melting.
+
+Greenland's Jakobshavn glacier is now retreating up to 164 feet per day. That number was confirmed by lead author Ines Otosaka from Northumbria University.
+
+This is why scientists are worried about tipping points. As Otosaka says, dynamic loss can trigger unstable, irreversible change.
+
+## How Much Did Sea Levels Rise?
+
+All that ice became water. About 3 quadrillion gallons of water.
+
+That alone raised global sea level by just over an inch — 31 millimeters — since 1979. Greenland is responsible for about 0.7 inches of that, Antarctica for the rest.
+
+An inch sounds small until you hear this stat: for every third of an inch of sea level rise, another 2 to 3 million people face flooding at least once a year, according to Otosaka.
+
+This matters more if you live on the coast.
+
+I am from the south-west coast of India, so I read that line differently. Just up the coast, Mumbai flooded twice this monsoon — once in late June and again in early July. Local trains stopped, roads were blocked, daily life was thrown off. Those were rain floods, not sea floods. But in 2021, during a similar downpour, tides in Mumbai hit 4.6 meters and the rainwater could not drain. That is exactly how a higher sea level makes rain flooding worse.
+
+## Did Ice Loss Pause Between 2020 and 2023?
+
+Yes, briefly. And that confused a lot of people online.
+
+Between 2020 and 2023, the total ice loss numbers seemed to stall. The authors say this was short-term weather, not a trend change. Record snowfall in East Antarctica offset fast melting in West Antarctica.
+
+The study ends in 2023, but Otosaka says newer measurements show acceleration is back. Co-author Eric Rignot from UC Irvine calls that 2020-2023 period a blip.
+
+David Holland from NYU, who was not part of the study, said the pattern looks like what a collapsing, unstable ice sheet would show.
+
+## Why Ice Will Keep Melting For Decades
+
+There is a lag. Co-author Andrew Shepherd from Northumbria says the ice sheets react to warming with a delay of decades. So even if we stopped heating tomorrow, the melting would likely continue for decades.
+
+Ted Scambos from the University of Colorado, also not involved in the study, put it simply: we know where this is heading, and we still have not acted like it.
+
+I do not have a neat ending for this. It just makes you rethink how we have treated nature, and how much we have taken for granted.
