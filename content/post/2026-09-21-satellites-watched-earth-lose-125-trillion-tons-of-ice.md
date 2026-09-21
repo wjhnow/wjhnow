@@ -5,6 +5,8 @@ description: Satellites show Greenland and Antarctica lost 12.5 trillion tons of
   ice since 1979, enough to bury the continental US under 5 feet. Here's what it
   means.
 image: /img/greenland-antarctica-ice-loss-iceberg.jpeg
+image_alt: Iceberg split at the waterline, with a small tip above the sea and a
+  much larger glowing mass of ice below.
 author: Mr. JH
 tags:
   - ice loss
