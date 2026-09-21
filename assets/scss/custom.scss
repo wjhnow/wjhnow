@@ -968,3 +968,11 @@ footer hr,
   border: none !important;
   height: 0 !important;
 }
+
+.article-sources {
+    font-size: 1.4rem;
+    color: var(--card-text-color-secondary);
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--card-separator-color);
+}
