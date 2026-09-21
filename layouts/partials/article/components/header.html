@@ -12,7 +12,7 @@
                     "src" $image.Permalink
                     "width" $image.Width
                     "height" $image.Height
-                    "alt="{{ .Params.image_alt | default .Title }}"
+                    "alt" ($Page.Params.image_alt | default $Page.Title)
                     "loading" "lazy"
                     "sizes" "(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px"
                 )
