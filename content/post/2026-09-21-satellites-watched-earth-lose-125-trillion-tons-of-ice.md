@@ -27,6 +27,9 @@ sources:
   - name: IMBIE study in Scientific Data
     undefined: IMBIE study in Scientific Data
     url: https://www.nature.com/articles/s41597-026-08088-0
+  - name: ESA press release
+    undefined: ESA press release
+    url: https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Faster-flowing_glaciers_fuel_decades_of_polar_ice_loss
 ---
 Earth Lost 12.5 Trillion Tons of Ice. Spread Over the US, That's 5 Feet Deep.
 
