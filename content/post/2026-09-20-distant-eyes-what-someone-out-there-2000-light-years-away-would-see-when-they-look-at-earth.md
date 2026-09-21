@@ -2,7 +2,7 @@
 title: "Distant Eyes: What Someone Out There, 2,000 Light-Years Away, Would See
   When They Look at Earth"
 date: 2026-09-20
-draft: true
+draft: false
 description: Light takes time to travel, so someone 2,000 light-years away would
   see Rome, not us. Here's how that works, and a wild thought about our own
   "now."
