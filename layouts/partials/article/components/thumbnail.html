@@ -3,9 +3,9 @@
     <div class="article-image">
         <a href="{{ .RelPermalink }}">
             {{ if hasPrefix $image "/" }}
-                <img src="{{ strings.TrimPrefix "/" $image | absURL }}" loading="lazy" alt="{{ .Params.image_alt | default .Title }}" />
+                <img src="{{ strings.TrimPrefix "/" $image | absURL }}" loading="lazy" alt="{{ .Title }}" />
             {{ else }}
-                <img src="{{ $image | absURL }}" loading="lazy" alt="{{ .Params.image_alt | default .Title }}" />
+                <img src="{{ $image | absURL }}" loading="lazy" alt="{{ .Title }}" />
             {{ end }}
         </a>
     </div>
