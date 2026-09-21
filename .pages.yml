@@ -1,1 +1,86 @@
 
+media:
+  input: static/img
+  output: /img
+
+content:
+  - name: posts
+    label: Blog Posts
+    type: collection
+    path: content/post
+    filename: "{year}-{month}-{day}-{primary}.md"
+    format: yaml-frontmatter
+    view:
+      fields: [title, date, draft, image, author]
+      sort: date
+      order: desc
+    fields:
+      - name: title
+        type: string
+        required: true
+
+      - name: slug
+        type: string
+        label: URL Slug
+        description: Short, lowercase, words separated by dashes (e.g. earth-ice-loss)
+        required: false
+
+      - name: date
+        type: date
+        options:
+          format: "yyyy-MM-dd"
+
+      - name: draft
+        label: Draft (hide from site)
+        type: boolean
+        default: true
+
+      - name: description
+        type: text
+
+      - name: image
+        type: image
+        label: Cover Image
+
+      - name: image_alt
+        type: string
+        label: Cover Image Alt Text
+        description: Short description of the cover image, for screen readers and SEO
+        required: false
+
+      - name: author
+        label: Author
+        type: select
+        options:
+          values:
+            - Mr. JH
+            - Mr Wnow
+        required: false
+
+      - name: tags
+        label: Tags
+        type: string
+        list: true
+        required: false
+
+      - name: categories
+        label: Categories
+        type: string
+        list: true
+        required: false
+
+      - name: sources
+        label: Sources
+        type: object
+        list: true
+        fields:
+      - name: name
+            label: Name
+            type: string
+      - name: url
+            label: Link
+            type: string
+
+      - name: body
+        label: Article Content
+        type: rich-text
