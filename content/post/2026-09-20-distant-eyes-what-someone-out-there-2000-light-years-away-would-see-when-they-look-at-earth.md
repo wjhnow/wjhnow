@@ -20,7 +20,7 @@ categories:
   - Space
   - Sciencd
 ---
-<p class="has-dropcap"> ​Every clear night you look up at the stars and feel like you're seeing them as they are right now. You're not, because you're actually seeing old news. </p>
+​Every clear night you look up at the stars and feel like you're seeing them as they are right now. You're not, because you're actually seeing old news.
 
 That one fact led me to a strange question I can't stop chewing on. If someone out there, two thousand light-years away, pointed a powerful enough telescope at Earth, what would they actually see? Not us, and not today, since they'd see the Roman Empire instead.
 ​Light feels instant when you flip a switch and the room is just lit, but light has a speed limit of about 300,000 kilometers per second, and space is way bigger than that. So everything you look at is a little in the past: the Moon is about 1.3 seconds behind, the Sun is about 8 minutes behind, and a star two thousand light-years away shows you what it looked like two thousand years ago. If it blew up tonight, we wouldn't find out until around the year 4026. The stars aren't where they look, meaning you're seeing where they were. Yet, this cosmic delay also means that looking outward is essentially looking backward in time, which naturally brings us to how our own planet writes its history across the cosmos day by day.
