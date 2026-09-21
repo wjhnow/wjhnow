@@ -4,6 +4,7 @@ date: 2026-09-21
 description: Satellites show Greenland and Antarctica lost 12.5 trillion tons of
   ice since 1979, enough to bury the continental US under 5 feet. Here's what it
   means.
+image: /img/greenland-antarctica-ice-loss-iceberg.jpeg
 author: Mr. JH
 tags:
   - ice loss
@@ -16,7 +17,7 @@ tags:
 categories:
   - Climate & Environment
 ---
-<p class="has-dropcap"> Earth Lost 12.5 Trillion Tons of Ice. Spread Over the US, That's 5 Feet Deep. </p>
+Earth Lost 12.5 Trillion Tons of Ice. Spread Over the US, That's 5 Feet Deep.
 
 We've lost so much ice from Greenland and Antarctica since 1979, it could bury the whole US under 5 feet of ice. Coast to coast. Put that over the continental US and you get a layer roughly 5 feet deep, coast to coast. Most of us picture ice going from the top down, cooked by hot air, but thats not really what the satellites show.
 
