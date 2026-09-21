@@ -30,6 +30,12 @@ content:
         type: image
         label: Cover Image
 
+      - name: image_alt
+        type: string
+        label: Cover Image Alt Text
+        description: Short description of the cover image, for screen readers and SEO
+        required: false
+
       - name: author
         label: Author
         type: select
