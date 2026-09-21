@@ -33,9 +33,9 @@ sources:
     undefined: ScienceABC
     url: https://www.scienceabc.com/nature/universe/what-if-our-universe-is-a-hologram
 ---
-​Every clear night you look up at the stars and feel like you're seeing them as they are right now. You're not, because you're actually seeing old news.
+Every clear night you look up at the stars and feel like you're seeing them as they are right now. You're not, because you're actually seeing old news.
 
-That one fact led me to a strange question I can't stop chewing on. If someone out there, two thousand light-years away, pointed a powerful enough telescope at Earth, what would they actually see? Not us, and not today, since they'd see the Roman Empire instead.
+#That one fact led me to a strange question I can't stop chewing on. If someone out there, two thousand light-years away, pointed a powerful enough telescope at Earth, what would they actually see? Not us, and not today, since they'd see the Roman Empire instead.
 
 ​Light feels instant when you flip a switch and the room is just lit, but light has a speed limit of about 300,000 kilometers per second, and space is way bigger than that. So everything you look at is a little in the past: the Moon is about 1.3 seconds behind, the Sun is about 8 minutes behind, and a star two thousand light-years away shows you what it looked like two 
 
