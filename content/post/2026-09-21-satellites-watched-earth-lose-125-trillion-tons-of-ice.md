@@ -31,9 +31,9 @@ sources:
     undefined: ESA press release
     url: https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Faster-flowing_glaciers_fuel_decades_of_polar_ice_loss
 ---
-<p class="has-dropcap"> Earth Lost 12.5 Trillion Tons of Ice. Spread Over the US, That's 5 Feet Deep.</p>
+Earth Lost 12.5 Trillion Tons of Ice. Spread Over the US, That's 5 Feet Deep.
 
-We've lost so much ice from Greenland and Antarctica since 1979, it could bury the whole US under 5 feet of ice. Coast to coast. Put that over the continental US and you get a layer roughly 5 feet deep, coast to coast. Most of us picture ice going from the top down, cooked by hot air, but thats not really what the satellites show.
+We've lost so much ice from Greenland and Antarctica since 1979, it could bury the whole US under 5 feet of ice. Coast to coast. Most of us picture ice going from the top down, cooked by hot air, but thats not really what the satellites show.
 
 About 84% of the loss, roughly five-sixths, comes from warmer ocean water working at the ice sheets from underneath and the sides, which lets glaciers flow into the sea faster. Greenland's Jakobshavn glacier is retreating up to 164 feet a day, according to lead author Ines Otosaka, and catching a speed like that takes a long record, which this one is.
 
