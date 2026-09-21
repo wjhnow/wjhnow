@@ -18,6 +18,12 @@ content:
         type: string
         required: true
 
+      - name: slug
+        type: string
+        label: URL Slug
+        description: Short, lowercase, words separated by dashes (e.g. earth-ice-loss)
+        required: false
+
       - name: date
         type: date
         options:
