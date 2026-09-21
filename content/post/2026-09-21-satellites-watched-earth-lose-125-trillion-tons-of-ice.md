@@ -2,6 +2,7 @@
 title: Satellites Watched Earth Lose 12.5 Trillion Tons of Ice
 slug: greenland-antarctica-ice-loss-12-trillion-tons
 date: 2026-09-21
+draft: true
 description: Satellites show Greenland and Antarctica lost 12.5 trillion tons of
   ice since 1979, enough to bury the continental US under 5 feet. Here's what it
   means.
@@ -19,6 +20,9 @@ tags:
   - wjhnow
 categories:
   - Climate & Environment
+sources:
+  - name: Adapted from Seth Borenstein’s Associated Press report on the landmark
+      IMBIE team study published in Scientific Data.
 ---
 Earth Lost 12.5 Trillion Tons of Ice. Spread Over the US, That's 5 Feet Deep.
 
@@ -35,7 +39,3 @@ The climb wasn't perfectly steady, though. Between 2020 and 2023 the numbers see
 The reason scientists don't read much into the pause is the mechanism itself. Dynamic losses are more abrupt than slow surface melting, Otosaka says, and that's the kind of change that can set off tipping points. David Holland of NYU, who wasn't part of the study, says the pattern matches what an unstable, collapsing ice sheet would look like, and that is what worries him.
 
 Timing is the other problem. Co-author Andrew Shepherd of Northumbria says the ice reacts to warming with a lag of decades, so the melting likely goes on for decades even if heating stopped tomorrow. Ted Scambos of the University of Colorado, who also wasn't involved, puts the uncomfortable part simply: we know where this is heading, and we still haven't acted like it.
-
-
-
-​Source/Credit: Adapted from Seth Borenstein’s Associated Press report on the landmark IMBIE team study published in Scientific Data.
