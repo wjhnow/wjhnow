@@ -10,7 +10,7 @@ content:
     filename: "{year}-{month}-{day}-{primary}.md"
     format: yaml-frontmatter
     view:
-      fields: [title, date, image, author]
+      fields: [title, date, draft, image, author]
       sort: date
       order: desc
     fields:
@@ -28,6 +28,11 @@ content:
         type: date
         options:
           format: "yyyy-MM-dd"
+
+      - name: draft
+        label: Draft (hide from site)
+        type: boolean
+        default: true
 
       - name: description
         type: text
