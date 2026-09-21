@@ -1,4 +1,3 @@
-
 media:
   input: static/img
   output: /img
@@ -68,18 +67,6 @@ content:
         type: string
         list: true
         required: false
-
-      - name: sources
-        label: Sources
-        type: object
-        list: true
-        fields:
-      - name: name
-            label: Name
-            type: string
-      - name: url
-            label: Link
-            type: string
 
       - name: body
         label: Article Content
