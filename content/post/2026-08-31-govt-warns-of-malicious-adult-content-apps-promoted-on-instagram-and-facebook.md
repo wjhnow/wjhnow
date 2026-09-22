@@ -18,6 +18,7 @@ tags:
   - wjhnow
 categories:
   - Technology
+  - Android
 ---
 ### Govt Issues Alert Over Malicious "Adult Content" Apps Promoted on Instagram and Facebook
 
