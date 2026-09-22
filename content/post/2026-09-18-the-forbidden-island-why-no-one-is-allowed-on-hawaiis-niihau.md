@@ -1,6 +1,6 @@
 ---
 title: The Forbidden Island
-slug: The Forbidden Island
+slug: Hawaii's forbidden island
 date: 2026-09-18
 draft: false
 description: 17 miles from Kauai lies Ni'ihau, Hawaii's forbidden island. No
