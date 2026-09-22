@@ -2,7 +2,7 @@
 title: The Comfort zone Trap
 slug: The Comfort zone Trap
 date: 2026-09-17
-draft: true
+draft: false
 description: We think comfort means feeling safe. But what if comfort is a wall
   that blocks real life? Learn how rethinking comfort as a threshold, not a
   hiding place, can help you grow.
