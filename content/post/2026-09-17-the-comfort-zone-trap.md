@@ -20,7 +20,7 @@ tags:
   - routine
 categories:
   - Self Improvement
-  - Psychology & Mindset
+  - Psychology
 sources:
   - name: "Culley, S. (2015). Comfort: bodies and their boundaries"
     undefined: "Culley, S. (2015). Comfort: bodies and their boundaries"
