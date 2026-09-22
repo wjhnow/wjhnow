@@ -1,7 +1,7 @@
 ---
 title: Govt Warns of Malicious Adult Content Apps Promoted on Instagram and Facebook
 date: 2026-08-31
-draft: true
+draft: false
 description: Indian government issues alert on fake Android apps disguised as
   adult content being promoted via Instagram and Facebook ads. Officials warn
   they can steal passwords and bank data.
