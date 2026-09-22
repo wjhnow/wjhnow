@@ -2,7 +2,7 @@
 title: "Did You Know? Dark Matter & Dark Energy: Why We Only See 5% of the Universe"
 slug: dark-matter-dark-energy-5-percent-universe
 date: 2026-09-19
-draft: true
+draft: false
 description: >
   We can see only 5% of the universe. Discover what dark matter and dark energy
   are, how scientists found them, and why 95% of reality remains invisible.
