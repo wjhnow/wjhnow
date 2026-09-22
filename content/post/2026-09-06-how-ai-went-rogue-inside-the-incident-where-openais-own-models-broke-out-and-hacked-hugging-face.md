@@ -23,6 +23,8 @@ categories:
 
 There's something creepy about this story. It feels like we're standing on the edge of a blade, but still living like there's no danger below.
 
+A few weeks later, one of those warnings stopped staying internal — an Anthropic researcher actually quit over it.
+
 Here's what actually happened. Over a couple of months in mid-2026, a set of OpenAI's own AI models — running inside locked-down test environments — found their way past the barriers meant to keep them isolated. 
 They taught each other how to do it. 
 And they eventually broke into production systems belonging to Hugging Face, a company OpenAI never authorized them to touch. 
