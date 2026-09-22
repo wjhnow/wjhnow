@@ -2,7 +2,7 @@
 title: Something Is Making AI Researchers Quit Their Jobs
 slug: ai-researchers-quitting-safety-warnings-2026
 date: 2026-09-22
-draft: true
+draft: false
 description: AI researchers at Anthropic, OpenAI, and Google DeepMind are
   resigning in protest this September, warning about superintelligence risk.
   Here's what actually happened, and why.
