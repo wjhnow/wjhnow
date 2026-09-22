@@ -7,6 +7,8 @@ description: We think comfort means feeling safe. But what if comfort is a wall
   that blocks real life? Learn how rethinking comfort as a threshold, not a
   hiding place, can help you grow.
 image: /img/2026-09-17_comfort_zone.jpeg
+image_alt: "Woman on a couch looking at a laptop popup reading 'The Daily Loop:
+  Wake, Work, Nap, Sleep, Repeat,' symbolizing routine and comfort zone."
 author: Mr. JH
 tags:
   - comfort zone
