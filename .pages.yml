@@ -78,6 +78,7 @@ content:
             - History
             - Psychology
             - Technology
+            - AI
         required: false
 
       - name: sources
