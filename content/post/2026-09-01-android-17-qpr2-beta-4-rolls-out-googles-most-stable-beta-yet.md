@@ -2,7 +2,7 @@
 title: "# Android 17 QPR2 Beta 4: Pixel 11 Support Arrives And Notification
   Intelligence Is Cooked "
 date: 2026-09-01
-draft: true
+draft: false
 description: Android 17 QPR2 Beta 4 rolls out to Pixel 11 with new Notification
   Intelligence, status bar toggles, and lock screen widgets. Community reports
   say it’s the most stable QPR2 beta yet.
