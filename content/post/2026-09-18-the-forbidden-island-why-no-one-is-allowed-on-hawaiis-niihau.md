@@ -19,7 +19,8 @@ tags:
   - private island Hawaii
 categories:
   - Travel
-  - Culture & History
+  - Culture
+  - History
 sources:
   - name: direct family account of the 1952 polio closure
     undefined: direct family account of the 1952 polio closure
@@ -31,7 +32,7 @@ sources:
     undefined: modern access details
     url: https://matadornetwork.com/read/niihau-hawaii/
 ---
-<p class="has-dropcap">Everyone's version of Hawaii is Waikīkī, a Maui road trip, maybe a volcano hike if they're feeling ambitious. </p>
+Everyone's version of Hawaii is Waikīkī, a Maui road trip, maybe a volcano hike if they're feeling ambitious.
 
 Niʻihau doesn't fit into any of that. It sits 17 miles off Kauaʻi, and as far as most visitors are concerned, it might as well not exist — no roads, no hotels, no restaurants, no power lines. It's been that way for over 150 years, and honestly, the longer you read about it, the stranger it seems that a place like this still exists at all.
 
