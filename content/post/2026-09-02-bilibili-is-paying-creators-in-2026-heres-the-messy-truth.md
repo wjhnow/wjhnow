@@ -1,6 +1,7 @@
 ---
 title: "Bilibili Monetization 2026: 1,000 Follower Rule, Payouts & The Catch"
 date: 2026-09-02
+draft: false
 description: 'Bilibili Monetization 2026: Requirements, Payouts, and Why the
   Dashboard is "Cooked" for Global Creators'
 image: /img/bilibili.jpeg
@@ -18,7 +19,7 @@ categories:
 ---
 ### I Tried To Figure Out If Bilibili Pays. It’s Weird.
 
-<p class="has-dropcap"> I downloaded Bilibili at 2am last Tuesday because I saw a meme about it on Reddit.</p>
+I downloaded Bilibili at 2am last Tuesday because I saw a meme about it on Reddit.
 
  "China YouTube" they said. "They’re paying creators now."
 
