@@ -79,6 +79,7 @@ content:
             - Psychology
             - Technology
             - AI
+            - Android
         required: false
 
       - name: sources
