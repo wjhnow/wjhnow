@@ -18,8 +18,21 @@ tags:
 categories:
   - AI
   - Technology
+sources:
+  - name: Jacob Coxon's resignation — TechCrunch
+    url: https://techcrunch.com/2026/09/09/gambling-with-our-lives-anthropic-researcher-quits-warns-against-self-improving-ai/
+  - name: Jacob Coxon profile — TIME
+    url: https://time.com/article/2026/09/15/ai-anthropic-researcher-quits-coxon-slowdown/
+  - name: Josh Engels resignation — Dealroom
+    url: https://dealroom.co/news/151173-two-deepmind-safety-researchers-quit-over-ai-risk-fears/
+  - name: OpenAI/Hugging Face breach — CNBC
+    url: https://www.cnbc.com/2026/08/26/open-ai-hugging-face-hack.html
+  - name: Chain-of-thought monitorability paper — implicator.ai
+    url: https://www.implicator.ai/top-ai-labs-sound-joint-alarm-transparency-in-machine-reasoning-may-soon-vanish/
+  - name: Superintelligence ban open letter — Fortune
+    url: https://dc.fortune.com/2025/10/22/ai-superintelligence-richard-branson-prince-harry-call-for-pause
 ---
-<p class="has-dropcap"> A wave of resignations hit the AI industry this September, and they all say roughly the same thing.** Not junior employees. Not outsiders. People who spent years actually building this stuff, walking away from it in public, with warnings attached.</p>
+A wave of resignations hit the AI industry this September, and they all say roughly the same thing.** Not junior employees. Not outsiders. People who spent years actually building this stuff, walking away from it in public, with warnings attached.
 
 If you read [our piece on the two AI CEOs asking someone to stop them](https://wjhnow.com/p/the-people-building-ai-are-now-asking-someone-to-stop-them/), this is the part that came right after. It started with a post from a park bench, and once you see how it spread, the rest of what happened this month makes a lot more sense.
 
