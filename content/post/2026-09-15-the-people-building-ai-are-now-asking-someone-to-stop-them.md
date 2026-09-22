@@ -19,6 +19,8 @@ categories:
 ---
 Two CEOs, two interviews, same week. And weirdly they both landed in the same place: what happens if this stuff actually goes wrong.
 
+A few weeks later, one of those warnings stopped staying internal — [an Anthropic researcher actually quit over it](https://wjhnow.com/p/ai-researchers-quitting-safety-warnings-2026/).
+
 I'll be honest, my first reaction was "sure, another AI doom cycle." We've had a few of these already. But this one's different for a dumb, simple reason — it's not outsiders this time. It's not academics or watchdog groups yelling from the sidelines like usual. It's the two guys actually running the companies. The ones cashing the checks. That changes how I read it, at least.
 
 Look, it's the same message but different words. We're moving too fast to even understand what we're building. Let alone control it. One went for the bigger, scarier version of that. Systems eventually doing things their own creators never predicted, can't walk back. The other stayed closer to the ground — AI already making hiring calls right now, writing and shipping actual code, nudging political stuff, with fewer people actually watching each step happen.
