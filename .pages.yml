@@ -64,8 +64,20 @@ content:
 
       - name: categories
         label: Categories
-        type: string
+        type: select
         list: true
+        options:
+          values:
+            - Climate & Environment
+            - Extraterrestrial Life
+            - Space
+            - Science
+            - Health
+            - Travel
+            - Culture
+            - History
+            - Psychology
+            - Technology
         required: false
 
       - name: sources
@@ -73,10 +85,10 @@ content:
         type: object
         list: true
         fields:
-           - name: name
+          - name: name
             label: Name
             type: string
-           - name: url
+          - name: url
             label: Link
             type: string
 
