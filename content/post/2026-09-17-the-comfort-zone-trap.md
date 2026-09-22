@@ -19,7 +19,6 @@ tags:
   - philosophy of comfort
   - routine
 categories:
-  - Self Improvement
   - Psychology
 sources:
   - name: "Culley, S. (2015). Comfort: bodies and their boundaries"
