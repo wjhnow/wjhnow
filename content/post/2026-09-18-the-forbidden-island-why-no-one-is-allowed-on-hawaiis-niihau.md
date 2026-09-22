@@ -1,11 +1,15 @@
 ---
 title: The Forbidden Island
+slug: The Forbidden Island
 date: 2026-09-18
-draft: true
+draft: false
 description: 17 miles from Kauai lies Ni'ihau, Hawaii's forbidden island. No
   hotels, no roads, no tourists for 150 years. Discover why the Robinson family
   still keeps it private and how Hawaiian culture survived there.
 image: /img/2026-09-18_forbidden_island.jpeg
+image_alt: "Aerial view of Kauaʻi's lush Nā Pali Coast with a helicopter flying
+  over turquoise water, titled 'The Forbidden Island: Untouched. Mysterious. Na
+  Pali"
 author: Mr. JH
 tags:
   - Ni'ihau
@@ -27,7 +31,7 @@ sources:
     undefined: modern access details
     url: https://matadornetwork.com/read/niihau-hawaii/
 ---
-Everyone's version of Hawaii is Waikīkī, a Maui road trip, maybe a volcano hike if they're feeling ambitious.
+<p class="has-dropcap">Everyone's version of Hawaii is Waikīkī, a Maui road trip, maybe a volcano hike if they're feeling ambitious. </p>
 
 Niʻihau doesn't fit into any of that. It sits 17 miles off Kauaʻi, and as far as most visitors are concerned, it might as well not exist — no roads, no hotels, no restaurants, no power lines. It's been that way for over 150 years, and honestly, the longer you read about it, the stranger it seems that a place like this still exists at all.
 
