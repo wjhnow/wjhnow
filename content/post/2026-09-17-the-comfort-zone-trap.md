@@ -26,7 +26,7 @@ sources:
     undefined: "Culley, S. (2015). Comfort: bodies and their boundaries"
     url: https://eprints.kingston.ac.uk/29964/
 ---
-<p class="has-dropcap"> The Question Nobody Asks </p>
+The Question Nobody Asks
 
 We all say we need to get out of our comfort zone. We rarely ask what comfort actually is.
 
