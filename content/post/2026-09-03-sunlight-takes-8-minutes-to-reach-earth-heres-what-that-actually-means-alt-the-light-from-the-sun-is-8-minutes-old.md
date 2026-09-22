@@ -19,9 +19,7 @@ tags:
 categories:
   - Science
 ---
-### Sunlight Takes 8 Minutes To Reach Earth. Here's What That Actually Means
-
-Weird thought.
+<p class="has-dropcap"> Weird thought. </p>
 
 The warmth on your face? That light left the Sun 8 minutes and 20 seconds ago. Not now. Ago.
 
