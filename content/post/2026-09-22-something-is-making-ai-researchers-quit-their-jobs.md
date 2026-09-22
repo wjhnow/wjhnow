@@ -32,7 +32,7 @@ sources:
   - name: Superintelligence ban open letter — Fortune
     url: https://dc.fortune.com/2025/10/22/ai-superintelligence-richard-branson-prince-harry-call-for-pause
 ---
-<p class="has-dropcap"> A wave of resignations hit the AI industry this September, and they all say roughly the same thing.** Not junior employees. Not outsiders. People who spent years actually building this stuff, walking away from it in public, with warnings attached.</p>
+A wave of resignations hit the AI industry this September, and they all say roughly the same thing.** Not junior employees. Not outsiders. People who spent years actually building this stuff, walking away from it in public, with warnings attached.
 
 If you read [our piece on the two AI CEOs asking someone to stop them](https://wjhnow.com/p/the-people-building-ai-are-now-asking-someone-to-stop-them/), this is the part that came right after. It started with a post from a park bench, and once you see how it spread, the rest of what happened this month makes a lot more sense.
 
