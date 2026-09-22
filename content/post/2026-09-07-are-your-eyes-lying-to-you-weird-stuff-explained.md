@@ -38,7 +38,7 @@ sources:
 
 <p class="has-dropcap"> The retina doesn't know or care that the picture's flipped.** It just converts light into electrical signals and fires them down the optic nerve toward the brain. Your visual cortex receives this upside-down data, and somewhere in there, it gets sorted out. You never consciously see the inverted version. Happens so fast, so automatically, it feels like the world was never flipped in the first place. </p>
 
-** This is the part that actually bugs me about how it usually gets explained online.**
+This is the part that actually bugs me about how it usually gets explained online.**
 
 The brain doesn't have a little internal screen, and it isn't literally spinning your vision right-side up like rotating a photo on your phone. Nothing gets physically "flipped." What actually happens is your brain maps sensory input to motor output. Over time it learns that light hitting the *bottom* of your retina corresponds to something *high up* in the real world, and it wires your muscles and your sense of space around that mapping. You're not seeing an upright picture, your brain is building a 3D map good enough to keep you from walking into a wall.
 
