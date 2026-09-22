@@ -18,7 +18,7 @@ tags:
 categories:
   - extraterrestrial life
   - Space
-  - Sciencd
+  - Science
 sources:
   - name: Trends in Cognitive Sciences
     undefined: Hogendoorn, H. (2021)
@@ -33,7 +33,7 @@ sources:
     undefined: ScienceABC
     url: https://www.scienceabc.com/nature/universe/what-if-our-universe-is-a-hologram
 ---
-<p class="has-dropcap">Every clear night you look up at the stars and feel like you're seeing them as they are right now. You're not, because you're actually seeing old news.</p>
+Every clear night you look up at the stars and feel like you're seeing them as they are right now. You're not, because you're actually seeing old news.
 
 #That one fact led me to a strange question I can't stop chewing on. If someone out there, two thousand light-years away, pointed a powerful enough telescope at Earth, what would they actually see? Not us, and not today, since they'd see the Roman Empire instead.
 
