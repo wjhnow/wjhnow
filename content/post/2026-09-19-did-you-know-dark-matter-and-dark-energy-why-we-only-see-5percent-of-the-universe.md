@@ -18,7 +18,7 @@ tags:
   - wjhnow
   - space science
 categories:
-  - Science & Space
+  - Science
 sources:
   - name: NOIRLab science release, March 2025
     undefined: NOIRLab science release, March 2025
@@ -33,7 +33,7 @@ sources:
     undefined: background on dark energy and dark matter
     url: https://science.nasa.gov/
 ---
-<p class="has-dropcap"> A headline stopped my thumb mid scroll the other day.. every star and galaxy any telescope has ever photographed adds up to about 5% of what's actually out there. Not 5% of what we've found. 5% of everything. I had to sit with that for a bit. </p>
+A headline stopped my thumb mid scroll the other day.. every star and galaxy any telescope has ever photographed adds up to about 5% of what's actually out there. Not 5% of what we've found. 5% of everything. I had to sit with that for a bit.
 
 The other 95% doesn't emit light, doesn't reflect it, and barely touches normal matter at all. Cosmologists split it three ways. Normal matter, about 5%, is everything made of atoms — you, me, every planet, every star. Dark matter is about 27%, invisible mass holding galaxies together through gravity. Dark energy is 68%, doing the opposite, pushing space apart a bit faster every year.
 
@@ -80,3 +80,4 @@ Dark matter pulls things together. Dark energy pushes them apart. That's really 
 I keep telling myself I'll fully wrap my head around this stuff eventually.. still haven't.
 
 ## Further reading (see source below)
+
