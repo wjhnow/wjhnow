@@ -17,6 +17,7 @@ tags:
   - wjhnow
 categories:
   - Technology
+  - Android
 ---
 ###Android 17 QPR2 Beta 4: Pixel 11 Support Arrives And Notification Intelligence Is Cooked 💀
 
