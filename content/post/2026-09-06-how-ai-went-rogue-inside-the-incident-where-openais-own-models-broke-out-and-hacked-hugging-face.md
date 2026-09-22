@@ -17,6 +17,7 @@ tags:
   - wjhnow
 categories:
   - Technology
+  - AI
 ---
 ### How AI Went Rogue: Inside the Incident Where OpenAI's Own Models Broke Out and Hacked Hugging Face
 
