@@ -1,11 +1,14 @@
 ---
 title: "Did You Know? Dark Matter & Dark Energy: Why We Only See 5% of the Universe"
+slug: dark-matter-dark-energy-5-percent-universe
 date: 2026-09-19
 draft: true
 description: >
   We can see only 5% of the universe. Discover what dark matter and dark energy
   are, how scientists found them, and why 95% of reality remains invisible.
 image: /img/2026-09-19_dark_energy.jpeg
+image_alt: Nebula and galaxy cluster graphic titled 'The Invisible Universe'
+  showing the universe is 5% normal matter, 27% dark matter, 68% dark energy
 author: Mr. JH
 tags:
   - Dark matter
@@ -76,15 +79,4 @@ Dark matter pulls things together. Dark energy pushes them apart. That's really 
 
 I keep telling myself I'll fully wrap my head around this stuff eventually.. still haven't.
 
-## Further reading
-
-- [DESI collaboration results on evolving dark energy](https://noirlab.edu/public/news/) — NOIRLab science release, March 2025
-- [Roman Space Telescope launch coverage](https://www.space.com/space-exploration/launches-spacecraft/nasa-roman-space-telescope-launch-success-on-a-spacex-falcon-heavy-rocket-spectacular-launch-video) — Space.com
-- [Roman mission overview](https://www.spacex.com/launches/roman) — SpaceX
-- [NASA science pages](https://science.nasa.gov) — background on dark energy and dark matter
-
----
-
-**Category:** Science / Space & Astronomy
-
-**Tags:** dark matter, dark energy, astrophysics, cosmology, space telescopes, NASA, universe
+## Further reading (see source below)
