@@ -1,6 +1,7 @@
 ---
 title: The Sunlight Hitting You Right Now Left the Sun 8 Minutes Ago
 date: 2026-09-03
+draft: true
 description: The sunlight on your face left the Sun 8 minutes ago. Here’s why
   there’s a delay, how long photons are actually trapped inside the Sun before
   escaping, and what would happen if the Sun suddenly vanished.
@@ -19,8 +20,6 @@ categories:
   - Science
 ---
 ### Sunlight Takes 8 Minutes To Reach Earth. Here's What That Actually Means
-
-<p class="has-dropcap"> The Light From The Sun Is 8 Minutes Old. And That's Wild </p>
 
 Weird thought.
 
