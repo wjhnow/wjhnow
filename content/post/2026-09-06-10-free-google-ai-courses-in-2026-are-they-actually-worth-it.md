@@ -15,6 +15,7 @@ tags:
   - wjhnow
 categories:
   - Technology
+  - AI
 ---
 ### 10 Free Google AI Courses Everyone's Sharing Online (And Whether They're Actually Worth Your Time)
 
