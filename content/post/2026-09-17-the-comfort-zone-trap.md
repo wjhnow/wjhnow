@@ -1,6 +1,8 @@
 ---
 title: The Comfort zone Trap
+slug: The Comfort zone Trap
 date: 2026-09-17
+draft: true
 description: We think comfort means feeling safe. But what if comfort is a wall
   that blocks real life? Learn how rethinking comfort as a threshold, not a
   hiding place, can help you grow.
@@ -17,53 +19,53 @@ tags:
 categories:
   - Self Improvement
   - Psychology & Mindset
+sources:
+  - name: "Culley, S. (2015). Comfort: bodies and their boundaries"
+    undefined: "Culley, S. (2015). Comfort: bodies and their boundaries"
+    url: https://eprints.kingston.ac.uk/29964/
 ---
-<p class="has-dropcap"> We all say we need to get out of our comfort zone. But we rarely ask what comfort actually is.</p>
+<p class="has-dropcap"> The Question Nobody Asks </p>
 
-In 2015, a researcher named Sheena Culley wrote a thesis at Kingston University called *Comfort: bodies and their boundaries*. Her answer is very different from the usual one. And it explains why chasing comfort might be what keeps us stuck.
+We all say we need to get out of our comfort zone. We rarely ask what comfort actually is.
 
-Today we think of the body as a closed box. Separate from the world. Something that needs protection from everything outside.
+In 2015, a researcher named Sheena Culley wrote a PhD thesis at Kingston University called Comfort: bodies and their boundaries. Her answer is very different from the usual one, and it explains why chasing comfort might be exactly what keeps us stuck.
 
-If you see the body that way, comfort has only one job: to protect you, to make you sit still.
+##Comfort as a Wall
 
-That is how most of us live comfort. We try to avoid everything. Not too hot, not too cold, not too loud, not too hard. Nothing is wrong, but nothing feels alive either.
+Today we think of the body as a closed box. Separate from the world, something that needs protection from everything outside. If you see the body that way, comfort has only one job: protect you, make you sit still. That's how most of us live comfort. Avoid everything. Not too hot, not too cold, not too loud, not too hard. Nothing wrong, but nothing feels alive either.
 
-My life is like that. I have a fixed routine I could say in my sleep: wake up, go to the office, work in the morning, take a break, and then I must take a power nap. I have thought many times that if I change my job, I won't miss the salary or the team. I will miss that nap. Then afternoon shift, home, dinner, sleep, repeat. I used to think this meant my life was organized. Later I realized it was just a loop. No space for anything to go wrong. Or right.
+##My Own Loop
 
-The only day this loop breaks is the last day of the week. I notice it breaking as it happens. No nap, I work straight through the afternoon, and it feels fine because the weekend is coming. It is the only day my routine bends without me feeling bad.
+My life is like that, honestly. I have a routine I could recite in my sleep: wake up, go to the office, work the morning, take a break, then I have to take a power nap. Non negotiable. I've thought more than once that if I changed jobs, I wouldn't miss the salary or the team, I'd miss that nap. Afternoon shift, home, dinner, sleep, repeat. I used to think this meant my life was organized. Later I realized it was just a loop. No space for anything to go wrong. Or right.
 
-There is a definition by historian John Crowley that I like: comfort is a "self-conscious satisfaction between one's body and its immediate physical environment." The word *between* is important. Comfort became the gap where the world stops touching you. Sitting comfortably. Comfortably numb. Safe, but you don't care about anything.
+The only day the loop breaks is the last day of the week. I notice it breaking as it happens.. no nap, I work straight through the afternoon, and it feels fine because the weekend's coming. It's the only day my routine bends without me feeling bad about it.
 
-Culley's point is that this idea of comfort comes from old ideas we never questioned: nature vs culture, body vs mind, inside vs outside, comfort vs discomfort.
+##The Gap Where the World Stops Touching You
 
-Once you see yourself as a closed body that needs defending, your comfort zone becomes a wall. The thicker the wall, the safer you feel. The safer you feel, the less of the world can reach you.
+There's a definition by historian John Crowley I like: comfort is a "self-conscious satisfaction between one's body and its immediate physical environment." The word between is doing the real work there. Comfort became the gap where the world stops touching you. Sitting comfortably. Comfortably numb. Safe, but you don't care about anything.
 
-That is the quiet safety that ruins your life. It doesn't ruin you in one big crisis. It just slowly makes you harder to reach. And harder to change.
+Culley's point is that this idea of comfort comes from old assumptions nobody questioned: nature vs culture, body vs mind, inside vs outside, comfort vs discomfort. Once you see yourself as a closed body that needs defending, your comfort zone becomes a wall. The thicker the wall, the safer you feel. The safer you feel, the less of the world can reach you.
 
-Here is the interesting part. Using ideas from Nietzsche, Foucault, and Deleuze, Culley suggests something different: what if bodies were never closed boxes? What if they are just loose, changing groups of forces that keep forming and breaking through contact with the world?
+That's the quiet safety that ruins a life. Not one big crisis, just a slow drift into being harder to reach. And harder to change.
 
-If that is true, then boundaries are not walls. They are doors. Places you cross, not places you hide behind.
+Doors, Not Walls
 
-And comfort is not about feeling nothing. It is about really meeting something different.
+Here's the interesting part. Drawing on Nietzsche, Foucault, and Deleuze, Culley suggests something different: what if bodies were never closed boxes at all? What if they're just loose, shifting groups of forces, forming and breaking apart through contact with the world?
 
-That changes a few things:
+If that's true, boundaries aren't walls. They're doors. Places you cross, not places you hide behind. And comfort isn't about feeling nothing, it's about really meeting something different.
 
-- Comfort is not passive. You feel it through contact, not by avoiding feeling.
-- The comfort zone is not a place to sit. It is a place you pass through to become a slightly different person.
-- Discomfort is not the opposite of comfort. It is part of it. No contact, no change.
+##What This Actually Changes
 
-Somewhere along the way, comfort became a small prize for surviving the day. When we say "I just want to be comfortable," we often mean "I want stress, risk, and uncertainty to stop touching me."
+That changes a few things. Comfort is not passive, you feel it through contact, not by avoiding feeling. The comfort zone is not a place to sit, it's a place you pass through to become a slightly different person. Discomfort is not the opposite of comfort, it's part of it.. no contact, no change.
 
-But if comfort is a door and not a wall, it needs contact. It is more like a muscle than a bunker. A muscle is not comfortable because it is never used. It is comfortable because it can stretch, take some stress, and come back stronger.
+More Like a Muscle Than a Bunker
 
-The same is true for the mind. Not comfortable because it has all the answers, but because it can meet something new and not panic.
+Somewhere along the way, comfort became a small prize for surviving the day. When we say "I just want to be comfortable," what we often mean is "I want stress, risk, and uncertainty to stop touching me." But if comfort is a door and not a wall, it needs contact. It's more like a muscle than a bunker. A muscle isn't comfortable because it's never used, it's comfortable because it can stretch, take some stress, and come back stronger.
 
-So the shift is this: Stop trying to build a life where nothing can touch you. Start building a life that can be bothered, moved, and shaken a little — and become better because of it.
+The mind works the same way. Not comfortable because it has all the answers, but because it can meet something new without panicking.
 
-My power nap is not going anywhere. Except on Fridays, when I don't seem to need it. It is worth asking sometimes: is my routine holding me up, or just holding me still?
+##The Shift
 
-Reference: Culley, S. (2015). Comfort: bodies and their boundaries. Kingston University.
+So the shift is this: stop building a life where nothing can touch you. Start building one that can be bothered, moved, shaken a little, and come out better for it.
 
-
-
-&nbsp;
+My power nap isn't going anywhere. Except Fridays, when I don't seem to need it. Worth asking sometimes: is my routine holding me up, or just holding me still?
