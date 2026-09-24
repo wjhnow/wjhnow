@@ -38,7 +38,7 @@ Small things, powerful memories. We didn't have choices to make back then, and s
 
 ## The Kerosene Stove
 
-![Close-up of a vintage kerosene pressure stove with a dark metal frame, burner grate, and cylindrical fuel tank, showing rust and age wear](/img/cylinder-stove.jpg)
+<img src="/img/cylinder-stove.jpg" alt="Close-up of a vintage kerosene pressure stove with a dark metal frame, burner grate, and cylindrical fuel tank, showing rust and age wear" style="max-width:100%; height:auto; width:600px;" loading="lazy">
 
 **This one required actual attention, not just patience.** Most home kerosene stoves worked off a wick, cotton and asbestos woven together, soaking up fuel from a small tank underneath. You lit it with a match, every single time, and the flame only got smaller and smaller as the kerosene burned out of the wick, there was no real "off," just a slow fade. Keep the wick trimmed wrong and it smoked everything, the pot, the kitchen walls, whoever was standing closest.
 
