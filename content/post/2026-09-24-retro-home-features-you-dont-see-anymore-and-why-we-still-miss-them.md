@@ -26,13 +26,13 @@ Small things, powerful memories. We didn't have choices to make back then, and s
 
 ## The Pendulum Wall Clock
 
-<img src="/img/retro-clock.jpg" alt="A dark wood pendulum wall clock with Roman numerals and a visible brass pendulum, hanging near a sunlit window" style="max-width:100%; height:auto;">
+![A dark wood pendulum wall clock with Roman numerals and a visible brass pendulum, hanging near a sunlit window](/img/retro-clock.jpg)
 
 **The striking sound of the half hour and full hour, I still miss it honestly.** Galileo worked out the pendulum's swing around 1602, and a Dutch scientist named Christiaan Huygens turned that into an actual working clock mechanism decades later. Inside the case, the swinging pendulum regulated the escapement, a gear system releasing in tiny precise increments, accurate to within a few seconds a week, which were remarkable for the time. The strike ran on its own separate gears and hammers entirely, once for the half hour, the full count on the hour. You didn't need to look at the clock. You just listened.
 
 ## The Rotary Telephone
 
-<img src="/img/retro-telephone.jpg" alt="A vintage sage-green rotary telephone with a coiled cord, sitting on a wooden dresser in front of framed botanical prints" style="max-width:100%; height:auto; width:600px;">
+![A vintage sage-green rotary telephone with a coiled cord, sitting on a wooden dresser in front of framed botanical prints](/img/retro-telephone.jpg)
 
 **Different mechanism, same idea though, waiting on a machine that was visibly doing something.** You dial it and wait, listening to the dialer, that specific sound. Almon Strowger came up with the idea in 1888, and got the patent in 1891, if I'm not wrong, though the familiar dial with finger holes came a bit later, around 1907. Put your finger in a hole, pull it around to the stop, let go. A spring pulled it back, and as it spun, an electrical switch opened and closed that many times.. dial a 7, you sent seven pulses down the line. There was even a tiny centrifugal governor inside keeping the return speed steady. You waited because the machine, quite literally, was doing the counting in front of you.
 
