@@ -9,7 +9,7 @@ description: The pendulum clock's chime, the rotary phone's dial, the kerosene
 image: /img/retro-home-features-nostalgic-title-card.jpg
 image_alt: Vintage-style title card reading 'The Retro Home Features That Don't
   Exist Anymore Will Make You Nostalgic' on cream background
-author: Mr. JH
+author: Mr Wnow
 tags:
   - retro
   - nostalgia
@@ -22,7 +22,7 @@ sources:
   - name: SFO Museum's piece
     url: https://www.sfomuseum.org/node/3640
 ---
-<p class="has-dropcap">Small things, powerful memories. We didn't have choices to make back then, and somehow that made the small things feel exciting. A clock striking the hour. A phone you had to work to dial. A machine you powered with your own feet. A stove you had to light with a match and actually watch.</p>
+Small things, powerful memories. We didn't have choices to make back then, and somehow that made the small things feel exciting. A clock striking the hour. A phone you had to work to dial. A machine you powered with your own feet. A stove you had to light with a match and actually watch.
 
 ## The Pendulum Wall Clock
 
