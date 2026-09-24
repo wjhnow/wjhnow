@@ -22,12 +22,11 @@ sources:
   - name: SFO Museum's piece
     url: https://www.sfomuseum.org/node/3640
 ---
-<p class="has-dropcap"> Small things, powerful memories. We didn't have choices to make back then, and somehow that made the small things feel exciting. A clock striking the hour. A phone you had to work to dial. A machine you powered with your own feet. A stove you had to light with a match and actually watch.</p>
+Small things, powerful memories. We didn't have choices to make back then, and somehow that made the small things feel exciting. A clock striking the hour. A phone you had to work to dial. A machine you powered with your own feet. A stove you had to light with a match and actually watch.
 
 ## The Pendulum Wall Clock
 
-![A dark wood pendulum wall clock with Roman numerals and a visible brass pendulum, hanging near a sunlit window](</img/retro clock.jpg>)
-
+![A dark wood pendulum wall clock with Roman numerals and a visible brass pendulum, hanging near a sunlit window]<img src="/img/retro-clock.jpg" alt="A dark wood pendulum wall clock with Roman numerals and a visible brass pendulum, hanging near a sunlit window" style="max-width:100%; height:auto;">
 **The striking sound of the half hour and full hour, I still miss it honestly.** Galileo worked out the pendulum's swing around 1602, and a Dutch scientist named Christiaan Huygens turned that into an actual working clock mechanism decades later. Inside the case, the swinging pendulum regulated the escapement, a gear system releasing in tiny precise increments, accurate to within a few seconds a week, which were remarkable for the time. The strike ran on its own separate gears and hammers entirely, once for the half hour, the full count on the hour. You didn't need to look at the clock. You just listened.
 
 ## The Rotary Telephone
@@ -50,4 +49,4 @@ There was a better version too, the pressure stove, first built by a Swedish inv
 
 We didn't have choices to make about any of it. Maybe that's exactly why it felt exciting.
 
-<p><em>For the deeper mechanics, see the sources linked below.</em></p>
+*For the deeper mechanics, see the sources linked below.*
