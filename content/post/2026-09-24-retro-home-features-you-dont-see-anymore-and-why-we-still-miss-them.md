@@ -26,6 +26,10 @@ Small things, powerful memories. We didn't have choices to make back then, and s
 
 ## The Pendulum Wall Clock
 
+<img src="/img/retro-clock.jpg" 
+     alt="A dark wood pendulum wall clock with Roman numerals and a visible brass pendulum, hanging near a sunlit window." 
+     style="max-width:100%; height:auto;">
+
 **The striking sound of the half hour and full hour, I still miss it honestly.** Galileo worked out the pendulum's swing around 1602, and a Dutch scientist named Christiaan Huygens turned that into an actual working clock mechanism decades later. Inside the case, the swinging pendulum regulated the escapement, a gear system releasing in tiny precise increments, accurate to within a few seconds a week, which were remarkable for the time. The strike ran on its own separate gears and hammers entirely, once for the half hour, the full count on the hour. You didn't need to look at the clock. You just listened.
 
 ## The Rotary Telephone
