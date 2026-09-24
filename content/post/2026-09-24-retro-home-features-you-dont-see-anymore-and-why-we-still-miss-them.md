@@ -2,7 +2,7 @@
 title: Retro Home Features You Don't See Anymore (And Why We Still Miss Them)
 slug: retro-home-features-that-dont-exist-anymore
 date: 2026-09-24
-draft: false
+draft: true
 description: The pendulum clock's chime, the rotary phone's dial, the kerosene
   stove's flame, the treadle sewing machine. Here's how these retro home
   features actually worked, and why they still feel worth missing.
