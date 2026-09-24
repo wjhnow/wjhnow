@@ -46,7 +46,7 @@ There was a better version too, the pressure stove, first built by a Swedish inv
 
 ## The Treadle Sewing Machine
 
-Isaac Singer patented the first commercially successful home version in 1851. Foot treadle instead of a hand crank, which freed up both hands for the fabric. Treadle turns a wheel, wheel turns a belt, belt drives the needle. No motor, no plug. Just your own rhythm the whole time you sat there. Sewing used to mostly belong to tailors and dressmakers before this. Suddenly a family could make and mend their own clothes at home. Some of these machines are still running, generations later, on nothing but oil and a working belt.
+**Isaac Singer patented the first commercially successful home version in 1851.** Foot treadle instead of a hand crank, which freed up both hands for the fabric. Treadle turns a wheel, wheel turns a belt, belt drives the needle. No motor, no plug. Just your own rhythm the whole time you sat there. Sewing used to mostly belong to tailors and dressmakers before this. Suddenly a family could make and mend their own clothes at home. Some of these machines are still running, generations later, on nothing but oil and a working belt.
 
 We didn't have choices to make about any of it. Maybe that's exactly why it felt exciting.
 
