@@ -50,4 +50,4 @@ There was a better version too, the pressure stove, first built by a Swedish inv
 
 We didn't have choices to make about any of it. Maybe that's exactly why it felt exciting.
 
-For the deeper mechanics, see the sources linked below.
+<p><em>For the deeper mechanics, see the sources linked below.</em></p>
