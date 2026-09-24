@@ -32,7 +32,7 @@ Small things, powerful memories. We didn't have choices to make back then, and s
 
 ## The Rotary Telephone
 
-![A vintage sage-green rotary telephone with a coiled cord, sitting on a wooden dresser in front of framed botanical prints](/img/retro-telephone.jpg)
+<img src="/img/retro-telephone.jpg" alt="A vintage sage-green rotary telephone with a coiled cord, sitting on a wooden dresser in front of framed botanical prints" style="max-width:100%; height:auto; width:600px;">
 
 **Different mechanism, same idea though, waiting on a machine that was visibly doing something.** You dial it and wait, listening to the dialer, that specific sound. Almon Strowger came up with the idea in 1888, and got the patent in 1891, if I'm not wrong, though the familiar dial with finger holes came a bit later, around 1907. Put your finger in a hole, pull it around to the stop, let go. A spring pulled it back, and as it spun, an electrical switch opened and closed that many times.. dial a 7, you sent seven pulses down the line. There was even a tiny centrifugal governor inside keeping the return speed steady. You waited because the machine, quite literally, was doing the counting in front of you.
 
