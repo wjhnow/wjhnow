@@ -22,7 +22,7 @@ sources:
   - name: SFO Museum's piece
     url: https://www.sfomuseum.org/node/3640
 ---
-Small things, powerful memories. We didn't have choices to make back then, and somehow that made the small things feel exciting. A clock striking the hour. A phone you had to work to dial. A machine you powered with your own feet. A stove you had to light with a match and actually watch.
+<p class="has-dropcap">Small things, powerful memories. We didn't have choices to make back then, and somehow that made the small things feel exciting. A clock striking the hour. A phone you had to work to dial. A machine you powered with your own feet. A stove you had to light with a match and actually watch.</p>
 
 ## The Pendulum Wall Clock
 
