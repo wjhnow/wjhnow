@@ -46,7 +46,7 @@ There was a better version too, the pressure stove, first built by a Swedish inv
 
 ## The Treadle Sewing Machine
 
-![An antique black treadle sewing machine with gold detailing, set into a wooden table.](/img/antique-black-cast-iron-treadle-sewing-machine.jpg)
+<img src="/img/antique-black-cast-iron-treadle-sewing-machine.jpg" alt="An antique black treadle sewing machine with gold detailing, set into a wooden table." style="max-width:100%; height:auto; width:600px;" loading="lazy">
 
 **Isaac Singer patented the first commercially successful home version in 1851.** Foot treadle instead of a hand crank, which freed up both hands for the fabric. Treadle turns a wheel, wheel turns a belt, belt drives the needle. No motor, no plug. Just your own rhythm the whole time you sat there. Sewing used to mostly belong to tailors and dressmakers before this. Suddenly a family could make and mend their own clothes at home. Some of these machines are still running, generations later, on nothing but oil and a working belt.
 
