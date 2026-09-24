@@ -3,9 +3,11 @@ title: Retro Home Features You Don't See Anymore (And Why We Still Miss Them)
 date: 2026-09-24
 draft: true
 ---
-<p class="has-dropcap"> Small things, powerful memories.** We didn't have choices to make back then, and somehow that made the small things feel exciting. A clock striking the hour. A phone you had to work to dial. A machine you powered with your own feet. A stove you had to light with a match and actually watch. </p>
+Small things, powerful memories.** We didn't have choices to make back then, and somehow that made the small things feel exciting. A clock striking the hour. A phone you had to work to dial. A machine you powered with your own feet. A stove you had to light with a match and actually watch.
 
 ## The Pendulum Wall Clock
+
+![](</img/retro clock.jpg>)
 
 **The striking sound of the half hour and full hour, I still miss it honestly.** Galileo worked out the pendulum's swing around 1602, and a Dutch scientist named Christiaan Huygens turned that into an actual working clock mechanism decades later. Inside the case, the swinging pendulum regulated the escapement, a gear system releasing in tiny precise increments, accurate to within a few seconds a week, which were remarkable for the time. The strike ran on its own separate gears and hammers entirely, once for the half hour, the full count on the hour. You didn't need to look at the clock. You just listened.
 
