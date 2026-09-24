@@ -976,3 +976,9 @@ footer hr,
     padding-top: 1.5rem;
     border-top: 1px solid var(--card-separator-color);
 }
+
+img.responsive,
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
