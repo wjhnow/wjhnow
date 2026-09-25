@@ -11,4 +11,6 @@ image: /img/google-ai-trustworthiness-ranking1-2026.jpeg
 image_alt: Futuristic green holographic dashboard in a server room showing a
   generic AI trustworthiness index with trust scores and category metrics
 author: Mr Wnow
+categories:
+  - AI
 ---
