@@ -14,6 +14,9 @@ tags:
   - retro
   - nostalgia
   - vintage home
+categories:
+  - Lifestyle
+  - Nostalgia
 sources:
   - name: Wikipedia
     url: https://en.wikipedia.org/wiki/Rotary_dial
