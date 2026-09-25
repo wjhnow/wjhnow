@@ -2,7 +2,7 @@ name: Submit to IndexNow
 
 on:
   push:
-    branches: [master]        # ← You are using "master", not "main"
+    branches: [master]
     paths:
       - 'content/**'
   workflow_dispatch:
