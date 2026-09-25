@@ -32,7 +32,7 @@ sources:
       500 AI companies" '
     url: cybernews.com/ai-news/cybernews-launches-ai-trustworthiness-ranking
 ---
-A post making the rounds on Facebook credited a group called "Hackers Tech" with ranking 500 AI companies on trustworthiness.
+<p class="has-dropcap">A post making the rounds on Facebook credited a group called "Hackers Tech" with ranking 500 AI companies on trustworthiness.</p>
 
 The research itself checks out. The name attached to it doesn't. The actual source is Cybernews, whose new AI Trustworthiness Ranking 2026 scored companies across four pillars — security, data privacy, organizational transparency, and public perception — and somewhere along the way, someone swapped the branding and sent it back out into the world as their own.
 
