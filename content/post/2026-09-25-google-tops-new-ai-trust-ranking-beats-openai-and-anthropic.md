@@ -14,8 +14,16 @@ author: Mr Wnow
 categories:
   - AI
   - Cybersecurity
+sources:
+  - name: Cybernews
+    url: cybernews.com/ai-news/how-trustworthy-are-the-biggest-names-in-ai
+  - name: Cybernews, AI Trustworthiness Ranking 2026
+    url: cybernews.com/ai-knowledge-base/ai-trustworthiness-ranking-2026
+  - name: 'Cybernews, "Cybernews launches the AI Trustworthiness Ranking, assessing
+      500 AI companies" '
+    url: cybernews.com/ai-news/cybernews-launches-ai-trustworthiness-ranking
 ---
-<p class="has-dropcap">A post making the rounds on Facebook credited a group called "Hackers Tech" with ranking 500 AI companies on trustworthiness. </p>
+A post making the rounds on Facebook credited a group called "Hackers Tech" with ranking 500 AI companies on trustworthiness.
 
 The research itself checks out. The name attached to it doesn't. The actual source is Cybernews, whose new AI Trustworthiness Ranking 2026 scored companies across four pillars — security, data privacy, organizational transparency, and public perception — and somewhere along the way, someone swapped the branding and sent it back out into the world as their own.
 
