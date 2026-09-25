@@ -2,10 +2,10 @@ name: Submit to IndexNow
 
 on:
   push:
-    branches: [main]          # or master
+    branches: [master]        # ← You are using "master", not "main"
     paths:
-      - 'content/**'          # only run when content changes
-  workflow_dispatch:          # allow manual trigger
+      - 'content/**'
+  workflow_dispatch:
 
 jobs:
   indexnow:
