@@ -13,4 +13,5 @@ image_alt: Futuristic green holographic dashboard in a server room showing a
 author: Mr Wnow
 categories:
   - AI
+  - Cybersecurity
 ---
