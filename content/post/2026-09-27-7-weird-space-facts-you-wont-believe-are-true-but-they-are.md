@@ -61,6 +61,8 @@ HD 189733b sits about 64 light-years away, and its atmosphere is thought to be l
 
 **5. Saturn is so light it would float in water.**
 
+![Illustration of Saturn floating and reflecting on a calm body of water, with its rings visible and a futuristic city skyline in the background](/img/saturn-floating-on-water-density.jpg)
+
 Saturn's average density is lower than water's, which sounds like a typo but isn't. It's made almost entirely of hydrogen and helium — light gases all the way down — so if you somehow had a bathtub big enough, the whole planet, rings and all, would bob on the surface instead of sinking. I like to imagine a cartoon version of this: Saturn just chilling in a pool, floating like a beach ball.
 
 **6. Space has a smell, and nobody expects what it is.**
