@@ -73,4 +73,6 @@ Astronauts who've done spacewalks describe a very specific, very consistent smel
 
 **7. Mars is eventually getting its own rings.**
 
+![Illustration of Mars with a future ring system made of rocky debris, with a fractured moon fragment nearby and Earth visible in the foreground](/img/phobos-mars-ring-system-future.jpg)
+
 Phobos, Mars's largest moon, is slowly spiraling inward thanks to tidal forces, and it's not going to end well for Phobos. Somewhere in the next 30 to 50 million years, scientists expect Mars's gravity to tear it apart before it ever reaches the surface. The debris won't just vanish — it'll likely spread out into a ring system, similar to Saturn's, just on a much smaller scale. None of us will be around to see it, but it's a strange little preview of what Mars's sky is eventually going to look like.
