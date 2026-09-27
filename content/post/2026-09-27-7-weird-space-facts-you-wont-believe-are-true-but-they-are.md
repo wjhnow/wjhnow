@@ -2,7 +2,7 @@
 title: 7 Weird Space Facts You Won't Believe Are True (But They Are)
 slug: weird-space-facts-you-wont-believe-are-true
 date: 2026-09-27
-draft: true
+draft: false
 description: "From blue Mars sunsets to a planet that rains glass, these 7 real
   space facts sound fake but are backed by actual NASA science. "
 image: /img/weird-space-facts-you-wont-believe-blue-mars-sunset.jpg
