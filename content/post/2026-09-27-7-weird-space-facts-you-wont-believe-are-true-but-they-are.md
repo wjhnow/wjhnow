@@ -33,9 +33,11 @@ sources:
   - name: NASA Fact-sheet
     url: https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html
 ---
-<p class="has-dropcap"> I've read a lot of "mind-blowing space facts" listicles, and most of them just recycle the same five facts everyone already knows. So I went digging for the ones that actually made me stop and go "wait, what?" — the kind you'd bring up at dinner and have someone say "no way, you're making that up." Here they are.</p>
+I've read a lot of "mind-blowing space facts" listicles, and most of them just recycle the same five facts everyone already knows. So I went digging for the ones that actually made me stop and go "wait, what?" — the kind you'd bring up at dinner and have someone say "no way, you're making that up." Here they are.
 
 **1. Mars sunsets are blue. Yes, the red planet.**
+
+![Illustration of a blue sunset over Mars, with rocky red canyon terrain in the foreground and a space station visible in the starry sky](/img/mars-blue-sunset-nasa-curiosity.jpg)
 
 I had to look this one up three times before I believed it. On Earth, sunsets go red and orange because our atmosphere scatters blue light everywhere during the day, leaving red to dominate at dusk. Mars does the exact opposite — its fine dust is oddly perfect at letting blue light punch through close to the sun, while yellow and red scatter across the rest of the sky. So the "red planet" ends the day with a blue sun. NASA's Curiosity rover photographed it in 2015, and Mark Lemmon, the atmospheric scientist who worked on the mission, put it simply: the dust is "the right size" for blue light to slip through more easily than the rest of the spectrum. If you ever see the actual photo, it looks almost fake — like someone edited a normal sunset backwards.
 
