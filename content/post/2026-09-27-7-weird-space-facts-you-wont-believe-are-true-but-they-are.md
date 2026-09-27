@@ -49,6 +49,8 @@ This one broke my brain a little. Venus spins so slowly that one full rotation �
 
 **3. A teaspoon of neutron star could weigh a billion tons.**
 
+![Illustration of a neutron star with glowing magnetic field lines and swirling cosmic dust, with a faint city skyline in the background suggesting its immense density](/img/neutron-star-density-teaspoon-weight.jpg)
+
 Neutron stars form when a massive star collapses in on itself, and the leftover core gets crushed to a size you could practically walk around in an afternoon — some are estimated at only about 12 miles across — while still holding more mass than our entire sun. The density that results from squeezing that much matter into that small a space is almost impossible to picture. Scientists estimate a piece the size of a sugar cube could weigh as much as a mountain. A teaspoon? Somewhere north of a billion tons. I tried to find a real-world comparison for this and just... couldn't. There isn't one.
 
 **4. There's a planet where it might rain glass sideways.**
