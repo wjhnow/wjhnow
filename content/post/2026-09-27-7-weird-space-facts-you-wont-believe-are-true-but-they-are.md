@@ -43,6 +43,8 @@ I had to look this one up three times before I believed it. On Earth, sunsets go
 
 **2. On Venus, your birthday shows up before your day even ends.**
 
+![Illustration of Venus with a glowing sunset over its rocky surface and clockwork gears symbolizing its day being longer than its year](/img/venus-day-longer-than-year-fact.jpg)
+
 This one broke my brain a little. Venus spins so slowly that one full rotation — one "day" — takes about 243 Earth days. But it zips around the sun faster than that, completing an orbit in only 225 Earth days. So a Venusian year is shorter than a Venusian day. If you lived there, you'd finish an entire trip around the sun before you'd even made it through a single sunrise-to-sunrise cycle. I still don't fully have an intuition for how that's even possible, and I've read the explanation four times.
 
 **3. A teaspoon of neutron star could weigh a billion tons.**
