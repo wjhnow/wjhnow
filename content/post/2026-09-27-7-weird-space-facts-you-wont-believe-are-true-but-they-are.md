@@ -33,7 +33,7 @@ sources:
   - name: NASA Fact-sheet
     url: https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html
 ---
-I've read a lot of "mind-blowing space facts" listicles, and most of them just recycle the same five facts everyone already knows. So I went digging for the ones that actually made me stop and go "wait, what?" — the kind you'd bring up at dinner and have someone say "no way, you're making that up." Here they are.
+<p class="has-dropcap">I've read a lot of "mind-blowing space facts" listicles, and most of them just recycle the same five facts everyone already knows. So I went digging for the ones that actually made me stop and go "wait, what?" — the kind you'd bring up at dinner and have someone say "no way, you're making that up." Here they are.</p>
 
 **1. Mars sunsets are blue. Yes, the red planet.**
 
