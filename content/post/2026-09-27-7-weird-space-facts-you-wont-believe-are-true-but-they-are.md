@@ -5,6 +5,9 @@ date: 2026-09-27
 draft: true
 description: "From blue Mars sunsets to a planet that rains glass, these 7 real
   space facts sound fake but are backed by actual NASA science. "
+image: /img/weird-space-facts-you-wont-believe-blue-mars-sunset.jpg
+image_alt: Mars in the foreground with a glowing orange atmosphere, a distant
+  spiral galaxy visible in the star-filled background
 author: Mr. JH
 tags:
   - space-facts
@@ -30,7 +33,7 @@ sources:
   - name: NASA Fact-sheet
     url: https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html
 ---
-I've read a lot of "mind-blowing space facts" listicles, and most of them just recycle the same five facts everyone already knows. So I went digging for the ones that actually made me stop and go "wait, what?" — the kind you'd bring up at dinner and have someone say "no way, you're making that up." Here they are.
+<p class="has-dropcap"> I've read a lot of "mind-blowing space facts" listicles, and most of them just recycle the same five facts everyone already knows. So I went digging for the ones that actually made me stop and go "wait, what?" — the kind you'd bring up at dinner and have someone say "no way, you're making that up." Here they are.</p>
 
 **1. Mars sunsets are blue. Yes, the red planet.**
 
