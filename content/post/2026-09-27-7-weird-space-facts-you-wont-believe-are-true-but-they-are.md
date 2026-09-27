@@ -67,6 +67,8 @@ Saturn's average density is lower than water's, which sounds like a typo but isn
 
 **6. Space has a smell, and nobody expects what it is.**
 
+![Illustration of an astronaut on a spacewalk near the International Space Station, with faint wisps of vapor around the suit and Earth visible below](/img/astronaut-spacewalk-smell-of-space.jpg)
+
 Astronauts who've done spacewalks describe a very specific, very consistent smell that clings to their suits and gear once they're back inside — like seared steak, hot metal, and welding fumes all at once. Nobody smells space directly, obviously, but the leading explanation is that high-energy particles and atomic oxygen react with the suit materials during the spacewalk, and astronauts are essentially smelling the aftermath of that reaction once they're back in a pressurized environment. It's such an oddly specific detail that once you hear it, you can't un-hear it.
 
 **7. Mars is eventually getting its own rings.**
