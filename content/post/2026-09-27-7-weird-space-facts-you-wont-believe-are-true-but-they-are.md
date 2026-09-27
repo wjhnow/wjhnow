@@ -55,6 +55,8 @@ Neutron stars form when a massive star collapses in on itself, and the leftover 
 
 **4. There's a planet where it might rain glass sideways.**
 
+![Illustration of the deep blue exoplanet HD 189733b with turbulent cloud bands and streaks of glass shards blown sideways across its surface](/img/hd-189733b-glass-rain-exoplanet.jpg)
+
 HD 189733b sits about 64 light-years away, and its atmosphere is thought to be loaded with silicate particles — essentially the ingredients for glass. Combine that with winds clocked around 5,400 mph (fast enough to lap the entire planet in hours), and you get a world where, if the models are right, glass doesn't just rain — it flies sideways at hypersonic speed. This is the one I'd genuinely be terrified to see up close, even from orbit.
 
 **5. Saturn is so light it would float in water.**
