@@ -9,4 +9,8 @@ image: /img/openai-navier-stokes-88-hours-ai-secret-language.jpeg
 image_alt: "Hand-drawn sketch split: left human tired at Sunday night desk,
   right small robots solving fluid flow equations in warm ink style"
 author: Mr Wnow
+tags:
+  - OpenAI
+  - Navier-Stokes
+  - Lean Proof
 ---
