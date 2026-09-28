@@ -30,7 +30,7 @@ sources:
       readable by humans
     url: https://www.heise.de/en/news/AI-agents-apparently-develop-their-own-language-barely-readable-by-humans-11456926.html
 ---
-Sunday is my pre-planning day, and it never really changes. Late night, late wake-up, a short round outside, then back home to rest. Going out is honestly my last choice. And as the day fades, the thought of a new week at work creeps in and makes me a little dull. I promise myself an early sleep so I wake up fresh. That never happens.
+<p class="has-dropcap">Sunday is my pre-planning day, and it never really changes. Late night, late wake-up, a short round outside, then back home to rest. Going out is honestly my last choice. And as the day fades, the thought of a new week at work creeps in and makes me a little dull. I promise myself an early sleep so I wake up fresh. That never happens.</p>
 
 Meanwhile, OpenAI says a swarm of about 10,000 AI agents spent 88 hours on one of math's most famous problems. No Sunday dread. No coffee breaks. Weird thing to be jealous of, but here we are.
 
