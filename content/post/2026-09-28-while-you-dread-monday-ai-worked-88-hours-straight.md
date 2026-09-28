@@ -13,4 +13,8 @@ tags:
   - OpenAI
   - Navier-Stokes
   - Lean Proof
+categories:
+  - AI
+  - Cybersecurity
+  - Technology
 ---
