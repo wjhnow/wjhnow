@@ -79,7 +79,7 @@
 
   {{ range $topCats }}
   <span class="wjh-sep">|</span>
-  <a class="wjh-cat" href="/categories/{{ .name | urlize }}/">{{ .name | title }}</a>
+ <a class="wjh-cat" href="/categories/{{ .name | urlize }}/">{{ if eq (.name | lower) "ai" }}AI{{ else }}{{ .name | title }}{{ end }}</a>
   {{ end }}
 
   <span class="wjh-sep">|</span>
