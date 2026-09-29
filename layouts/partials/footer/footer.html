@@ -1,11 +1,12 @@
 <footer class="site-footer">
     <!-- Quick Links -->
-    <div class="live-updates">
-        <div class="footer-quicklinks">
-            <a href="/about-wjh.now/">About Us</a>
-            <span class="sep">|</span>
-            <a href="/privacy-policy/">Privacy Policy</a>
-        </div>
+ <div class="live-updates">
+    <div class="footer-line footer-quicklinks">
+        <a href="/about-wjh.now/">About Us</a>
+        <span class="sep">|</span>
+        <a href="/privacy-policy/">Privacy Policy</a>
+    </div>
+    <div class="footer-line footer-liveline">
         <strong>LIVE UPDATES:</strong>
         <a href="https://t.me/wjh_now" target="_blank" rel="noopener">Telegram @wjh_now</a>
         <span class="sep">|</span>
@@ -13,10 +14,12 @@
         <span class="sep">|</span>
         <a href="https://facebook.com/wjhnow" target="_blank" rel="noopener">Facebook @wjhnow</a>
     </div>
+</div>
 
-    <style>
-    .footer-quicklinks { display:block; margin-bottom:.5rem; }
-    </style>
+<style>
+.live-updates { display:flex !important; flex-direction:column !important; align-items:center; gap:.6rem; }
+.footer-line { display:flex; flex-wrap:wrap; justify-content:center; align-items:center; gap:.5rem; width:100%; }
+</style>
 
     <!-- Copyright Circle-C & Site Title -->
     <section class="copyright">
