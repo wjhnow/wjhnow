@@ -59,16 +59,16 @@
 
   {{ if $popular }}
   <span class="wjh-sep">|</span>
-  <a href="{{ $popular.RelPermalink }}">Popular</a>
+    <a class="wjh-cat" href="{{ $popular.RelPermalink }}">Popular</a>
   {{ end }}
 
   {{ range $topCats }}
   <span class="wjh-sep">|</span>
-  <a href="/categories/{{ .name | urlize }}/">{{ .name | title }}</a>
+  <a class="wjh-cat" href="/categories/{{ .name | urlize }}/">{{ .name | title }}</a>
   {{ end }}
 
   <span class="wjh-sep">|</span>
-  <a href="/categories/">All Categories</a>
+    <a class="wjh-cat" href="/categories/">All Categories</a>
 </div>
 
 <script>
