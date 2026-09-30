@@ -34,11 +34,11 @@ sources:
   - name: 'AskNature: "Ultra-absorbent feather structure carries water."'
     url: https://asknature.org/strategy/ultra-absorbent-feather-structure-carries-water/
 ---
-<p class="has-dropcap">Fathers rarely get credit for nourishing their young. Across most of the animal world, and across most of human storytelling too, feeding and caring gets quietly assigned to the mother, and the father's part goes unmentioned. Nature doesn't always follow that script, and the sandgrouse is the clearest example I know of. In this bird, the male is the one who brings water to the chicks, every day, over long distances, using a tool almost no other bird has. </p>
+Fathers rarely get credit for nourishing their young. Across most of the animal world, and across most of human storytelling too, feeding and caring gets quietly assigned to the mother, and the father's part goes unmentioned. Nature doesn't always follow that script, and the sandgrouse is the clearest example I know of. In this bird, the male is the one who brings water to the chicks, every day, over long distances, using a tool almost no other bird has.
 
 It looks unremarkable at first. A stocky, pigeon-shaped desert bird in sandy browns and greys, the kind you'd overlook on a gravel plain, which is exactly the point of the colors.
 
-# **Meet the Sandgrouse**
+### **Meet the Sandgrouse**
 
 Sandgrouse are a family of about sixteen ground-dwelling species found in the deserts and dry grasslands of Africa and Asia. Despite the name, they aren't closely related to grouse. They're compact, short-legged birds that shuffle awkwardly on the ground but fly fast and far.
 
