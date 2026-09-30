@@ -21,6 +21,8 @@ tags:
   - biomimicry
   - wildlife facts
   - wjhnow
+categories:
+  - Wildlife
 sources:
   - name: Mueller, J. & Gibson, L. J. (2023). "Structure and mechanics of
       water-holding feathers of Namaqua sandgrouse (Pterocles namaqua)." Journal
