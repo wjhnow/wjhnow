@@ -15,7 +15,7 @@
     {{ end }}
 
     <div class="article-title-wrapper">
-        {{ if $IsList }}
+               {{ if $IsList }}
         <h2 class="article-title">
             <a href="{{ $Page.RelPermalink }}">
                 {{- $Page.Title -}}
@@ -23,9 +23,7 @@
         </h2>
         {{ else }}
         <h1 class="article-title">
-            <a href="{{ $Page.RelPermalink }}">
-                {{- $Page.Title -}}
-            </a>
+            {{- $Page.Title -}}
         </h1>
         {{ end }}
 
