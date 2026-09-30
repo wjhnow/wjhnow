@@ -2,7 +2,7 @@
 title: "Sandgrouse: The Father Bird That Carries Water Home"
 slug: sandgrouse-father-bird-carries-water
 date: 2026-09-30
-draft: true
+draft: false
 description: >-
   Sandgrouse nest miles from water, and the father flies back with a belly full
   of it. See how his feathers work like a sponge to keep his chicks alive.
@@ -34,7 +34,7 @@ sources:
   - name: 'AskNature: "Ultra-absorbent feather structure carries water."'
     url: https://asknature.org/strategy/ultra-absorbent-feather-structure-carries-water/
 ---
-<p class="has-dropcap">Fathers rarely get credit for nourishing their young. Across most of the animal world, and across most of human storytelling too, feeding and caring gets quietly assigned to the mother, and the father's part goes unmentioned. Nature doesn't always follow that script, and the sandgrouse is the clearest example I know of. In this bird, the male is the one who brings water to the chicks, every day, over long distances, using a tool almost no other bird has.</p>
+Fathers rarely get credit for nourishing their young. Across most of the animal world, and across most of human storytelling too, feeding and caring gets quietly assigned to the mother, and the father's part goes unmentioned. Nature doesn't always follow that script, and the sandgrouse is the clearest example I know of. In this bird, the male is the one who brings water to the chicks, every day, over long distances, using a tool almost no other bird has.
 
 It looks unremarkable at first. A stocky, pigeon-shaped desert bird in sandy browns and greys, the kind you'd overlook on a gravel plain, which is exactly the point of the colors.
 
@@ -69,6 +69,8 @@ It wasn't until 1967 that researchers Tom Cade and Gordon MacLean documented the
 So for more than a century, a bird's daily routine was something people half-suspected and couldn't quite explain.
 
 ### **Speed and Punctuality**
+
+![](/img/sandgrouse-flock-flying-to-waterhole-desert.jpg.jpg)
 
 The thing I keep coming back to is the timing. The males leave together in fast flocks and arrive at the waterhole at about the same time each day, often within a short window shortly after sunrise. That regularity isn't a habit for its own sake. Predators know where the birds are going, so the only real defense is to come in fast, drink fast and leave, all before anything can organize an ambush. Flying in the cooler, more humid hours of the day also helps, since less of the water is lost on the way.
 
