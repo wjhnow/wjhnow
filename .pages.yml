@@ -83,6 +83,7 @@ content:
             - Science
             - Travel
             - Technology
+            - Wildlife
         required: false
 
       - name: sources
