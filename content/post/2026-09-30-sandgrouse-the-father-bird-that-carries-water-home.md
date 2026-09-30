@@ -3,11 +3,9 @@ title: "Sandgrouse: The Father Bird That Carries Water Home"
 slug: sandgrouse-father-bird-carries-water
 date: 2026-09-30
 draft: false
-description: >-
-  Sandgrouse nest miles from water, and the father flies back with a belly full
-  of it. See how his feathers work like a sponge to keep his chicks alive.
-
-  Slug: sandgrouse-father-bird-carries-water
+description: Sandgrouse nest miles from water, and the father flies back with a
+  belly full of it. See how his feathers work like a sponge to keep his chicks
+  alive.
 image: /img/male-sandgrouse-chicks-drinking-belly-feathers.jpg.jpg
 image_alt: Male sandgrouse in the desert with chicks drinking water from his wet
   belly feathers
