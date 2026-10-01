@@ -3,7 +3,7 @@ title: "Internet Users Are Shifting Towards Open-Source Tools. Does That Really
   Reclaim Their Digital Privacy? "
 slug: open-source-tools-reclaim-digital-privacy
 date: 2026-10-01
-draft: true
+draft: false
 description: "Internet users are shifting to open-source tools. Does that really
   reclaim their digital privacy, or just move the trust somewhere else? "
 image: /img/open-source-tools-digital-privacy.jpeg
