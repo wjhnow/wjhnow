@@ -7,11 +7,17 @@ draft: true
 description: "Internet users are shifting to open-source tools. Does that really
   reclaim their digital privacy, or just move the trust somewhere else? "
 author: Mr Wnow
+tags:
+  - Open source
+  - Digital privacy
+  - Online privacy
+  - Software trush
+  - wjhnow
 categories:
   - Digital Privacy
   - Open Source
 ---
-People are actually moving. Not just talking about it. That Bitwarden survey from early 2026 — yeah it was 2,400 people, and yes, mostly privacy nerds who already live in that world, so it's skewed — had Signal at 55% for messaging and Proton Mail at 50% for email https://linuxiac.com/bitwarden-community-survey-reveals-top-privacy-tools-for-2026/. Still, that's a big gap. And [Vitalik Buterin said the same thing publicly](https://cointelegraph.com/news/vitalik-buterin-declares-2026-self-sovereign-computing), that he ditched Gmail for Proton and Google Maps for OpenStreetMap through Organic Maps. You don't switch your entire email and your maps setup just for fun. That's annoying to do. You do it because something is pushing you. I think people are just tired of being told "trust us" by apps that never really explain what they do.
+People are actually moving. Not just talking about it. That Bitwarden survey from early 2026 — yeah it was 2,400 people, and yes, mostly privacy nerds who already live in that world, so it's skewed — had Signal at 55% for messaging and Proton Mail at 50% for email [https://linuxiac.com/bitwarden-community-survey-reveals-top-privacy-tools-for-2026/](https://linuxiac.com/bitwarden-community-survey-reveals-top-privacy-tools-for-2026/). Still, that's a big gap. And [Vitalik Buterin said the same thing publicly](https://cointelegraph.com/news/vitalik-buterin-declares-2026-self-sovereign-computing), that he ditched Gmail for Proton and Google Maps for OpenStreetMap through Organic Maps. You don't switch your entire email and your maps setup just for fun. That's annoying to do. You do it because something is pushing you. I think people are just tired of being told "trust us" by apps that never really explain what they do.
 
 ## That's why open source feels like the answer
 
@@ -35,17 +41,17 @@ Trust doesn't disappear with open source. It just moves. From a company in a bui
 
 Or it was super thin.
 
-OpenSSL is the classic one. In April 2014 Netcraft estimated that more than 66% of internet servers used some version of it https://scrippsnews.com/science-and-tech/open-source-software-funding-to-stop-bugs-like-heartbleed. Then Heartbleed blew up — attackers could read chunks of memory from vulnerable servers. And before that, the whole project that the entire internet depended on was [getting like $2,000 a year in donations](https://en.wikipedia.org/wiki/Core_Infrastructure_Initiative). Two thousand. The code was open to the whole world. Almost no funded review in any serious way. Everyone assumed someone else was looking.
+OpenSSL is the classic one. In April 2014 Netcraft estimated that more than 66% of internet servers used some version of it [https://scrippsnews.com/science-and-tech/open-source-software-funding-to-stop-bugs-like-heartbleed](https://scrippsnews.com/science-and-tech/open-source-software-funding-to-stop-bugs-like-heartbleed). Then Heartbleed blew up — attackers could read chunks of memory from vulnerable servers. And before that, the whole project that the entire internet depended on was [getting like $2,000 a year in donations](https://en.wikipedia.org/wiki/Core_Infrastructure_Initiative). Two thousand. The code was open to the whole world. Almost no funded review in any serious way. Everyone assumed someone else was looking.
 
-Then xz. That one is weirder and kind of scarier because someone was there — inside. Someone with maintainer-level access appears to have slowly planted a backdoor over several years into xz Utils, a tool that's in basically every Linux distro https://www.darkreading.com/cyber-risk/xz-utils-backdoor-implanted-in-intricate-multi-year-supply-chain-attack. The backdoored versions (5.6.0 and 5.6.1) were only in unstable and beta releases of distros like Fedora, Debian and Arch. It got caught not because of regular audits but because a Microsoft dev, Andres Freund, noticed a response-time slowdown in SSH logins. If he hadn't noticed that, it could have reached stable releases everywhere. They fixed it in days, yeah, open source is fast when it works. Community jumped on it. But if safety depends on one person noticing lag by accident, what does that mean for a normal user who will never open the source code in their life?
+Then xz. That one is weirder and kind of scarier because someone was there — inside. Someone with maintainer-level access appears to have slowly planted a backdoor over several years into xz Utils, a tool that's in basically every Linux distro [https://www.darkreading.com/cyber-risk/xz-utils-backdoor-implanted-in-intricate-multi-year-supply-chain-attack](https://www.darkreading.com/cyber-risk/xz-utils-backdoor-implanted-in-intricate-multi-year-supply-chain-attack). The backdoored versions (5.6.0 and 5.6.1) were only in unstable and beta releases of distros like Fedora, Debian and Arch. It got caught not because of regular audits but because a Microsoft dev, Andres Freund, noticed a response-time slowdown in SSH logins. If he hadn't noticed that, it could have reached stable releases everywhere. They fixed it in days, yeah, open source is fast when it works. Community jumped on it. But if safety depends on one person noticing lag by accident, what does that mean for a normal user who will never open the source code in their life?
 
 ## Also you only ever see half
 
 That's the part people don't say out loud.
 
-Proton Meet is a good example for that. The client you install — yeah, open source, you can verify it. The server part that actually routes your calls? Closed. So you're still trusting the company on the other half https://www.kunalganglani.com/blog/proton-meet-privacy-review.md. That's not a scandal. It just means "open source" can describe one half of a product, and the other half still counts a lot.
+Proton Meet is a good example for that. The client you install — yeah, open source, you can verify it. The server part that actually routes your calls? Closed. So you're still trusting the company on the other half [https://www.kunalganglani.com/blog/proton-meet-privacy-review.md](https://www.kunalganglani.com/blog/proton-meet-privacy-review.md). That's not a scandal. It just means "open source" can describe one half of a product, and the other half still counts a lot.
 
-And there's another quiet problem. Even if both client and server are open on GitHub, unless you host it yourself you don't actually know if the code on GitHub is what's running live on their production servers. You have to trust their build process. Plus encryption only hides what you said, not who you talked to. Matrix protocol for example — messages can be encrypted, but it doesn't protect metadata, so a homeserver admin can still see who you talk to and how often https://git.hackliberty.org/Git-Mirrors/privsec.dev/commit/e20f1f303685d8a78c8f6814044eb87f2a4cbafe. So a fully open, fully encrypted app can still leak a lot about your life without leaking a single word of content.
+And there's another quiet problem. Even if both client and server are open on GitHub, unless you host it yourself you don't actually know if the code on GitHub is what's running live on their production servers. You have to trust their build process. Plus encryption only hides what you said, not who you talked to. Matrix protocol for example — messages can be encrypted, but it doesn't protect metadata, so a homeserver admin can still see who you talk to and how often [https://git.hackliberty.org/Git-Mirrors/privsec.dev/commit/e20f1f303685d8a78c8f6814044eb87f2a4cbafe](https://git.hackliberty.org/Git-Mirrors/privsec.dev/commit/e20f1f303685d8a78c8f6814044eb87f2a4cbafe). So a fully open, fully encrypted app can still leak a lot about your life without leaking a single word of content.
 
 ## So what do you actually do if you're not a coder?
 
