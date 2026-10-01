@@ -6,6 +6,9 @@ date: 2026-10-01
 draft: true
 description: "Internet users are shifting to open-source tools. Does that really
   reclaim their digital privacy, or just move the trust somewhere else? "
+image: /img/open-source-tools-digital-privacy.jpeg
+image_alt: Open glass padlock with a visible inner mechanism and a magnifying
+  glass, while people in the background ignore it
 author: Mr Wnow
 tags:
   - Open source
