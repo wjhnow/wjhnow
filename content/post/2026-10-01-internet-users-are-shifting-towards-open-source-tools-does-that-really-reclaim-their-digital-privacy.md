@@ -19,6 +19,15 @@ tags:
 categories:
   - Digital Privacy
   - Open Source
+sources:
+  - name: Linuxiac
+    url: https://linuxiac.com/bitwarden-community-survey-reveals-top-privacy-tools-for-2026/
+  - name: Cointelegraph
+    url: https://cointelegraph.com/news/vitalik-buterin-declares-2026-self-sovereign-computing
+  - name: Scrippsnews
+    url: https://scrippsnews.com/science-and-tech/open-source-software-funding-to-stop-bugs-like-heartbleed
+  - name: wikipedia
+    url: https://en.wikipedia.org/wiki/Core_Infrastructure_Initiative
 ---
 People are actually moving. Not just talking about it. That Bitwarden survey from early 2026 — yeah it was 2,400 people, and yes, mostly privacy nerds who already live in that world, so it's skewed — had Signal at 55% for messaging and Proton Mail at 50% for email [https://linuxiac.com/bitwarden-community-survey-reveals-top-privacy-tools-for-2026/](https://linuxiac.com/bitwarden-community-survey-reveals-top-privacy-tools-for-2026/). Still, that's a big gap. And [Vitalik Buterin said the same thing publicly](https://cointelegraph.com/news/vitalik-buterin-declares-2026-self-sovereign-computing), that he ditched Gmail for Proton and Google Maps for OpenStreetMap through Organic Maps. You don't switch your entire email and your maps setup just for fun. That's annoying to do. You do it because something is pushing you. I think people are just tired of being told "trust us" by apps that never really explain what they do.
 
