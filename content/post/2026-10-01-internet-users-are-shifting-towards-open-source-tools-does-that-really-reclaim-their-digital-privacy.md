@@ -14,7 +14,7 @@ tags:
   - Open source
   - Digital privacy
   - Online privacy
-  - Software trush
+  - Software trust
   - wjhnow
 categories:
   - Digital Privacy
@@ -29,7 +29,7 @@ sources:
   - name: wikipedia
     url: https://en.wikipedia.org/wiki/Core_Infrastructure_Initiative
 ---
-<p class="has-dropcap">People are actually moving. Not just talking about it.  And Vitalik Buterin said the same thing publicly, that he ditched Gmail for Proton and Google Maps for OpenStreetMap through Organic Maps. You don't switch your entire email and your maps setup just for fun. That's annoying to do. You do it because something is pushing you. I think people are just tired of being told "trust us" by apps that never really explain what they do.</p>
+People are actually moving. Not just talking about it. And Vitalik Buterin said the same thing publicly, that he ditched Gmail for Proton and Google Maps for OpenStreetMap through Organic Maps. You don't switch your entire email and your maps setup just for fun. That's annoying to do. You do it because something is pushing you. I think people are just tired of being told "trust us" by apps that never really explain what they do.
 
 ## That's why open source feels like the answer
 
