@@ -1039,3 +1039,51 @@ a[href*="/categories/"] {
   }
 }
 
+
+/* ===== Sources line ===== */
+.article-sources {
+  font-family: Georgia, "Times New Roman", Book Antiqua, serif !important;
+  font-size: 1.3rem !important;
+  color: var(--text-muted) !important;
+}
+
+.article-sources a {
+  color: #a8583c !important;
+  text-decoration: underline !important;
+  text-underline-offset: 3px !important;
+  text-decoration-thickness: 1px !important;
+}
+
+.article-sources a:hover {
+  color: #7f3f2a !important;
+}
+
+/* ===== Footer credit (Hugo / Stack) ===== */
+.site-footer .powerby {
+  font-family: Georgia, "Times New Roman", Book Antiqua, serif !important;
+  font-size: 0.9rem !important;
+  color: #777 !important;
+  letter-spacing: 0.03em !important;
+}
+
+.site-footer .powerby a,
+.site-footer .powerby b {
+  color: #555 !important;
+  font-weight: 400 !important;
+}
+
+/* ===== Author card ===== */
+.author-card,
+.article-author,
+.author-box,
+.about-author-card {
+  font-family: Georgia, "Times New Roman", Book Antiqua, serif !important;
+}
+
+.author-card *,
+.article-author *,
+.author-box *,
+.about-author-card * {
+  font-family: Georgia, "Times New Roman", Book Antiqua, serif !important;
+}
+
