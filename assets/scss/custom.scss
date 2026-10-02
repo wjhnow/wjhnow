@@ -982,3 +982,33 @@ img.responsive,
   max-width: 100%;
   height: auto;
 }
+
+
+/* Rust accent */
+.article-header .category a,
+.article-header .article-category a,
+.article-header .categories a,
+.article-categories a,
+a[href*="/categories/"] {
+  color: #a8583c !important;
+}
+
+.article-header .category a:hover,
+.article-header .article-category a:hover,
+.article-header .categories a:hover,
+.article-categories a:hover,
+a[href*="/categories/"]:hover {
+  color: #7f3f2a !important;
+}
+
+.article-content p a,
+.article-body p a,
+.entry-content p a {
+  color: #a8583c !important;
+}
+
+.article-list article .article-title::after,
+.article-list article h2::after {
+  background-color: #a8583c !important;
+  height: 2px !important;
+}
