@@ -999,3 +999,43 @@ img.responsive,
   max-width: 100%;
   height: auto;
 }
+
+
+/* Larger categories and tags */
+.article-tags a,
+.post-tags a,
+.tags a,
+.tag,
+.article-header .category a,
+.article-header .article-category a,
+.article-header .categories a,
+.article-categories a,
+.article-header .category-badge,
+a[href*="/categories/"] {
+  font-size: 1.4rem !important;
+  letter-spacing: 0.04em !important;
+}
+
+/* Taller separator line between tags to match */
+.article-header .category a:not(:last-child)::after,
+.article-header .article-category a:not(:last-child)::after,
+.article-header .categories a:not(:last-child)::after,
+.article-categories a:not(:last-child)::after {
+  height: 18px !important;
+}
+
+@media (min-width: 769px) {
+  .article-tags a,
+  .post-tags a,
+  .tags a,
+  .tag,
+  .article-header .category a,
+  .article-header .article-category a,
+  .article-header .categories a,
+  .article-categories a,
+  .article-header .category-badge,
+  a[href*="/categories/"] {
+    font-size: 1.5rem !important;
+  }
+}
+
