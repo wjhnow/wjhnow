@@ -1072,18 +1072,8 @@ a[href*="/categories/"] {
   font-weight: 400 !important;
 }
 
-/* ===== Author card ===== */
-.author-card,
-.article-author,
-.author-box,
-.about-author-card {
+/* ===== Author card font ===== */
+.author-bio,
+.author-bio * {
   font-family: Georgia, "Times New Roman", Book Antiqua, serif !important;
 }
-
-.author-card *,
-.article-author *,
-.author-box *,
-.about-author-card * {
-  font-family: Georgia, "Times New Roman", Book Antiqua, serif !important;
-}
-
