@@ -18,18 +18,22 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": {{ .Params.schemaType | default "BlogPosting" | jsonify }},
-  "headline": {{ .Title | jsonify }},
-  "description": {{ (.Description | default .Summary | plainify) | jsonify }},
-  "datePublished": {{ .Date.Format "2006-01-02T15:04:05Z07:00" | jsonify }},
-  "dateModified": {{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" | jsonify }},
+  "@type": {{ .Params.schemaType | default "BlogPosting" | jsonify | safeJS }},
+  "headline": {{ .Title | jsonify | safeJS }},
+  "description": {{ (.Description | default .Summary | plainify) | jsonify | safeJS }},
+  "datePublished": {{ .Date.Format "2006-01-02T15:04:05Z07:00" | jsonify | safeJS }},
+  "dateModified": {{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" | jsonify | safeJS }},
+  {{- with .Params.image }}
+  "image": {{ . | absURL | jsonify | safeJS }},
+  {{- end }}
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": {{ .Permalink | jsonify }}
+    "@id": {{ .Permalink | jsonify | safeJS }}
   },
   "author": {
     "@type": "Person",
-    "name": {{ (.Params.author | default site.Title) | jsonify }}
+    "name": {{ (.Params.author | default "Mr. JH") | jsonify | safeJS }},
+    "url": "https://wjhnow.com/about-wjh.now/"
   },
   "publisher": {
     "@type": "Organization",
@@ -39,5 +43,3 @@
 }
 </script>
 {{- end }}
-
-
