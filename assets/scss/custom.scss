@@ -1,5 +1,5 @@
 /* ==========================================================================
-   WJH.now / Hugotest – Complete Master Stylesheet (cleaned)
+   WJH.now / Hugotest – Master Stylesheet (deduplicated)
    ========================================================================== */
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Pirata+One&display=swap');
 
@@ -129,25 +129,35 @@ body {
     line-height: 1;
 
     .logo-title {
-      font-family: "Grenze Gotisch", var(--serif-editorial) !important;
-      font-size: 2.3rem !important;
-      font-weight: 700;
+      font-family: "Pirata One", "Libre Baskerville", serif !important;
+      font-size: 2.8rem !important;
+      font-weight: 400 !important;
       line-height: 1 !important;
       color: #111 !important;
-      letter-spacing: 0 !important;
+      letter-spacing: 0.02em !important;
       margin-bottom: 4px !important;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: geometricPrecision;
+
+      @media (min-width: 769px) {
+        font-size: 3.6rem !important;
+      }
     }
 
     .logo-tagline {
       font-family: var(--sans-ui) !important;
-      font-size: 0.75rem;
+      font-size: 0.95rem !important;
       font-weight: 700;
-      letter-spacing: 0.08em;
+      letter-spacing: 0.1em !important;
       text-transform: uppercase;
       color: #38342e !important;
       opacity: 1;
       line-height: 1.2;
       margin-top: 2px;
+
+      @media (min-width: 769px) {
+        font-size: 1.1rem !important;
+      }
     }
   }
 }
@@ -176,20 +186,22 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  /* --- Mobile: Ultra-Compact & Clean --- */
-  font-size: 8.5px !important;
-  line-height: 1.35 !important;
+  /* --- Mobile --- */
+  font-size: 10.5px !important;
+  line-height: 1.5 !important;
   font-weight: 500 !important;
   letter-spacing: 0.02em !important;
   max-width: 100% !important;
 
-  /* --- Desktop PC: Untouched (Locks to Screenshot Layout) --- */
+  /* --- Desktop --- */
   @media (min-width: 768px) {
-    font-size: 12px !important;
-    line-height: 1.55 !important;
     font-weight: 600 !important;
     letter-spacing: 0.04em !important;
     max-width: 500px !important;
+  }
+
+  @media (min-width: 769px) {
+    font-size: 12.5px !important;
   }
 }
 
@@ -420,11 +432,9 @@ h1.entry-title,
   padding: 0 !important;
   border-radius: 0 !important;
   font-family: Georgia, "Times New Roman", Book Antiqua, serif !important;
-  font-size: 1.1rem !important;
   font-weight: 700 !important;
   font-variant: small-caps !important;
   text-transform: lowercase !important;
-  letter-spacing: 0.03em !important;
   border: none !important;
   text-decoration: none !important;
   display: inline-flex !important;
@@ -440,7 +450,7 @@ h1.entry-title,
   content: "" !important;
   display: inline-block !important;
   width: 1px !important;
-  height: 14px !important;
+  height: 18px !important;
   background-color: #d0cecb !important;
   margin-left: 12px !important;
   margin-right: -4px !important;
@@ -648,26 +658,57 @@ a[href*="/categories/"] {
 
 .article-tags a:hover,
 .post-tags a:hover,
-.tags a:hover,
-a[href*="/categories/"]:hover {
+.tags a:hover {
   color: #a8583c !important;
 }
 
-/* Categories in rust (overrides the shared tag rule above) */
-.article-header .category a,
-.article-header .article-category a,
-.article-header .categories a,
-.article-categories a,
+/* Category links (any page) use the rust accent instead of the tag gray */
 a[href*="/categories/"] {
   color: #a8583c !important;
 }
 
-.article-header .category a:hover,
-.article-header .article-category a:hover,
-.article-header .categories a:hover,
-.article-categories a:hover,
 a[href*="/categories/"]:hover {
   color: #7f3f2a !important;
+}
+
+/* Category & tag sizes (single place that controls them) */
+.article-tags a,
+.post-tags a,
+.tags a,
+.tag,
+.article-header .category a,
+.article-header .article-category a,
+.article-header .categories a,
+.article-categories a,
+.article-header .category-badge,
+a[href*="/categories/"] {
+  font-size: 1.4rem !important;
+  letter-spacing: 0.04em !important;
+}
+
+@media (min-width: 769px) {
+  .article-tags a,
+  .post-tags a,
+  .tags a,
+  .tag,
+  .article-header .category a,
+  .article-header .article-category a,
+  .article-header .categories a,
+  .article-categories a,
+  .article-header .category-badge,
+  a[href*="/categories/"] {
+    font-size: 1.5rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .article-header .category a,
+  .article-header .article-category a,
+  .article-header .categories a,
+  .article-categories a,
+  .article-header .category-badge {
+    padding: 0 8px 0 0 !important;
+  }
 }
 
 /* Author Card */
@@ -693,6 +734,11 @@ a[href*="/categories/"]:hover {
   font-size: 1.4rem !important;
   line-height: 1.55 !important;
   color: #444444 !important;
+}
+
+.author-bio,
+.author-bio * {
+  font-family: Georgia, "Times New Roman", Book Antiqua, serif !important;
 }
 
 /* --- 7. Custom Related Content --- */
@@ -853,10 +899,6 @@ img.author-inline-avatar {
 @media (max-width: 768px) {
   /* NOTE: Tagline overrides removed to allow Section 3 to control mobile tagline sizing */
 
-  .ad-logo {
-    font-size: 2.2rem !important;
-  }
-
   .article-title,
   h1.article-title,
   .single-post h1 {
@@ -885,28 +927,10 @@ img.author-inline-avatar {
     font-size: 1.35rem !important; /* Fixed hierarchy to be larger than paragraph text */
   }
 
-  p.has-dropcap::first-letter,
-  .article-body > p.intro::first-letter,
-  p.has-dropcap .first-letter {
-    font-size: 3.4rem !important;
-    padding-right: 10px !important;
-  }
-
   .article-tags,
   .post-tags,
   .tags {
     gap: 7px 8px !important;
-  }
-
-  .article-tags a,
-  .post-tags a,
-  .tags a,
-  .article-header .category a,
-  .article-header .article-category a,
-  .article-header .categories a,
-  .article-categories a,
-  .article-header .category-badge {
-    font-size: 1rem !important; /* Matched to .my-custom-related-block h2 size */
   }
 
   .author-title,
@@ -932,20 +956,6 @@ img.author-inline-avatar {
   .my-custom-related-block h3,
   .my-custom-related-block h3 a {
     font-size: 1.15rem !important;
-  }
-}
-
-@media (max-width: 480px) {
-  .article-tags a,
-  .post-tags a,
-  .tags a,
-  .article-header .category a,
-  .article-header .article-category a,
-  .article-header .categories a,
-  .article-categories a,
-  .article-header .category-badge {
-    font-size: 1rem !important; /* Matched to .my-custom-related-block h2 size */
-    padding: 0 8px 0 0 !important;
   }
 }
 
@@ -986,57 +996,10 @@ footer hr,
   height: 0 !important;
 }
 
-.article-sources {
-    font-size: 1.4rem;
-    color: var(--card-text-color-secondary);
-    margin-top: 2rem;
-    padding-top: 1.5rem;
-    border-top: 1px solid var(--card-separator-color);
-}
-
 img.responsive,
 .img-fluid {
   max-width: 100%;
   height: auto;
-}
-
-
-/* Larger categories and tags */
-.article-tags a,
-.post-tags a,
-.tags a,
-.tag,
-.article-header .category a,
-.article-header .article-category a,
-.article-header .categories a,
-.article-categories a,
-.article-header .category-badge,
-a[href*="/categories/"] {
-  font-size: 1.4rem !important;
-  letter-spacing: 0.04em !important;
-}
-
-/* Taller separator line between tags to match */
-.article-header .category a:not(:last-child)::after,
-.article-header .article-category a:not(:last-child)::after,
-.article-header .categories a:not(:last-child)::after,
-.article-categories a:not(:last-child)::after {
-  height: 18px !important;
-}
-
-@media (min-width: 769px) {
-  .article-tags a,
-  .post-tags a,
-  .tags a,
-  .tag,
-  .article-header .category a,
-  .article-header .article-category a,
-  .article-header .categories a,
-  .article-categories a,
-  .article-header .category-badge,
-  a[href*="/categories/"] {
-    font-size: 1.5rem !important;
-  }
 }
 
 
@@ -1045,6 +1008,9 @@ a[href*="/categories/"] {
   font-family: Georgia, "Times New Roman", Book Antiqua, serif !important;
   font-size: 1.3rem !important;
   color: var(--text-muted) !important;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--card-separator-color);
 }
 
 .article-sources a {
@@ -1070,60 +1036,4 @@ a[href*="/categories/"] {
 .site-footer .powerby b {
   color: #555 !important;
   font-weight: 400 !important;
-}
-
-/* ===== Author card font ===== */
-.author-bio,
-.author-bio * {
-  font-family: Georgia, "Times New Roman", Book Antiqua, serif !important;
-}
-
-/* ===== Larger logo (matches header specificity) ===== */
-.ad-header .ad-logo-text .logo-title {
-  font-size: 2.8rem !important;
-  line-height: 1 !important;
-}
-
-@media (min-width: 769px) {
-  .ad-header .ad-logo-text .logo-title {
-    font-size: 3.6rem !important;
-  }
-}
-
-/* ===== Larger taglines ===== */
-.ad-header .logo-tagline,
-.logo-tagline {
-  font-size: 0.95rem !important;
-  letter-spacing: 0.1em !important;
-}
-
-.site-masthead-tagline .tagline-text {
-  font-size: 10.5px !important;
-  line-height: 1.5 !important;
-}
-
-@media (min-width: 769px) {
-  .ad-header .logo-tagline,
-  .logo-tagline {
-    font-size: 1.1rem !important;
-  }
-
-  .site-masthead-tagline .tagline-text {
-    font-size: 12.5px !important;
-  }
-}
-
-/* ===== Bolder, crisper logo ===== */
-.ad-header .ad-logo-text .logo-title {
-  font-weight: 700 !important;
-  -webkit-font-smoothing: antialiased;
-  text-rendering: geometricPrecision;
-}
-
-
-/* ===== Logo font test ===== */
-.ad-header .ad-logo-text .logo-title {
-  font-family: "Pirata One", "Libre Baskerville", serif !important;
-  font-weight: 400 !important;
-  letter-spacing: 0.02em !important;
 }
