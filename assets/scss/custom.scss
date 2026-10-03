@@ -1037,3 +1037,17 @@ img.responsive,
   color: #555 !important;
   font-weight: 400 !important;
 }
+
+/* ===== Automatic drop cap on the first paragraph ===== */
+.article-content > p:first-of-type::first-letter,
+.article-body > p:first-of-type::first-letter {
+  font-family: 'Cinzel', serif !important;
+  font-size: 3.4rem !important;
+  float: left !important;
+  line-height: 0.8 !important;
+  padding-top: 4px !important;
+  padding-right: 10px !important;
+  color: #a8583c !important;
+  font-weight: 700 !important;
+}
+
