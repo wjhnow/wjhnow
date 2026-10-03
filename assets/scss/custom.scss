@@ -1077,3 +1077,44 @@ a[href*="/categories/"] {
 .author-bio * {
   font-family: Georgia, "Times New Roman", Book Antiqua, serif !important;
 }
+
+/* ===== Larger logo ===== */
+.ad-header .logo-title,
+header .logo-title,
+.logo-title {
+  font-size: 2.8rem !important;
+  line-height: 1 !important;
+}
+
+@media (min-width: 769px) {
+  .ad-header .logo-title,
+  header .logo-title,
+  .logo-title {
+    font-size: 3.4rem !important;
+  }
+}
+
+/* ===== Larger taglines ===== */
+.ad-header .logo-tagline,
+.logo-tagline {
+  font-size: 0.95rem !important;
+  letter-spacing: 0.1em !important;
+}
+
+.site-masthead-tagline .tagline-text {
+  font-size: 10.5px !important;
+  line-height: 1.5 !important;
+}
+
+@media (min-width: 769px) {
+  .ad-header .logo-tagline,
+  .logo-tagline {
+    font-size: 1.1rem !important;
+  }
+
+  .site-masthead-tagline .tagline-text {
+    font-size: 12.5px !important;
+  }
+}
+
+
