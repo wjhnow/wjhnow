@@ -1,7 +1,7 @@
 /* ==========================================================================
    WJH.now / Hugotest – Complete Master Stylesheet (cleaned)
    ========================================================================== */
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Grenze+Gotisch:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Grenze+Gotisch:wght@700;900&family=UnifrakturMaguntia&family=Pirata+One&family=UnifrakturCook:wght@700&display=swap');
 
 :root {
   --body-background: #f4efe6;
@@ -1118,6 +1118,13 @@ a[href*="/categories/"] {
   font-weight: 700 !important;
   -webkit-font-smoothing: antialiased;
   text-rendering: geometricPrecision;
+}
+
+/* ===== Logo font test ===== */
+.ad-header .ad-logo-text .logo-title {
+  font-family: "UnifrakturMaguntia", "Libre Baskerville", serif !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.01em !important;
 }
 
 
