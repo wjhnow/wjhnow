@@ -1,7 +1,7 @@
 /* ==========================================================================
    WJH.now / Hugotest – Complete Master Stylesheet (cleaned)
    ========================================================================== */
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Grenze+Gotisch:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Grenze+Gotisch:wght@700;900&display=swap');
 
 :root {
   --body-background: #f4efe6;
@@ -1111,6 +1111,13 @@ a[href*="/categories/"] {
   .site-masthead-tagline .tagline-text {
     font-size: 12.5px !important;
   }
+}
+
+/* ===== Bolder, crisper logo ===== */
+.ad-header .ad-logo-text .logo-title {
+  font-weight: 900 !important;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: geometricPrecision;
 }
 
 
