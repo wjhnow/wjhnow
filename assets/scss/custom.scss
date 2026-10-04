@@ -1050,27 +1050,21 @@ img.responsive,
   color: #a8583c !important;
   font-weight: 700 !important;
 }
-
-/* ===== Inverted header: black banner, white text ===== */
-.ad-header {
+/* ===== Black logo banner (logo + short tagline only) ===== */
+.ad-header .header-container {
   background-color: #111 !important;
   border-bottom: 3px solid #a8583c !important;
+  width: auto !important;
+  max-width: none !important;
+  margin: -0.65rem -1.25rem 0 !important;
+  padding: 16px calc(1.25rem + 16px + max(0px, (100% - var(--max-width)) / 2)) !important;
 }
 
 .ad-header .hamburger-menu span {
   background-color: #fff !important;
 }
 
-.ad-header .ad-logo-text .logo-title {
-  color: #fff !important;
-}
-
+.ad-header .ad-logo-text .logo-title,
 .ad-header .ad-logo-text .logo-tagline {
   color: #fff !important;
 }
-
-.ad-header .site-masthead-tagline .tagline-text {
-  color: #d8d3c9 !important;
-  opacity: 1 !important;
-}
-
