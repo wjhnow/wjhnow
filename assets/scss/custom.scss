@@ -1051,3 +1051,26 @@ img.responsive,
   font-weight: 700 !important;
 }
 
+/* ===== Inverted header: black banner, white text ===== */
+.ad-header {
+  background-color: #111 !important;
+  border-bottom: 3px solid #a8583c !important;
+}
+
+.ad-header .hamburger-menu span {
+  background-color: #fff !important;
+}
+
+.ad-header .ad-logo-text .logo-title {
+  color: #fff !important;
+}
+
+.ad-header .ad-logo-text .logo-tagline {
+  color: #fff !important;
+}
+
+.ad-header .site-masthead-tagline .tagline-text {
+  color: #d8d3c9 !important;
+  opacity: 1 !important;
+}
+
