@@ -1,7 +1,7 @@
 ---
 title: Did you know? Boiling in space is backwards
 date: 2026-07-01
-draft: true
+draft: false
 description: Ok this space boiling thing is actually insane
 image: /img/boiling.jpeg
 author: Mr. JH
