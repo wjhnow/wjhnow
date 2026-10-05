@@ -23,6 +23,8 @@ Weird thought.
 
 The warmth on your face? That light left the Sun 8 minutes and 20 seconds ago. Not now. Ago.
 
+Haven't read it yet? Check out ["Did you know? Boiling in space is backwards"](https://wjhnow.com/p/did-you-know-boiling-in-space-is-backwards/) 
+
 I know, sounds fake. But it’s just math and a lot of empty space.
 
 ### So why 8 minutes?
