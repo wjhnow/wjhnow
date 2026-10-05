@@ -21,22 +21,19 @@ categories:
   - Health
 sources:
   - name: background on George Stratton's original inverting-goggles experiments
-    undefined: background on George Stratton's original inverting-goggles experiments
     url: https://en.wikipedia.org/wiki/Upside_down_goggles
   - name: covers Stratton's results in detail, including the day-by-day adaptation
       timeline
-    undefined: covers Stratton's results in detail, including the day-by-day
-      adaptation timeline
     url: https://en.wikipedia.org/wiki/Neural_adaptation
   - name: accessible explainer covering the retina, Stratton's experiment, and how
       the brain corrects the image
-    undefined: accessible explainer covering the retina, Stratton's experiment, and
-      how the brain corrects the image
     url: https://www.mentalfloss.com/article/91177/how-our-eyes-see-everything-upside-down
 ---
 ## Your Brain Quietly Cleans It Up
 
-<p class="has-dropcap"> The retina doesn't know or care that the picture's flipped.** It just converts light into electrical signals and fires them down the optic nerve toward the brain. Your visual cortex receives this upside-down data, and somewhere in there, it gets sorted out. You never consciously see the inverted version. Happens so fast, so automatically, it feels like the world was never flipped in the first place. </p>
+The retina doesn't know or care that the picture's flipped.** It just converts light into electrical signals and fires them down the optic nerve toward the brain. Your visual cortex receives this upside-down data, and somewhere in there, it gets sorted out. You never consciously see the inverted version. Happens so fast, so automatically, it feels like the world was never flipped in the first place.
+
+Curious about this? We also covered "Did you know? Boiling in space is backwards" [here](https://wjhnow.com/p/did-you-know-boiling-in-space-is-backwards/)
 
 This is the part that actually bugs me about how it usually gets explained online.**
 
