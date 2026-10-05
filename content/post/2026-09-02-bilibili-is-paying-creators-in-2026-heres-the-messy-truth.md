@@ -23,6 +23,8 @@ I downloaded Bilibili at 2am last Tuesday because I saw a meme about it on Reddi
 
  "China YouTube" they said. "They’re paying creators now."
 
+You might also like: "[Govt Warns of Malicious Adult Content Apps Promoted on Instagram and Facebook](https://wjhnow.com/p/govt-warns-of-malicious-adult-content-apps-promoted-on-instagram-and-facebook/)"
+
 Figured I’d waste 20 minutes. Ended up wasting 2 hours.
 
 Bilibili is old. Like 16 years old. Started with anime. My brother in India used to watch it for that. Now it’s got 376M MAU. That’s from their press release last month when they launched the English site.
