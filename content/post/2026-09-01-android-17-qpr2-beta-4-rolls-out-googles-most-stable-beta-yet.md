@@ -19,7 +19,7 @@ categories:
   - Technology
   - Android
 ---
-###Android 17 QPR2 Beta 4: Pixel 11 Support Arrives And Notification Intelligence Is Cooked 💀
+Android 17 QPR2 Beta 4: Pixel 11 Support Arrives And Notification Intelligence Is Cooked 💀
 
 Related read: ["10 Free Google AI Courses in 2026: Which Ones Are Actually Worth It?"](https://wjhnow.com/p/10-free-google-ai-courses-in-2026-which-ones-are-actually-worth-it/) 
 
