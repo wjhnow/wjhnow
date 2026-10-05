@@ -21,6 +21,8 @@ categories:
 
 You've probably seen the post. "Google is quietly giving away 10 AI courses for free" with a screenshot and zero context.
 
+While we're on this topic, don't miss ["Something Is Making AI Researchers Quit Their Jobs":](https://wjhnow.com/p/ai-researchers-quitting-safety-warnings-2026/)
+
 I went and actually checked what's in it. And — refreshingly — this one holds up. It's real, it's free, and it's a solid way to go from "I use ChatGPT sometimes" to actually understanding what's happening under the hood.
 
 The list comes from Google's own Generative AI Learning Path. Two tracks: beginners, and people who want the actual architecture.
