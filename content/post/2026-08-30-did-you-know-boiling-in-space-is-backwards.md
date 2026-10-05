@@ -1,6 +1,7 @@
 ---
 title: Did you know? Boiling in space is backwards
 date: 2026-07-01
+draft: true
 description: Ok this space boiling thing is actually insane
 image: /img/boiling.jpeg
 author: Mr. JH
@@ -14,9 +15,11 @@ categories:
 ---
 ### In Space, Boiling Water Does the Opposite. And That’s a Problem for Rockets.
 
-<p class="has-dropcap"> On Earth when you boil water, bubbles go up. In space there is no up. </p>
+On Earth when you boil water, bubbles go up. In space there is no up.
 
 Scientists have been trying to figure out what that means for rockets and space computers. They use super cold liquids to stay cool, but nobody really knew what boiling looks like in zero gravity.
+
+If this is interesting, you should also read: ["7 Weird Space Facts You Won't Believe Are True (But They Are)"](https://wjhnow.com/p/weird-space-facts-you-wont-believe-are-true/) 
 
 So researchers from the University of Florida did a "dumb but cool" test. They took liquid nitrogen — basically fake rocket fuel — and flew it on those "vomit comet" planes. The ones that dive to make zero-g for about 20 seconds.
 
