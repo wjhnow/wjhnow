@@ -24,6 +24,8 @@ categories:
 
 The Indian government has warned Android users about a new wave of malicious applications disguised as "adult content" apps that are being promoted through advertisements on Instagram and Facebook.
 
+Curious about this? We also covered "How OpenAI’s AI Models Escaped Containment and Hacked Hugging Face" [here](https://wjhnow.com/p/how-ai-went-rogue-inside-the-incident-where-openais-own-models-broke-out-and-hacked-hugging-face/):
+
 According to the advisory, cybercriminals are using social media ads to lure users into downloading fake apps. Once installed, these apps can steal sensitive personal data including passwords, bank details, OTPs, and contacts.
 
 ## How the scam works
