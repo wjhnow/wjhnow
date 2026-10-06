@@ -15,7 +15,6 @@ tags:
   - Did you know
   - Earth
   - Light
-  - wjhnow
 categories:
   - Science
 ---
