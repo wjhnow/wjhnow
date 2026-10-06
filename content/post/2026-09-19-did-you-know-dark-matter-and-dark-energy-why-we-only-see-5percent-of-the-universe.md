@@ -15,7 +15,6 @@ tags:
   - Dark energy
   - cosmology
   - universe expansion
-  - wjhnow
   - space science
 categories:
   - Science
