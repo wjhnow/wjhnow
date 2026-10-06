@@ -2,7 +2,7 @@
 title: "Why the Image in Your Eye Is Upside Down (And How Your Brain Fixes It) "
 slug: Why the Image in Your Eye Is Upside Down
 date: 2026-09-07
-draft: true
+draft: false
 description: The image that hits the back of your eye is upside down. So why
   does the world look right-side up? Here’s how your brain flips reality, what
   the famous goggles experiment showed, and what it reveals about
@@ -15,7 +15,6 @@ tags:
   - Neuroscience
   - Human brain
   - Vision
-  - wjhnow
 categories:
   - Science
   - Health
