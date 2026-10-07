@@ -5,7 +5,7 @@ date: 2026-10-07
 draft: false
 description: A horn on a Bahrain highway, a crow at the window, and a view from
   a rooftop. Just because we can't see it doesn't mean it doesn't exist.
-image: /img/blind-spot-hidden-dimensions.jpeg
+image: /img/blind-spot-hidden-dimensions-1.jpeg
 image_alt: A crow standing on a balcony railing, looking at its own reflection
   in a glass window, with a Bahrain street and traffic visible in the
   background.
