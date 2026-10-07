@@ -2,7 +2,7 @@
 title: "The Car You Can't See: What a Blind Spot Tells Us About Hidden Dimensions"
 slug: blind-spot-hidden-dimensions
 date: 2026-10-07
-draft: true
+draft: false
 description: A horn on a Bahrain highway, a crow at the window, and a view from
   a rooftop. Just because we can't see it doesn't mean it doesn't exist.
 image: /img/blind-spot-hidden-dimensions.jpeg
