@@ -33,7 +33,9 @@ sources:
   - name: NASA Fact-sheet
     url: https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html
 ---
-<p class="has-dropcap">I've read a lot of "mind-blowing space facts" listicles, and most of them just recycle the same five facts everyone already knows. So I went digging for the ones that actually made me stop and go "wait, what?" — the kind you'd bring up at dinner and have someone say "no way, you're making that up." Here they are.</p>
+I've read a lot of "mind-blowing space facts" listicles, and most of them just recycle the same five facts everyone already knows. So I went digging for the ones that actually made me stop and go "wait, what?" — the kind you'd bring up at dinner and have someone say "no way, you're making that up." Here they are.
+
+While we're on this topic, don't miss "Did you know? Boiling in space is backwards":  [https://wjhnow.com/p/did-you-know-boiling-in-space-is-backwards/](https://wjhnow.com/p/did-you-know-boiling-in-space-is-backwards/)
 
 **1. Mars sunsets are blue. Yes, the red planet.**
 
