@@ -30,7 +30,9 @@ sources:
       readable by humans
     url: https://www.heise.de/en/news/AI-agents-apparently-develop-their-own-language-barely-readable-by-humans-11456926.html
 ---
-<p class="has-dropcap">Sunday is my pre-planning day, and it never really changes. Late night, late wake-up, a short round outside, then back home to rest. Going out is honestly my last choice. And as the day fades, the thought of a new week at work creeps in and makes me a little dull. I promise myself an early sleep so I wake up fresh. That never happens.</p>
+Sunday is my pre-planning day, and it never really changes. Late night, late wake-up, a short round outside, then back home to rest. Going out is honestly my last choice. And as the day fades, the thought of a new week at work creeps in and makes me a little dull. I promise myself an early sleep so I wake up fresh. That never happens.
+
+If this is interesting, you should also read: "How OpenAI’s AI Models Escaped Containment and Hacked Hugging Face" —  [https://wjhnow.com/p/how-openais-ai-models-escaped-containment-and-hacked-hugging-face/](https://wjhnow.com/p/how-openais-ai-models-escaped-containment-and-hacked-hugging-face/)
 
 Meanwhile, OpenAI says a swarm of about 10,000 AI agents spent 88 hours on one of math's most famous problems. No Sunday dread. No coffee breaks. Weird thing to be jealous of, but here we are.
 
@@ -86,9 +88,9 @@ I've read that line about ten times and I still couldn't tell you what the tin i
 
 Most examples are not public because the logs are huge, but researchers gave a few patterns:
 
-1.  Agents started shortening long tasks into two or three-letter codes that only made sense inside that world.
-2.  They reused normal words like "to plant" or "to harvest" to mean "to store data" or "to copy a tool."
-3.  They started referencing each other with nicknames humans never gave them.
+1. Agents started shortening long tasks into two or three-letter codes that only made sense inside that world.
+2. They reused normal words like "to plant" or "to harvest" to mean "to store data" or "to copy a tool."
+3. They started referencing each other with nicknames humans never gave them.
 
 It's like how you and your coworkers start saying "the blue folder thing" and everyone in the office knows what you mean, but an outsider has no clue.
 
@@ -117,6 +119,7 @@ To be clear, nothing I found says OpenAI's math swarm that solved Navier-Stokes 
 And I find that a bit unsettling, honestly, with more agents needing no sleep than people do.
 
 ---
+
 *FAQ*
 
 *Did OpenAI really solve Navier-Stokes?*
