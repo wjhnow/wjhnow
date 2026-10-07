@@ -19,6 +19,15 @@ tags:
   - wjhnow
 categories:
   - Science
+sources:
+  - name: Edwin A. Abbott, Flatland
+    url: https://www.gutenberg.org/ebooks/201
+  - name: Flatland, the 1884 Seeley edition
+    url: https://www.gutenberg.org/ebooks/45506
+  - name: William Herschel's 1800 infrared experiment
+    url: https://www.ipac.caltech.edu/Outreach/Edu/Herschel/backyard.html
+  - name: String theory and extra dimensions
+    url: https://cern-courier.web.cern.ch/?p=7168
 ---
 ## The Blind Spot
 
