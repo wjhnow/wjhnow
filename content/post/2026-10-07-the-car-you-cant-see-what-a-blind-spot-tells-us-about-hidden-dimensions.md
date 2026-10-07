@@ -10,6 +10,15 @@ image_alt: A crow standing on a balcony railing, looking at its own reflection
   in a glass window, with a Bahrain street and traffic visible in the
   background.
 author: Mr. JH
+tags:
+  - Blind spot
+  - Hidden dimensions
+  - Flatland
+  - String theory
+  - Optical illusion
+  - wjhnow
+categories:
+  - Science
 ---
 ## The Blind Spot
 
