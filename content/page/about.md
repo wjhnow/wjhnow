@@ -50,3 +50,4 @@ I'm the science nerd. I dig through research papers and turn "quantum entangleme
 I'm the tech guy. Gadgets, AI, and all the "how does this actually work" stuff. I test the claims so you get the truth without the marketing fluff.
 
 — The WJH.now Team
+“Editorial Note: To keep the focus entirely on the facts and protect our writers' privacy, the WJH.now team uses editorial pen names and illustrated avatars. Every fact we publish is rigorously researched and verified against credible primary sources. To maintain complete transparency, you will always find direct links to our official sources at the bottom of every single article.”
