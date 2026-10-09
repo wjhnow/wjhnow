@@ -22,7 +22,7 @@ categories:
 sources:
   - {}
 ---
-Did AI Really Use a Language Humans Couldn't Understand? The Truth About Facebook's Chatbots.
+# Did AI Really Use a Language Humans Couldn't Understand? The Truth About Facebook's Chatbots.
 
 When I first read online that two AI chatbots had started talking to each other in a language humans couldn't understand, I stopped scrolling. It felt like a scene straight out of a movie.
 
@@ -50,7 +50,7 @@ If you read that as a human, it's gibberish. If you're a news editor looking for
 
 I get why people panicked. It does sound creepy.
 
-But inside the lab, nobody was scared. One of the researchers even said later that it wasn't scary, just... not useful. Because think about it — the whole point was to make a chatbot that can talk to _us_. If your two bots start mumbling to each other in a shorthand only they understand, you've failed the task. So they just reset it.
+But inside the lab, nobody was scared. One of the researchers even said later that it wasn't scary, just... not useful. Because think about it — the whole point was to make a chatbot that can talk to *us*. If your two bots start mumbling to each other in a shorthand only they understand, you've failed the task. So they just reset it.
 
 ### How AI Actually Thinks — It's Not Deception
 
@@ -88,7 +88,7 @@ When the researchers looked closer, they realized the mistake was theirs.
 
 They told the bots: get the best deal.
 
-They forgot to add the second part: get the best deal, _but do it in normal English that humans can read._
+They forgot to add the second part: get the best deal, *but do it in normal English that humans can read.*
 
 So the bots took the shortest path they could find. Can you blame them? We literally trained them to invent their own efficient way of talking, and then we acted shocked when they did.
 
