@@ -6,7 +6,7 @@ comments: false
 
 ## Who Writes This
 
-Our writers use editorial pen names (Mr. JH for science, Mr. Wnow for tech) and illustrated avatars. The names are pen names, the avatars are illustrations, and the work behind each article is real. You can read more on our [About page](/about/).
+Our writers use editorial pen names (Mr. JH for science, Mr. Wnow for tech) and illustrated avatars. The names are pen names, the avatars are illustrations, and the work behind each article is real. You can read more on our [About page](/about-wjh.now/).
 
 ## How We Research
 
