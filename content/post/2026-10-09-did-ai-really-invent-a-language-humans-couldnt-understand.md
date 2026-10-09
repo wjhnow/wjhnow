@@ -20,7 +20,18 @@ categories:
   - AI
   - Technology
 sources:
-  - {}
+  - name: Lewis et al., "Deal or No Deal? End-to-End Learning for Negotiation
+      Dialogues" (arXiv, 16 June 2017)
+    url: https://arxiv.org/abs/1706.05125
+  - name: '"Deal or no deal? Training AI bots to negotiate" (Facebook Engineering
+      blog, 14 June 2017)'
+    url: https://engineering.fb.com/2017/06/14/ml-applications/deal-or-no-deal-training-ai-bots-to-negotiate/
+  - name: '"Did Facebook Shut Down an AI Experiment Because Chatbots Developed Their
+      Own Language?" (Snopes, 1 August 2017)'
+    url: https://www.snopes.com/fact-check/facebook-ai-developed-own-language/
+  - name: '"Facebook AI experiment did not end because bots invented their own
+      language" (CNBC, 1 August 2017)'
+    url: https://www.cnbc.com/2017/08/01/facebook-ai-experiment-did-not-end-because-bots-invented-own-language.html
 ---
 # Did AI Really Use a Language Humans Couldn't Understand? The Truth About Facebook's Chatbots.
 
