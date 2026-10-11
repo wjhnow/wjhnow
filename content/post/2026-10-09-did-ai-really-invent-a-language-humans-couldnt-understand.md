@@ -39,6 +39,8 @@ When I first read online that two AI chatbots had started talking to each other 
 
 You know the headlines. "AI creates its own secret language." "Facebook pulls the plug on rogue robots." 
 
+Rela)ted read: "While You Dread Monday, AI Worked 88 Hours Straight" — https://wjhnow.com/p/openai-navier-stokes-88-hours-ai-secret-language/
+
 For a minute, I actually felt a chill. Like, are we watching the first chapter of something we won't be able to undo?
 
 But then I did what I usually don't do. I didn't just share the headline. I went and read what actually happened. And the more I dug, the less dramatic it got. More interesting, though.
