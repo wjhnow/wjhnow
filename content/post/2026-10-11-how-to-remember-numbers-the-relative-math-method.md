@@ -29,19 +29,19 @@ sources:
       Sciences, 24(1), 87-114'
     url: https://doi.org/10.1017/S0140525X01003922
 ---
-## Stop Memorizing, Start Decoding 
+# Stop Memorizing, Start Decoding
 
 Someone reads out a six-digit code and you nod, repeat it once, maybe twice, then look away to type it and it's just gone. So you ask again. Most of us have done this more times than we'd admit.
 
 Here's the odd part, though. Years ago, while travelling, I saw the number 304818 for less than five seconds. I never wrote it down, never tried to remember it, and it's still sitting in my head. A code you repeated ten times a minute ago is already lost, and this one stayed for years. The only difference I can find is that the brain didn't store six digits. It caught a relation in a glance, 30, then 48 and 18 both ending in 8, bigger one first, and a relation is what stays. That's the whole idea behind what I call the Relative-Math Method: stop trying to hold digits, and look for the small rule already hiding inside the number.
 
-**Why long numbers slip away**
+### Why long numbers slip away
 
 It isn't really a flaw in you. In 1956 the psychologist George Miller published "The Magical Number Seven, Plus or Minus Two," and his point was that working memory holds about seven items, give or take two. Newer research says it may be closer to four. Either way, a six-digit code is too much if every digit counts as its own item, which is exactly how we treat it when we repeat it like a parrot. Computers store raw strings, we don't. We remember through stories, pictures and relationships, and a number with no relationship just gets thrown away. So the fix is to give the number one, and hold a starting anchor plus one simple rule instead of six digits.
 
 One thing before the examples, because it trips people up: the order of the pieces isn't fixed. Sometimes the bigger chunk first is easier to hold, sometimes the smaller, and you decide that per number. Then you put the choice inside your phrase so it travels with the number.
 
-**Finding the relation**
+### Finding the relation
 
 Take 304818 again. Reading it as one long string is where people lose the order, so split it into pairs: 30 - 48 - 18. The last two pairs both end in 8 (48 and 18), so all you need is 30 and the "rule of 8s." Then pick the order. 48 is bigger than 18, so the bigger one goes first, and that stops you flipping it into 30-18-48. In your head it's just: *starts with 30, ends in 8s, biggest first.*
 
@@ -57,7 +57,7 @@ With 631892 the dominoes fall one after the other. Start with 63 and multiply, 6
 
 And some numbers are easier from the back. With 725350 I'd scan the end first, where 50 is a clean anchor and most of the digits are odd (7, 5, 3, 5). Just before the 50 sits 53, which you can lock by noting it's the 2nd odd number after 50 (skipping 51). Now the back end is locked, [ ][ ][ ] 5 3 5 0. Moving backwards, subtract the digits of 53 (5 - 3) and you get 2, leaving one open slot at the front, [ ] 2 5 3 5 0. Add that 2 to the next digit (5) and you get the very first digit, 7 (2 + 5 = 7). It looks long on paper, but in your head it takes about two seconds: lock 50, put 53 before it, subtract to get 2, add 2 and 5 for the leading 7.
 
-**When the number fights back**
+### When the number fights back
 
 Not every number cooperates, of course. An online challenge once threw 591638 at this method, a number built on purpose to break it. No runs, no rhythm, no landmark numbers like 50 or 25 or 22, three odd digits (5, 9, 1) against three even ones (6, 3, 8) so no Majority Rule either, and every obvious equation hits a wall. 5 + 9 is 14, not 1. 1 × 6 is 6, but then 6 × 3 doesn't give 8. The fallback would be memorising it rigidly as 59 - 16 - 38, which is exactly what we're trying to avoid.
 
@@ -65,7 +65,7 @@ What worked, eventually, was ignoring the middle and keeping only the first digi
 
 Whether that counts as a win is arguable, honestly. With six digits there are a lot of possible relations, and you can usually find one after the fact. What matters more is that the phrase carries the order too, because without it 519638 and 563918 are close enough to fool a tired brain. So the phrase is 5, ten-pair big first, half-pair, 8. If one rule fails, try the pairs, try the ends, try a different order. A number with nothing at all is very rare, and the more you focus, the more expert you become. It's like training your brain.
 
-**Why bother slowing down**
+### Why bother slowing down
 
 All of this takes an extra second or two, and I think that's the right trade. Slowing down for long-term memory is much better than a faster approach that only works for short-term memory. Parrot repetition is quick and it's gone in half a minute. Finding the rule takes a moment, but recall afterwards is almost instant, and you don't doubt yourself because the logic proves the sequence is right. You're storing meaning instead of sound, so it sticks.
 
