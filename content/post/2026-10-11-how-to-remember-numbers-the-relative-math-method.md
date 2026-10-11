@@ -34,6 +34,8 @@ sources:
 
 Someone reads out a six-digit code and you nod, repeat it once, maybe twice, then look away to type it and it's just gone. So you ask again. Most of us have done this more times than we'd admit.
 
+Curious about this? We also covered "Why the Image in Your Eye Is Upside Down (And How Your Brain Fixes It)" here: https://wjhnow.com/p/why-the-image-in-your-eye-is-upside-down/
+
 Here's the odd part, though. Years ago, while travelling, I saw the number 304818 for less than five seconds. I never wrote it down, never tried to remember it, and it's still sitting in my head. A code you repeated ten times a minute ago is already lost, and this one stayed for years. The only difference I can find is that the brain didn't store six digits. It caught a relation in a glance, 30, then 48 and 18 both ending in 8, bigger one first, and a relation is what stays. That's the whole idea behind what I call the Relative-Math Method: stop trying to hold digits, and look for the small rule already hiding inside the number.
 
 ### Why long numbers slip away
