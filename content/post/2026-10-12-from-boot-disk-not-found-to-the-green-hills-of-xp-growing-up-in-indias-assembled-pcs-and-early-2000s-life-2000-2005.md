@@ -3,14 +3,17 @@ title: "From 'Boot Disk Not Found' to the Green Hills of XP: Growing Up in
   India's Assembled PCs and Early 2000s Life (2000-2005)"
 slug: boot-disk-to-xp-bliss-assembled-pc-india-2000-2005
 date: 2026-10-12
-draft: true
+draft: false
+description: From 'Boot Disk Not Found' to XP Bliss — real memories of growing
+  up with assembled PCs, Windows 98 floppy installs, cyber cafes and dial-up in
+  India (2000-2005).
 image: /img/`boot-disk-not-found-to-windows-xp-bliss-assembled-pc-india-2000-2005.jpeg
-image_alt: "`From Boot Disk Not Found error to Windows XP Bliss wallpaper -
+image_alt: From Boot Disk Not Found error to Windows XP Bliss wallpaper -
   nostalgic collage of early 2000s India computer life with dusty beige
   assembled PC, bulky CRT monitor, Windows 98 boot floppy disk and installation
   blue screen showing 39 minutes remaining, cyber cafe with boys playing FIFA 99
   and NFS 2 on one keyboard, Winamp visualization and Yahoo Messenger buzz
-  window on screen"
+  window on screen
 author: Mr Wnow
 tags:
   - Assembled PC India
@@ -136,7 +139,7 @@ Back then? Installing Windows was a full-day job. A surgery.
 
 Most old motherboards could not boot from CD. So you needed two things. One boot floppy. One Windows CD.
 
-Put floppy in. Loud click-whirrr. Black screen. Only A:\> blinking. No mouse. You typed commands.
+Put floppy in. Loud click-whirrr. Black screen. Only A: blinking. No mouse. You typed commands.
 
 Floppy loads CD drivers. Otherwise PC didn't know CD drive exists.
 
