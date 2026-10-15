@@ -19,4 +19,16 @@ tags:
   - wjhnow
 categories:
   - Cybersecurity
+sources:
+  - name: "Denmark breach Cybernews: World's worst password \"123456\" linked to
+      breach of 8.8M Danes"
+    url: https://cybernews.com/security/denmark-cpr-data-breach-weak-password/
+  - name: 'Malwarebytes: How "123456" became the key to almost 9 million personal
+      records'
+    url: https://www.malwarebytes.com/?p=475860
+  - name: "Pasquale Pillitteri: Denmark hacker attack exposes data of 8.8 million
+      people"
+    url: https://pasqualepillitteri.it/en/news/20948/denmark-cpr-register-hack-8-8-million-data
+  - name: "Tools mentioned: Have I Been Pwned"
+    url: https://haveibeenpwned.com
 ---
