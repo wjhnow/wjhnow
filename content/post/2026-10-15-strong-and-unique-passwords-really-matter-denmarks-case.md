@@ -2,7 +2,7 @@
 title: Strong and Unique Passwords Really Matter? Denmark's Case
 slug: do-strong-unique-passwords-really-matter
 date: 2026-10-15
-draft: false
+draft: true
 description: Do strong and unique passwords really matter? A tiny Danish firm's
   123456 exposed 8.8 million records. Here's why both matter, and what to do
   today.
@@ -32,7 +32,6 @@ sources:
   - name: "Tools mentioned: Have I Been Pwned"
     url: https://haveibeenpwned.com
 ---
-
 # Why Every Password Needs to Be Unique and Complex (Denmark Just Proved It)
 
 Last Friday I saw a headline that made me spit out my coffee. Records of 8.8 million people in Denmark's national register were exposed, reportedly because a tiny company used the password 123456.
@@ -81,6 +80,6 @@ Reuse isn't laziness. Most of us have dozens of accounts, and the brain takes th
 
 **2FA on what matters.** Gmail, bank, Instagram. With 2FA, a leaked password alone is much harder to use, because the attacker needs a second factor too. An authenticator app is best, but even SMS is better than nothing.
 
-**Check yourself.** Go to https://haveibeenpwned.com and enter your old email. Mine showed up in six breaches. If yours shows up too, don't panic. Start with email, because it can reset everything else, then your bank, then anything with a saved card. The rest can wait a week.
+**Check yourself.** Go to [https://haveibeenpwned.com](https://haveibeenpwned.com) and enter your old email. Mine showed up in six breaches. If yours shows up too, don't panic. Start with email, because it can reset everything else, then your bank, then anything with a saved card. The rest can wait a week.
 
 One key for one lock, and make the key long. That's it.
