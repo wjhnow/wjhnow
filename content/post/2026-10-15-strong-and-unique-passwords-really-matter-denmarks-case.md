@@ -1,4 +1,4 @@
-
+---
 title: "Strong and Unique Passwords Really Matter? Denmark's Case"
 slug: do-strong-unique-passwords-really-matter
 date: 2026-10-15
