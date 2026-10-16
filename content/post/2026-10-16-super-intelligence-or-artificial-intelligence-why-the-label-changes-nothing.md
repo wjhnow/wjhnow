@@ -2,7 +2,7 @@
 title: "Super Intelligence or Artificial intelligence? Why the label changes nothing "
 slug: super-intelligence-is-still-just-a-tool
 date: 2026-10-16
-draft: false
+draft: true
 description: Trump’s order rebranded AI as “Super Intelligence.” But calling it
   SI doesn’t make the machine the boss. A clear argument for why humans must
   stay in charge.
@@ -21,12 +21,11 @@ categories:
 sources:
   - name: Original opinion
 ---
-
 # Super CEO? Come on
 
 I keep seeing this phrase everywhere now — Super Intelligence. SI. As if someone in Washington decided to just rebrand AI overnight and we all have to play along.
 
-Which, apparently, actually happened. On September 29th, Trump signed that order — "Inaugurating the Era of Super Intelligence" — and told every federal agency to stop using the word Artificial Intelligence. No more AI. Now it's SI. http://ai.gov becoming http://si.gov. The official reasoning was that "artificial" sounds fake, like it's counterfeit, and this stuff is real and powerful, so we should call it super.
+Which, apparently, actually happened. On September 29th, Trump signed that order — "Inaugurating the Era of Super Intelligence" — and told every federal agency to stop using the word Artificial Intelligence. No more AI. Now it's SI. [http://ai.gov](http://ai.gov) becoming [http://si.gov](http://si.gov). The official reasoning was that "artificial" sounds fake, like it's counterfeit, and this stuff is real and powerful, so we should call it super.
 
 I read that and just thought — this is exactly how a bad company promotes people. Like, textbook bad management.
 
@@ -50,7 +49,7 @@ Honestly? Even if that happens, even if it rewrites itself a thousand times in a
 
 It's finding connections between dots at a scale I can't even comprehend, sure. I will give it that. But we drew the dots in the first place. We drew them and numbered them.
 
-What it doesn't have — and this is the part people skip when they get excited about SI — is three things. First, intent. It doesn't _want_ anything. It's programmed to reduce an error number to zero. It doesn't wake up and think "today I want to cure cancer." It is told to. Second, consciousness. It doesn't feel the joy of solving something after struggling for three days. It doesn't feel the weight of making a wrong call. And third, creativity out of nothing. Human breakthroughs are messy. They come from irrational leaps, from heartbreak, from a mistake in the lab, from seeing something random on the train. A machine operates strictly within its mathematical parameters, no matter how wide we make them.
+What it doesn't have — and this is the part people skip when they get excited about SI — is three things. First, intent. It doesn't *want* anything. It's programmed to reduce an error number to zero. It doesn't wake up and think "today I want to cure cancer." It is told to. Second, consciousness. It doesn't feel the joy of solving something after struggling for three days. It doesn't feel the weight of making a wrong call. And third, creativity out of nothing. Human breakthroughs are messy. They come from irrational leaps, from heartbreak, from a mistake in the lab, from seeing something random on the train. A machine operates strictly within its mathematical parameters, no matter how wide we make them.
 
 So until a piece of software wakes up on its own, decides it wants to start its own company, feels something like embarrassment or pride, and creates something that has absolutely zero connection to any human data — which, let's be real, has not happened and is nowhere close to happening — it is not the boss. It can't be. It can't outrank the hierarchy that created it.
 
