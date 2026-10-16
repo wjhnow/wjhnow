@@ -2,7 +2,7 @@
 title: "Strong and Unique Passwords Really Matter? Denmark's Case"
 slug: do-strong-unique-passwords-really-matter
 date: 2026-10-15
-draft: true
+draft: false
 description: Do strong and unique passwords really matter? A tiny Danish firm's
   123456 exposed 8.8 million records. Here's why both matter, and what to do
   today.
