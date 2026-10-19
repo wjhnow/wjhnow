@@ -19,7 +19,7 @@ categories:
 sources:
   - name: "Author original article "
 ---
-Why Cleaning Glasses With Your T-Shirt Is Ruining Them (And the 1-Minute Fix That Works)
+# Why Cleaning Glasses With Your T-Shirt Is Ruining Them (And the 1-Minute Fix That Works)
 
 We all done it. You see a smudge right in the middle of the lens and you grab your t-shirt and rub. It is quick, it feels fine, and the lens looks clear for a few seconds.
 
@@ -27,7 +27,7 @@ I use to do it all the time. I wear glasses for everything, and I was the worst 
 
 You know the feeling right? You wipe and it looks clean, then five minutes later the smudge is back and worse. That is because your shirt never actually cleaned it.
 
-*Why Glasses Get Dirty So Fast*
+### Why Glasses Get Dirty So Fast
 
 Your glasses get dirty for three reasons, and none of them is actual dust from the air.
 
@@ -39,7 +39,7 @@ Third is the area around the screws and nose pads. Dead skin, lint from your cas
 
 Once I understood this, the whole cleaning thing made sense. You have to remove oil and neutralize static, not just push dust.
 
-*What Your Lens Is Actually Made Of*
+### What Your Lens Is Actually Made Of
 
 Lenses used to be real glass. Real glass is hard to scratch but it is heavy and it shatters. Almost no one uses real glass now.
 
@@ -57,7 +57,7 @@ The fourth is UV protection. It is often built into the polycarbonate itself.
 
 Now you see why Windex, vinegar, or hand sanitizer ruins lenses. Windex has ammonia. Ammonia strips the anti-reflective stack and the hydrophobic top coat. Vinegar is acidic and does the same. The coating starts to peel and looks like a fog that never goes away. You did not fog the lens, you removed the coating. And because polycarbonate is soft, any dust you drag acts like sandpaper. That is why material matters. You are not cleaning glass, you are cleaning a soft plastic with four fragile films on it.
 
-*The 1-Min Fix That Actually Works*
+### The 1-Min Fix That Actually Works
 
 This is the whole routine. It takes one minute.
 
@@ -65,7 +65,7 @@ Wash your hands with oil-free soap. Rinse glasses under lukewarm water, not hot.
 
 That is it. Water removes dust, soap removes oil, microfiber avoids scratches.
 
-*On-The-Go and Pro Care*
+### On-The-Go and Pro Care
 
 You cannot carry dish soap everywhere. I keep a small lens spray and a microfiber in my backpack. One spritz and wipe. It is better than a shirt.
 
