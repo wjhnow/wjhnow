@@ -27,6 +27,8 @@ I use to do it all the time. I wear glasses for everything, and I was the worst 
 
 You know the feeling right? You wipe and it looks clean, then five minutes later the smudge is back and worse. That is because your shirt never actually cleaned it.
 
+I have written an article similar to this if you find it interesting please check it out : ["why the image in our eye is upside down"](https://wjhnow.com/p/why-the-image-in-your-eye-is-upside-down/) 
+
 ### Why Glasses Get Dirty So Fast
 
 Your glasses get dirty for three reasons, and none of them is actual dust from the air.
