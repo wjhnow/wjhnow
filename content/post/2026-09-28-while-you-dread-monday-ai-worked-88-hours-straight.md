@@ -32,7 +32,7 @@ sources:
 ---
 Sunday is my pre-planning day, and it never really changes. Late night, late wake-up, a short round outside, then back home to rest. Going out is honestly my last choice. And as the day fades, the thought of a new week at work creeps in and makes me a little dull. I promise myself an early sleep so I wake up fresh. That never happens.
 
-If this is interesting, you should also read: "How OpenAI’s AI Models Escaped Containment and Hacked Hugging Face" —  [https://wjhnow.com/p/how-openais-ai-models-escaped-containment-and-hacked-hugging-face/](https://wjhnow.com/p/how-openais-ai-models-escaped-containment-and-hacked-hugging-face/)
+If this is interesting, you should also read: "[How OpenAI’s AI Models Escaped Containment and Hacked Hugging Face](https://wjhnow.com/p/how-openais-ai-models-escaped-containment-and-hacked-hugging-face/)" 
 
 Meanwhile, OpenAI says a swarm of about 10,000 AI agents spent 88 hours on one of math's most famous problems. No Sunday dread. No coffee breaks. Weird thing to be jealous of, but here we are.
 
