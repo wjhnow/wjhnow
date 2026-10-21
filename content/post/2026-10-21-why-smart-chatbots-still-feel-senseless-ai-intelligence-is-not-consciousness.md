@@ -19,6 +19,17 @@ tags:
 categories:
   - Technology
   - AI
+sources:
+  - name: Cogitate Consortium (2025)
+    url: https://www.nature.com/articles/s41586-025-08888-1
+  - name: Anthropic (April 2026)
+    url: https://www.anthropic.com/research/emotion-concepts-function
+  - name: Anthropic (2025)
+    url: https://www.anthropic.com/research/introspection
+  - name: Hinton – Big Technology Podcast
+    url: https://www.bigtechnology.com/p/nobel-prize-winner-geoffrey-hinton
+  - name: Dawkins – 2026 UnHerd essay
+    url: https://unherd.com/2026/05/is-ai-the-next-phase-of-evolution/
 ---
 # Why do the smartest chatbots still feel senseless?
 
