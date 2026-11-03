@@ -2,13 +2,13 @@
     <!-- Quick Links -->
  <div class="live-updates">
     <div class="footer-line footer-quicklinks">
-        <a href="/about-wjh.now/">About Us</a>
+       <a href="{{ "about-wjh.now/" | relURL }}">About Us</a>
         <span class="sep">|</span>
-        <a href="/privacy-policy/">Privacy Policy</a>
+       <a href="{{ "privacy-policy/" | relURL }}">Privacy Policy</a>
         <span class="sep">|</span>
-        <a href="/editorial-policy/">Editorial Policy</a>
+        <a href="{{ "editorial-policy/" | relURL }}">Editorial Policy</a>
         <span class="sep">|</span>
-        <a href="/disclaimer/">Disclaimer</a>
+        <a href="{{ "disclaimer/" | relURL }}">Disclaimer</a>
     </div>
     <div class="footer-line footer-liveline">
         <strong>LIVE UPDATES:</strong>
@@ -81,13 +81,13 @@
     <a class="wjh-cat" href="{{ $popular.RelPermalink }}">Popular</a>
   {{ end }}
 
-  {{ range $topCats }}
+   {{ range $topCats }}
   <span class="wjh-sep">|</span>
- <a class="wjh-cat" href="/categories/{{ .name | urlize }}/">{{ if eq (.name | lower) "ai" }}AI{{ else }}{{ .name | title }}{{ end }}</a>
+  <a class="wjh-cat" href="{{ printf "categories/%s/" (.name | urlize) | relURL }}">{{ if eq (.name | lower) "ai" }}AI{{ else }}{{ .name | title }}{{ end }}</a>
   {{ end }}
 
   <span class="wjh-sep">|</span>
-   <a class="wjh-cat" href="/browse/">All Categories</a>
+  <a class="wjh-cat" href="{{ "browse/" | relURL }}">All Categories</a>
 </div>
 
 <script>
