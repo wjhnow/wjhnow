@@ -1145,4 +1145,11 @@ img.responsive,
   }
 }
 
+/* Desktop only: keep homepage cards at a sensible width */
+@media (min-width: 769px) {
+  .article-list .article-image {
+    max-width: 600px !important;
+  }
+}
+
 
