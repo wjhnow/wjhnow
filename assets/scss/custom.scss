@@ -1,16 +1,15 @@
 /* ==========================================================================
-   WJH.now / Hugotest – Master Stylesheet (deduplicated)
+   WJH.now / Hugotest – Master Stylesheet (cleaned, reviewed)
    ========================================================================== */
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Pirata+One&display=swap');
-
 :root {
   --body-background: #f4efe6;
   --text-main: #1f1d1a;
   --text-muted: #635e57;
   --border-color: #e0d9cd;
   --serif-editorial: "Libre Baskerville", Georgia, "Times New Roman", serif;
-  --sans-ui: "Inter", "Helvetica Neue", -apple-system, BlinkMacSystemFont, Arial, sans-serif;
-  --accent-bar: #1a2b3c;
+  --sans-ui: "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  --accent: #a8583c;
+  --accent-dark: #7f3f2a;
   --max-width: 1080px;
 }
 
@@ -22,6 +21,7 @@ body {
   -webkit-font-smoothing: antialiased;
   margin: 0;
   padding: 0;
+  overflow-x: clip;
 }
 
 .left-sidebar,
@@ -62,12 +62,12 @@ body {
   }
 }
 
-/* --- 2. Header (consolidated) --- */
+/* --- 2. Header (black banner) --- */
 .ad-header {
   position: relative !important;
   width: 100% !important;
   background-color: #ffffff !important;
-  border-bottom: 1px solid var(--border-color);
+  border-bottom: none;
   z-index: 1000 !important;
   padding: 0.65rem 1.25rem 0.5rem;
 
@@ -75,10 +75,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
-    max-width: var(--max-width);
-    margin: 0 auto;
-    padding: 12px 16px;
+    background-color: #111 !important;
+    border-bottom: 3px solid var(--accent) !important;
+    width: auto !important;
+    max-width: none !important;
+    margin: -0.65rem -1.25rem 0 !important;
+    padding: 16px calc(1.25rem + 16px + max(0px, (100% - var(--max-width)) / 2)) !important;
     gap: 1rem;
   }
 
@@ -106,7 +108,7 @@ body {
     display: block !important;
     width: 100% !important;
     height: 1.5px !important;
-    background-color: #111 !important;
+    background-color: #fff !important;
     transition: transform 0.25s ease, opacity 0.2s ease !important;
     transform-origin: center !important;
   }
@@ -133,7 +135,7 @@ body {
       font-size: 2.8rem !important;
       font-weight: 400 !important;
       line-height: 1 !important;
-      color: #111 !important;
+      color: #fff !important;
       letter-spacing: 0.02em !important;
       margin-bottom: 4px !important;
       -webkit-font-smoothing: antialiased;
@@ -150,7 +152,7 @@ body {
       font-weight: 700;
       letter-spacing: 0.1em !important;
       text-transform: uppercase;
-      color: #38342e !important;
+      color: #fff !important;
       opacity: 1;
       line-height: 1.2;
       margin-top: 2px;
@@ -161,7 +163,8 @@ body {
     }
   }
 }
-/* --- 3. Masthead Tagline (Mobile Scaled Down & PC Locked) --- */
+
+/* --- 3. Masthead Tagline --- */
 .site-masthead-tagline {
   width: 100% !important;
   max-width: var(--max-width) !important;
@@ -176,41 +179,28 @@ body {
 }
 
 .site-masthead-tagline .tagline-text {
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+  font-family: var(--sans-ui) !important;
   font-style: normal !important;
   color: #38342e !important;
-  text-transform: uppercase !important;
+  text-transform: none !important;
+  letter-spacing: 0 !important;
   margin: 0 !important;
   opacity: 0.92 !important;
   display: block !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  /* --- Mobile --- */
-  font-size: 10.5px !important;
+  font-size: 15px !important;
+  font-weight: 400 !important;
   line-height: 1.5 !important;
-  font-weight: 500 !important;
-  letter-spacing: 0.02em !important;
-  max-width: 100% !important;
-
-  /* --- Desktop --- */
-  @media (min-width: 768px) {
-    font-weight: 600 !important;
-    letter-spacing: 0.04em !important;
-    max-width: 500px !important;
-  }
-
-  @media (min-width: 769px) {
-    font-size: 12.5px !important;
-  }
+  max-width: 640px !important;
 }
 
-/* Nested under header when structure places it inside .ad-header */
 .ad-header .site-masthead-tagline {
   padding: 10px 16px 14px !important;
   margin-top: 4px !important;
   border-bottom: none !important;
 }
+
 /* --- 4. Navigation Drawer --- */
 .nav-drawer {
   display: none !important;
@@ -294,26 +284,18 @@ body {
   color: #111 !important;
 }
 
-/* --- 5. Article List (Homepage) --- */
+/* --- 5. Article List (WIRED-style flat homepage cards) --- */
 .article-list article {
   border: none !important;
   box-shadow: none !important;
   background: transparent !important;
-  padding: 2.8rem 1.8rem !important;
+  padding: 1.6rem 0 !important;
   margin-bottom: 0 !important;
   border-radius: 0 !important;
 }
 
-.article-list article:nth-child(odd) {
-  background-color: #faf9f7 !important;
-}
-
-.article-list article:nth-child(even) {
-  background-color: #f3f1ed !important;
-}
-
 .article-list article + article {
-  border-top: 1px solid #e8e6e3 !important;
+  border-top: 1px solid #111 !important;
 }
 
 .article-list .article-image,
@@ -326,7 +308,7 @@ body {
   max-height: none !important;
   aspect-ratio: auto !important;
   overflow: visible !important;
-  margin-bottom: 1.6rem !important;
+  margin-bottom: 1rem !important;
 }
 
 .article-image img,
@@ -351,13 +333,55 @@ body {
   .single-post .article-image img {
     max-height: 300px !important;
   }
+
+  .article-list .article-image img {
+    max-height: 220px !important;
+  }
 }
 
-.article-list .article-category,
+/* Homepage cards: keep the 340px desktop cap */
+.article-list .article-image img {
+  max-height: 340px !important;
+}
+
 .article-list .article-meta,
 .article-list .article-date,
 .article-list .article-time,
 .article-list svg {
+  display: none !important;
+}
+
+/* Category label above the headline: small mono capitals */
+.article-list .article-category {
+  display: block !important;
+  margin: 0 0 0.5rem 0 !important;
+}
+
+.article-list .article-category a,
+.article-list .article-category span {
+  background: transparent !important;
+  border: 0 !important;
+  padding: 0 !important;
+  color: #111 !important;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace !important;
+  font-size: 1.15rem !important;
+  font-weight: 400 !important;
+  font-variant: normal !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.14em !important;
+}
+
+/* One category label only */
+.article-list .article-category a:not(:first-child),
+.article-list .article-category span:not(:first-child) {
+  display: none !important;
+}
+
+.article-list .article-category a::after,
+.article-list .article-category span::after,
+.article-list .article-header .article-category a::after,
+.article-list .article-header .article-category a:not(:last-child)::after {
+  content: none !important;
   display: none !important;
 }
 
@@ -371,12 +395,12 @@ h1.entry-title,
 .article-list article .article-title,
 .article-list article h2 a {
   font-family: var(--serif-editorial) !important;
-  font-size: 3.1rem !important;
+  font-size: 2.6rem !important;
   font-weight: 400 !important;
-  line-height: 1.15 !important;
+  line-height: 1.2 !important;
   letter-spacing: -0.02em !important;
   color: #111111 !important;
-  margin: 0.3rem 0 0.6rem 0 !important;
+  margin: 0 0 0.3rem 0 !important;
   text-decoration: none !important;
   display: block !important;
 }
@@ -385,11 +409,10 @@ h1.entry-title,
 .article-list article h2::after {
   content: "" !important;
   display: block !important;
-  width: 40px !important;
+  width: 32px !important;
   height: 2px !important;
-  background-color: #a8583c !important;
-  margin-top: 0.85rem !important;
-  margin-bottom: 1rem !important;
+  background-color: var(--accent) !important;
+  margin: 0.6rem 0 0.8rem !important;
 }
 
 .article-list .article-subtitle,
@@ -399,7 +422,26 @@ h1.entry-title,
   font-size: 1.05rem !important;
   line-height: 1.55 !important;
   color: #222 !important;
-  margin: 0 0 1.5rem 0 !important;
+  margin: 0 !important;
+}
+
+.article-list .article-details {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.article-list article footer {
+  margin: 0 !important;
+  padding: 0 !important;
+  min-height: 0 !important;
+}
+
+@media (max-width: 768px) {
+  .article-list article .article-title,
+  .article-list article h2 a {
+    font-size: 2.1rem !important;
+  }
 }
 
 /* --- 6. Single Post --- */
@@ -421,14 +463,13 @@ h1.entry-title,
   gap: 12px !important;
 }
 
-/* Base Category Badges */
 .article-header .category a,
 .article-header .article-category a,
 .article-header .categories a,
 .article-categories a,
 .article-header .category-badge {
   background-color: transparent !important;
-  color: #a8583c !important;
+  color: var(--accent) !important;
   padding: 0 !important;
   border-radius: 0 !important;
   font-family: Georgia, "Times New Roman", Book Antiqua, serif !important;
@@ -442,7 +483,6 @@ h1.entry-title,
   transition: color 0.2s ease !important;
 }
 
-/* Vertical Separator Line Between Tags */
 .article-header .category a:not(:last-child)::after,
 .article-header .article-category a:not(:last-child)::after,
 .article-header .categories a:not(:last-child)::after,
@@ -463,7 +503,7 @@ h1.entry-title,
 .article-categories a:hover,
 .article-header .category-badge:hover {
   background-color: transparent !important;
-  color: #7f3f2a !important;
+  color: var(--accent-dark) !important;
   border-color: transparent !important;
 }
 
@@ -483,24 +523,35 @@ h1.entry-title,
   letter-spacing: -0.01em !important;
 }
 
-/* Meta strip */
+/* Meta strip: mono capitals (typography for the box and its children) */
+.article-meta,
+.article-meta .inline-meta,
+.article-meta time,
 .single-post .article-meta,
 .single-post .post-meta,
-.article-header .meta,
-.article-meta {
+.article-header .meta {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace !important;
+  font-size: 1.15rem !important;
+  font-weight: 400 !important;
+  font-variant: normal !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.12em !important;
+  color: #111 !important;
+}
+
+/* Meta strip: the box itself (outer element only, so inner items get no lines) */
+.article-meta,
+.single-post .article-meta,
+.single-post .post-meta,
+.article-header .meta {
   border-top: 1px solid var(--border-color) !important;
   border-bottom: 1px solid var(--border-color) !important;
   padding: 11px 0 !important;
   margin: 1.1rem 0 2rem 0 !important;
-  font-family: Georgia, "Times New Roman", Book Antiqua, serif !important;
-  font-size: 0.95rem !important;
-  letter-spacing: 0.02em !important;
-  color: var(--text-muted) !important;
-  font-variant: small-caps !important;
-  text-transform: lowercase !important;
-  font-weight: 700 !important;
   display: flex !important;
-  align-items: center !important;
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
+  text-align: left !important;
   gap: 1.2rem !important;
   flex-wrap: wrap !important;
 }
@@ -535,7 +586,7 @@ h1.entry-title,
 .article-body p a,
 .entry-content p a,
 .article-content p a {
-  color: #a8583c !important;
+  color: var(--accent) !important;
   text-decoration: underline !important;
   text-underline-offset: 3px !important;
   text-decoration-thickness: 1px !important;
@@ -558,7 +609,7 @@ h1.entry-title,
   line-height: 1.3 !important;
   color: #000000 !important;
   margin: 2.6rem 0 1.1rem 0 !important;
-  border-left: 2px solid #a8583c !important;
+  border-left: 2px solid var(--accent) !important;
   padding-left: 10px !important;
 }
 
@@ -584,7 +635,9 @@ span.dropcap,
   display: inline !important;
 }
 
-/* Explicit Manual Drop Cap - Cinzel Only */
+/* Automatic drop cap on the first paragraph + explicit class */
+.article-content > p:first-of-type::first-letter,
+.article-body > p:first-of-type::first-letter,
 p.has-dropcap::first-letter,
 .article-body > p.intro::first-letter,
 p.has-dropcap .first-letter {
@@ -594,7 +647,7 @@ p.has-dropcap .first-letter {
   line-height: 0.8 !important;
   padding-top: 4px !important;
   padding-right: 10px !important;
-  color: #a8583c !important;
+  color: var(--accent) !important;
   font-weight: 700 !important;
 }
 
@@ -603,7 +656,7 @@ figcaption,
 .caption,
 .photo-credit {
   font-family: Georgia, "Times New Roman", Book Antiqua, serif !important;
-  font-size: 0.8rem !important;
+  font-size: 1.2rem !important;
   color: #666 !important;
   line-height: 1.4 !important;
   margin-top: 0.55rem !important;
@@ -611,7 +664,7 @@ figcaption,
   padding-left: 0.7rem !important;
 }
 
-/* Tags & Softened Category Bar */
+/* Tags */
 .article-tags,
 .post-tags,
 .tags {
@@ -637,11 +690,11 @@ a[href*="/categories/"] {
   padding: 0 8px 0 0 !important;
   border-radius: 0 !important;
   font-family: Georgia, "Times New Roman", Book Antiqua, serif !important;
-  font-size: 1.1rem !important;
+  font-size: 1.4rem !important;
   font-weight: 700 !important;
   font-variant: small-caps !important;
   text-transform: lowercase !important;
-  letter-spacing: 0.03em !important;
+  letter-spacing: 0.04em !important;
   border: none !important;
   border-right: 1px solid #d0cecb !important;
   text-decoration: none !important;
@@ -659,31 +712,15 @@ a[href*="/categories/"] {
 .article-tags a:hover,
 .post-tags a:hover,
 .tags a:hover {
-  color: #a8583c !important;
+  color: var(--accent) !important;
 }
 
-/* Category links (any page) use the rust accent instead of the tag gray */
 a[href*="/categories/"] {
-  color: #a8583c !important;
+  color: var(--accent) !important;
 }
 
 a[href*="/categories/"]:hover {
-  color: #7f3f2a !important;
-}
-
-/* Category & tag sizes (single place that controls them) */
-.article-tags a,
-.post-tags a,
-.tags a,
-.tag,
-.article-header .category a,
-.article-header .article-category a,
-.article-header .categories a,
-.article-categories a,
-.article-header .category-badge,
-a[href*="/categories/"] {
-  font-size: 1.4rem !important;
-  letter-spacing: 0.04em !important;
+  color: var(--accent-dark) !important;
 }
 
 @media (min-width: 769px) {
@@ -741,6 +778,41 @@ a[href*="/categories/"] {
   font-family: Georgia, "Times New Roman", Book Antiqua, serif !important;
 }
 
+/* Author box on single post: flat with thin black line */
+.article-footer .author-bio {
+  background: transparent !important;
+  border: 0 !important;
+  border-top: 1px solid #111 !important;
+  border-radius: 0 !important;
+  padding: 1.4rem 0 !important;
+}
+
+/* Hide duplicate headline at start of post body */
+.article-content > h1:first-child {
+  display: none !important;
+}
+
+/* Line everything up on one left edge */
+.article-details,
+.article-content {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* Remove divider above article footer */
+.article-footer {
+  border-top: none !important;
+  box-shadow: none !important;
+  padding-top: 0 !important;
+}
+
+.article-footer::before {
+  display: none !important;
+  content: none !important;
+  border: none !important;
+  height: 0 !important;
+}
+
 /* --- 7. Custom Related Content --- */
 .related-contents,
 aside.related-contents,
@@ -779,7 +851,7 @@ aside.my-custom-related-block,
 .my-custom-related-block h3,
 .my-custom-related-block h3 a {
   font-family: var(--sans-ui) !important;
-  font-size: 1.25rem !important;
+  font-size: 1.5rem !important;
   font-weight: 600 !important;
   line-height: 1.35 !important;
   color: #111111 !important;
@@ -787,34 +859,48 @@ aside.my-custom-related-block,
   margin-top: 0.5rem !important;
 }
 
-/* --- 8. Footer --- */
-.site-footer,
+/* --- 8. Footer (WIRED-style black) --- */
 footer.site-footer,
-.footer {
+.site-footer {
   display: block !important;
-  width: 100% !important;
-  max-width: 100% !important;
+  width: 100vw !important;
+  max-width: 100vw !important;
   float: none !important;
   clear: both !important;
   position: relative !important;
   order: unset !important;
   flex: none !important;
-  background-color: #faf9f7 !important;
-  border-top: 1px solid #e5e5e5 !important;
-  padding: 3.2rem 1.5rem 2.8rem !important;
+  background-color: #111 !important;
+  border-top: 3px solid var(--accent) !important;
+  padding: 3.2rem 1.5rem 2.6rem !important;
   margin-top: 4.5rem !important;
-  margin-left: 0 !important;
+  margin-left: calc(50% - 50vw) !important;
   margin-right: 0 !important;
+  margin-bottom: -4.5rem !important;
   text-align: center !important;
+  box-shadow: none !important;
 }
 
-.live-updates {
-  background: #ffffff !important;
-  border: 1px solid #e8e6e3 !important;
-  border-radius: 6px !important;
-  padding: 1.1rem 1.3rem !important;
-  margin: 0 auto 2rem auto !important;
-  max-width: 680px !important;
+footer.site-footer::before,
+.site-footer::before,
+#site-footer::before,
+.footer-wrapper::before,
+.site-footer-container::before,
+.site-footer hr {
+  display: none !important;
+  content: none !important;
+  border: none !important;
+  height: 0 !important;
+}
+
+footer.site-footer .live-updates {
+  background: transparent !important;
+  border: 0 !important;
+  border-bottom: 1px solid #3a3733 !important;
+  border-radius: 0 !important;
+  padding: 0 0 1.6rem !important;
+  margin: 0 auto 1.6rem !important;
+  max-width: 760px !important;
   display: flex !important;
   flex-wrap: wrap !important;
   justify-content: center !important;
@@ -823,49 +909,74 @@ footer.site-footer,
   font-family: var(--sans-ui) !important;
 }
 
-.live-updates strong {
-  font-size: 0.92rem !important;
-  font-weight: 700 !important;
-  letter-spacing: 0.1em !important;
+footer.site-footer .live-updates a,
+footer.site-footer .live-updates strong {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace !important;
+  font-size: 1.15rem !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.12em !important;
   text-transform: uppercase !important;
-  color: #111 !important;
 }
 
-.live-updates a {
-  font-size: 0.92rem !important;
-  font-weight: 600 !important;
-  letter-spacing: 0.06em !important;
-  color: #222 !important;
+footer.site-footer .live-updates a {
+  color: #cfc9bf !important;
   text-decoration: none !important;
 }
 
-.live-updates a:hover {
-  color: #000 !important;
+footer.site-footer .live-updates strong {
+  color: #fff !important;
 }
 
-.live-updates .sep {
-  color: #ccc !important;
-  margin: 0 2px !important;
+footer.site-footer .live-updates .sep {
+  color: #5a554e !important;
 }
 
-.site-footer .copyright {
-  font-size: 1.05rem !important;
-  color: #333 !important;
+footer.site-footer a:hover {
+  color: #fff !important;
+}
+
+footer.site-footer .copyright,
+footer.site-footer .footer-domain,
+footer.site-footer .footer-domain a,
+footer.site-footer .powerby {
+  font-family: var(--sans-ui) !important;
+  color: #8f8a82 !important;
+}
+
+footer.site-footer .copyright {
+  font-size: 1.2rem !important;
+  font-weight: 400 !important;
   margin-bottom: 0.6rem !important;
-  font-weight: 500 !important;
 }
 
-.footer-domain,
-.site-footer small,
-.site-footer .footer-info {
-  font-size: 0.90rem !important;
-  color: #777 !important;
-  letter-spacing: 0.03em !important;
+footer.site-footer .footer-domain,
+footer.site-footer .footer-domain a {
+  font-size: 1.2rem !important;
 }
 
-.site-footer a {
-  color: #111 !important;
-  text-decoration: none !important;
+footer.site-footer .powerby {
+  font-size: 1.1rem !important;
+}
+
+footer.site-footer .powerby a,
+footer.site-footer .powerby b {
+  color: #b5afa5 !important;
+  font-weight: 400 !important;
+}
+
+@media (max-width: 768px) {
+  footer.site-footer {
+    margin-bottom: -3rem !important;
+  }
+}
+
+@media (max-width: 600px) {
+  footer.site-footer .footer-line .sep {
+    display: none !important;
+  }
+  footer.site-footer .footer-line {
+    gap: 0.6rem 1.4rem !important;
+  }
 }
 
 /* --- 9. About page --- */
@@ -895,10 +1006,51 @@ img.author-inline-avatar {
   border: 1.5px solid #e5e5e5 !important;
 }
 
-/* --- 10. Mobile Responsive Adjustments --- */
-@media (max-width: 768px) {
-  /* NOTE: Tagline overrides removed to allow Section 3 to control mobile tagline sizing */
+/* --- 10. Sources line --- */
+.article-sources {
+  font-family: Georgia, "Times New Roman", Book Antiqua, serif !important;
+  font-size: 1.3rem !important;
+  color: var(--text-muted) !important;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border-color);
+}
 
+.article-sources a {
+  color: var(--accent) !important;
+  text-decoration: underline !important;
+  text-underline-offset: 3px !important;
+  text-decoration-thickness: 1px !important;
+}
+
+.article-sources a:hover {
+  color: var(--accent-dark) !important;
+}
+
+/* --- 11. Live bar --- */
+.wjh-live-bar a.wjh-cat {
+  font-variant: normal !important;
+  border: 0 !important;
+  padding: 0 !important;
+}
+
+.wjh-live-bar {
+  scrollbar-width: none;
+}
+
+.wjh-live-bar::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .wjh-live-bar {
+    -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 28px), transparent);
+    mask-image: linear-gradient(to right, #000 calc(100% - 28px), transparent);
+  }
+}
+
+/* --- 12. Mobile Responsive Adjustments --- */
+@media (max-width: 768px) {
   .article-title,
   h1.article-title,
   .single-post h1 {
@@ -910,11 +1062,10 @@ img.author-inline-avatar {
     font-size: 1.15rem !important;
   }
 
-  /* Body Text & Headings */
   .article-body p,
   .entry-content p,
   .article-content p {
-    font-size: 1.45rem !important; /* Increased from 1.05rem — was reading too small against desktop's 1.55rem+ */
+    font-size: 1.45rem !important;
     line-height: 1.65 !important;
   }
 
@@ -924,7 +1075,7 @@ img.author-inline-avatar {
   .entry-content h3,
   .article-content h2,
   .article-content h3 {
-    font-size: 1.35rem !important; /* Fixed hierarchy to be larger than paragraph text */
+    font-size: 1.35rem !important;
   }
 
   .article-tags,
@@ -955,45 +1106,8 @@ img.author-inline-avatar {
 
   .my-custom-related-block h3,
   .my-custom-related-block h3 a {
-    font-size: 1.15rem !important;
+    font-size: 1.4rem !important;
   }
-}
-
-/* Remove divider line above article footer */
-.article-footer {
-  border-top: none !important;
-  box-shadow: none !important;
-  padding-top: 0 !important;
-}
-
-.article-footer::before {
-  display: none !important;
-  content: none !important;
-  border: none !important;
-  height: 0 !important;
-}
-
-/* Remove top line above main site footer */
-footer,
-.site-footer,
-#site-footer,
-.footer-wrapper,
-.site-footer-container {
-  border-top: none !important;
-  box-shadow: none !important;
-}
-
-footer::before,
-.site-footer::before,
-#site-footer::before,
-.footer-wrapper::before,
-.site-footer-container::before,
-footer hr,
-.site-footer hr {
-  display: none !important;
-  content: none !important;
-  border: none !important;
-  height: 0 !important;
 }
 
 img.responsive,
@@ -1001,83 +1115,3 @@ img.responsive,
   max-width: 100%;
   height: auto;
 }
-
-
-/* ===== Sources line ===== */
-.article-sources {
-  font-family: Georgia, "Times New Roman", Book Antiqua, serif !important;
-  font-size: 1.3rem !important;
-  color: var(--text-muted) !important;
-  margin-top: 2rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid var(--card-separator-color);
-}
-
-.article-sources a {
-  color: #a8583c !important;
-  text-decoration: underline !important;
-  text-underline-offset: 3px !important;
-  text-decoration-thickness: 1px !important;
-}
-
-.article-sources a:hover {
-  color: #7f3f2a !important;
-}
-
-/* ===== Footer credit (Hugo / Stack) ===== */
-.site-footer .powerby {
-  font-family: Georgia, "Times New Roman", Book Antiqua, serif !important;
-  font-size: 0.9rem !important;
-  color: #777 !important;
-  letter-spacing: 0.03em !important;
-}
-
-.site-footer .powerby a,
-.site-footer .powerby b {
-  color: #555 !important;
-  font-weight: 400 !important;
-}
-
-/* ===== Automatic drop cap on the first paragraph ===== */
-.article-content > p:first-of-type::first-letter,
-.article-body > p:first-of-type::first-letter {
-  font-family: 'Cinzel', serif !important;
-  font-size: 3.4rem !important;
-  float: left !important;
-  line-height: 0.8 !important;
-  padding-top: 4px !important;
-  padding-right: 10px !important;
-  color: #a8583c !important;
-  font-weight: 700 !important;
-}
-/* ===== Black logo banner (logo + short tagline only) ===== */
-.ad-header .header-container {
-  background-color: #111 !important;
-  border-bottom: 3px solid #a8583c !important;
-  width: auto !important;
-  max-width: none !important;
-  margin: -0.65rem -1.25rem 0 !important;
-  padding: 16px calc(1.25rem + 16px + max(0px, (100% - var(--max-width)) / 2)) !important;
-}
-
-.ad-header .hamburger-menu span {
-  background-color: #fff !important;
-}
-
-.ad-header .ad-logo-text .logo-title,
-.ad-header .ad-logo-text .logo-tagline {
-  color: #fff !important;
-}
-.site-footer,
-.site-footer a,
-.site-footer .copyright,
-.site-footer .powerby {
-  color: #4a4540 !important;
-}
-
-.site-footer a:hover {
-  color: #a8481f !important;
-}
-
-
-
