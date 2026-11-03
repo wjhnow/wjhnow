@@ -1138,3 +1138,11 @@ img.responsive,
   object-position: center center !important;
 }
 
+/* Desktop only: cap the article hero width so the 4:5 image stays a sensible height */
+@media (min-width: 769px) {
+  .main-article > .article-header .article-image {
+    max-width: 540px !important;
+  }
+}
+
+
