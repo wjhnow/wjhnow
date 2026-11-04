@@ -32,8 +32,6 @@ sources:
   - name: "Tools mentioned: Have I Been Pwned"
     url: https://haveibeenpwned.com
 ---
-# Why Every Password Needs to Be Unique and Complex (Denmark Just Proved It)
-
 Last Friday I saw a headline that made me spit out my coffee. Records of 8.8 million people in Denmark's national register were exposed, reportedly because a tiny company used the password 123456.
 
 The company, Pays ApS in Odense, had just two employees and legal access to the CPR register, Denmark's national ID system. The attacker reportedly used a former employee's password from an older leak, and it worked on three accounts, including admin. Around 14 million searches later, someone noticed. Not because of security, but because of an unusually large bill.

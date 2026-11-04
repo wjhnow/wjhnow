@@ -19,8 +19,6 @@ categories:
 sources:
   - name: Original essay, no external sources
 ---
-# Our Eyes See According to the Scale of Our Views: The Min and Max Limit of Human Vision
-
 Is it not true that our eyes see according to the scale of our views? If the scale of any object is too small we can't see and if it's too big we cannot see it also. We have min and max viewing scale.
 
 I had this thought few days back while looking at dust particles in sunlight. Some dust you can see, some you cannot. And then I looked at sky — we see stars but we cannot see whole galaxy as one object. So I asked, do we have a window?

@@ -31,8 +31,6 @@ sources:
   - name: Dawkins – 2026 UnHerd essay
     url: https://unherd.com/2026/05/is-ai-the-next-phase-of-evolution/
 ---
-# Why do the smartest chatbots still feel senseless?
-
 I also had that moment.
 
 I was chatting late at night with an AI and it replied so human that I paused. I thought, does it actually feel something inside? Many people now ask the same: is AI conscious? Can AI feel pain?

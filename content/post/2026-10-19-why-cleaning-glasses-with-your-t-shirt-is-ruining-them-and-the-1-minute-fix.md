@@ -18,8 +18,6 @@ categories:
 sources:
   - name: Original essay, no external sources
 ---
-# Why Cleaning Glasses With Your T-Shirt Is Ruining Them (And the 1-Minute Fix That Works)
-
 We all done it. You see a smudge right in the middle of the lens and you grab your t-shirt and rub. It is quick, it feels fine, and the lens looks clear for a few seconds.
 
 I use to do it all the time. I wear glasses for everything, and I was the worst at taking care of them. I would wipe them on my shirt, on my hoodie, on whatever was close. Then I ruined a good pair. Under sunlight it looked like a web of tiny lines. That was from months of shirt wipes.

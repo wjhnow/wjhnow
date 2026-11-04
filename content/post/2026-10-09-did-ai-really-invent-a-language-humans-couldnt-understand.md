@@ -33,8 +33,6 @@ sources:
       language" (CNBC, 1 August 2017)'
     url: https://www.cnbc.com/2017/08/01/facebook-ai-experiment-did-not-end-because-bots-invented-own-language.html
 ---
-# Did AI Really Use a Language Humans Couldn't Understand? The Truth About Facebook's Chatbots.
-
 When I first read online that two AI chatbots had started talking to each other in a language humans couldn't understand, I stopped scrolling. It felt like a scene straight out of a movie.
 
 You know the headlines. "AI creates its own secret language." "Facebook pulls the plug on rogue robots." 
