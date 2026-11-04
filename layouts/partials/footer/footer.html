@@ -144,3 +144,15 @@
 })();
 </script>
 {{ end }}
+
+@media (min-width: 1024px) {
+  .article-list {
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  }
+
+  .article-list article .article-title,
+  .article-list article h2 a {
+    font-size: 2.1rem !important;
+  }
+}
+
