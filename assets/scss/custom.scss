@@ -1148,7 +1148,7 @@ img.responsive,
   }
 
   .main-article > .article-header .article-image {
-    flex: 0 0 42% !important;
+    flex: 0 0 45% !important;
     max-width: 42% !important;
     margin: 0 !important;
   }
@@ -1159,5 +1159,28 @@ img.responsive,
     padding: 0 !important;
   }
 }
+/* Homepage cards, desktop: image left, text beside it */
+@media (min-width: 769px) {
+  .article-list article > header.article-header {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: flex-start !important;
+    gap: 2rem !important;
+    width: 100% !important;
+  }
+
+  .article-list .article-image {
+    flex: 0 0 42% !important;
+    max-width: 42% !important;
+    margin: 0 !important;
+  }
+
+  .article-list .article-details {
+    flex: 1 1 0 !important;
+    min-width: 0 !important;
+    padding: 0 !important;
+  }
+}
+
 
 
