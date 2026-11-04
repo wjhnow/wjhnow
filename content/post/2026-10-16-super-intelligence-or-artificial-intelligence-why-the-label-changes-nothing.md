@@ -20,8 +20,6 @@ categories:
 sources:
   - name: Original essay, no external sources
 ---
-# Super CEO? Come on
-
 I keep seeing this phrase everywhere now — Super Intelligence. SI. As if someone in Washington decided to just rebrand AI overnight and we all have to play along.
 
 Which, apparently, actually happened. On September 29th, Trump signed that order — “Inaugurating the Era of Super Intelligence” — and told every federal agency to stop using the word Artificial Intelligence. No more AI. Now it’s SI. ai.gov is becoming si.gov. The official reasoning was that “artificial” sounds fake, like it’s counterfeit, and this stuff is real and powerful, so we should call it super.

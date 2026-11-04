@@ -30,8 +30,6 @@ sources:
       Sciences, 24(1), 87-114'
     url: https://doi.org/10.1017/S0140525X01003922
 ---
-# Stop Memorizing, Start Decoding
-
 Someone reads out a six-digit code and you nod, repeat it once, maybe twice, then look away to type it and it's just gone. So you ask again. Most of us have done this more times than we'd admit.
 
 Curious about this? We also covered "Why the Image in Your Eye Is Upside Down (And How Your Brain Fixes It)" here: https://wjhnow.com/p/why-the-image-in-your-eye-is-upside-down/
