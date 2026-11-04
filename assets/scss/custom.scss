@@ -1282,3 +1282,47 @@ img.responsive,
 .my-custom-related-block h2 {
   font-size: 1.6rem !important;
 }
+
+/* ==========================================================================
+   Random full-width "featured" card on the homepage.
+   Paste at the very END of custom.scss, after the homepage grid block.
+   The class .featured-wide is added to one random card by a small script.
+   Phones (768px and below) are unaffected.
+   ========================================================================== */
+
+@media (min-width: 769px) {
+  /* Lets later cards back-fill any gap left before the wide card */
+  .article-list {
+    grid-auto-flow: row dense !important;
+  }
+
+  /* The wide card spans every column (2 or 3) */
+  .article-list article.featured-wide {
+    grid-column: 1 / -1 !important;
+  }
+
+  /* Horizontal layout: image left, text right */
+  .article-list article.featured-wide > header.article-header {
+    flex-direction: row !important;
+    align-items: center !important;
+    gap: 2.5rem !important;
+  }
+
+  .article-list article.featured-wide .article-image {
+    flex: 0 0 40% !important;
+    max-width: 40% !important;
+    width: auto !important;
+    margin: 0 !important;
+  }
+
+  .article-list article.featured-wide .article-details {
+    flex: 1 1 0 !important;
+    min-width: 0 !important;
+  }
+
+  /* Bigger title, like the old single-column cards */
+  .article-list article.featured-wide .article-title,
+  .article-list article.featured-wide h2 a {
+    font-size: 2.6rem !important;
+  }
+}
