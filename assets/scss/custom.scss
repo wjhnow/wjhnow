@@ -1219,5 +1219,13 @@ img.responsive,
     line-height: 1.3 !important;
   }
 }
-
+/* Related article titles: larger and bolder, desktop */
+@media (min-width: 769px) {
+  .my-custom-related-block h3,
+  .my-custom-related-block h3 a {
+    font-size: 1.7rem !important;
+    line-height: 1.25 !important;
+    font-weight: 700 !important;
+  }
+}
 
