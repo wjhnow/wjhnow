@@ -1159,29 +1159,74 @@ img.responsive,
     padding: 0 !important;
   }
 }
-/* Homepage cards, desktop: image left, text beside it */
+/* ==========================================================================
+   Homepage grid: 2 columns from 769px, 3 columns from 1024px.
+   Phones (768px and below) are untouched: still one stacked column.
+
+   Use this INSTEAD of the "Homepage cards, desktop: image left, text beside
+   it" block. Paste at the very END of custom.scss.
+   ========================================================================== */
+
 @media (min-width: 769px) {
+  /* The list becomes a grid */
+  .article-list {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 2.5rem 2rem !important;
+  }
+
+  /* Anything that isn't a card (e.g. pagination) spans the full row */
+  .article-list > :not(article) {
+    grid-column: 1 / -1 !important;
+  }
+
+  /* Each card: black rule on top (replaces the line between stacked cards) */
+  .article-list article,
+  .article-list article + article {
+    border-top: 2px solid #111 !important;
+    padding: 1rem 0 0 !important;
+    margin: 0 !important;
+  }
+
+  /* Card layout: image on top, text underneath */
   .article-list article > header.article-header {
     display: flex !important;
-    flex-direction: row !important;
-    align-items: flex-start !important;
-    gap: 2rem !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 0 !important;
     width: 100% !important;
   }
 
   .article-list .article-image {
-    flex: 0 0 42% !important;
-    max-width: 42% !important;
-    margin: 0 !important;
+    flex: none !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 0 1rem 0 !important;
   }
 
   .article-list .article-details {
-    flex: 1 1 0 !important;
+    flex: none !important;
     min-width: 0 !important;
     padding: 0 !important;
   }
+
+  /* Titles smaller than the old single-column 2.6rem */
+  .article-list article .article-title,
+  .article-list article h2 a {
+    font-size: 2rem !important;
+  }
 }
 
+@media (min-width: 1024px) {
+  .article-list {
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  }
+
+  .article-list article .article-title,
+  .article-list article h2 a {
+    font-size: 1.8rem !important;
+  }
+}
 
 /* Related articles, desktop: two columns, image left and text beside it */
 @media (min-width: 769px) {
