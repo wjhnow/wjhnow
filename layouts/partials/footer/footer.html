@@ -156,3 +156,9 @@
   }
 }
 
+{{ if .IsHome }}
+<script>
+  var c = document.querySelectorAll('.article-list article');
+  if (c.length > 3) c[Math.floor(Math.random() * c.length)].classList.add('featured-wide');
+</script>
+{{ end }}
