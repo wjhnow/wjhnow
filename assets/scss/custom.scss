@@ -1138,17 +1138,25 @@ img.responsive,
   object-position: center center !important;
 }
 
-/* Desktop only: cap the article hero width so the 4:5 image stays a sensible height */
+/* Desktop article header: image left, text beside it at the top */
 @media (min-width: 769px) {
-  .main-article > .article-header .article-image {
-    max-width: 540px !important;
+  .main-article > .article-header {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: flex-start !important;
+    gap: 2.5rem !important;
   }
-}
 
-/* Desktop only: keep homepage cards at a sensible width */
-@media (min-width: 769px) {
-  .article-list .article-image {
-    max-width: 600px !important;
+  .main-article > .article-header .article-image {
+    flex: 0 0 42% !important;
+    max-width: 42% !important;
+    margin: 0 !important;
+  }
+
+  .main-article > .article-header .article-details {
+    flex: 1 1 0 !important;
+    min-width: 0 !important;
+    padding: 0 !important;
   }
 }
 
