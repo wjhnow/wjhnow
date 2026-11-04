@@ -1183,4 +1183,41 @@ img.responsive,
 }
 
 
+/* Related articles, desktop: two columns, image left and text beside it */
+@media (min-width: 769px) {
+  .my-custom-related-block > div {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 1.5rem 2rem !important;
+  }
+
+  .my-custom-related-block > div > div {
+    flex-direction: row !important;
+    align-items: flex-start !important;
+    gap: 1rem !important;
+  }
+
+  .my-custom-related-block > div > div > a:first-child {
+    flex: 0 0 40% !important;
+    max-width: 40% !important;
+    width: auto !important;
+  }
+
+  .my-custom-related-block img {
+    aspect-ratio: 1 / 1 !important;
+    height: auto !important;
+    object-fit: cover !important;
+  }
+
+  .my-custom-related-block > div > div > div {
+    flex: 1 1 0 !important;
+    min-width: 0 !important;
+  }
+
+  .my-custom-related-block h3 {
+    font-size: 1.2rem !important;
+    line-height: 1.3 !important;
+  }
+}
+
 
