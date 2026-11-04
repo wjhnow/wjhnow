@@ -3,7 +3,7 @@ title: "How to Remember Numbers: The Relative-Math Method"
 slug: "remember-numbers-relative-math-method "
 date: 2026-10-11
 draft: false
-description: "Can't hold a six-digit code for five seconds? The Relative-Math
+description: "Can’t hold a six-digit code for five seconds? The Relative-Math
   Method finds the small rule hiding inside any number, so it stays with you. "
 image: /img/remember-numbers-wall-mural-relative-math.jpeg
 image_alt: A person looking up at a wall mural of jumbled numbers, including

@@ -1,6 +1,6 @@
 ---
 title: About WJH.now
-description: WJH.now explains the weird side of science, space and tech in plain language. Here's who we are and how we work.
+description: WJH.now explains the weird side of science, space and tech in plain language. Here’s who we are and how we work.
 menu:
   main:
     weight: 5

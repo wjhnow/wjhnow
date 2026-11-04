@@ -1,5 +1,5 @@
 ---
-title: 7 Weird Space Facts You Won't Believe Are True (But They Are)
+title: 7 Weird Space Facts You Won’t Believe Are True (But They Are)
 slug: weird-space-facts-you-wont-believe-are-true
 date: 2026-09-27
 draft: false
