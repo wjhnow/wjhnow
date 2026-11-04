@@ -32,6 +32,9 @@
   "url": "https://wjhnow.com/"
 }
 </script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","name":"What Just Happened NOW","alternateName":["WJH.now","WJHnow"],"url":"{{ .Site.BaseURL }}"}
+</script>
 {{- end }}
 
 {{- if and .IsPage (eq .Section "post") }}
