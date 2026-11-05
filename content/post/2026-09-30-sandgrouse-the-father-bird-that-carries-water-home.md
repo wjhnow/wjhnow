@@ -18,7 +18,6 @@ tags:
   - animal parenting
   - biomimicry
   - wildlife facts
-  - wjhnow
 categories:
   - Wildlife
 sources:
