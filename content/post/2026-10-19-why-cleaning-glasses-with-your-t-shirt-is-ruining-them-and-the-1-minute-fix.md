@@ -12,7 +12,7 @@ tags:
   - Glass cleaning
   - Eye glass cleaning
   - Lens scratches
-  - "Eye care "
+  - Eye-care
 categories:
   - Health
 sources:
