@@ -16,7 +16,6 @@ tags:
   - "Strong passwords "
   - Denmark data breach
   - Password manager
-  - wjhnow
 categories:
   - Cybersecurity
 sources:
