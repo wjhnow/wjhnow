@@ -15,7 +15,6 @@ tags:
   - AI consciousness
   - Chatbot
   - Large Language Models
-  - wjhnow
 categories:
   - Technology
   - AI
