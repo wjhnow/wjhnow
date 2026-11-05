@@ -14,7 +14,6 @@ tags:
   - Digital privacy
   - Online privacy
   - Software trust
-  - wjhnow
 categories:
   - Digital Privacy
   - Open Source
