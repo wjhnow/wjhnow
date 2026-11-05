@@ -13,7 +13,6 @@ tags:
   - Super intelligence
   - Artificial intelligence
   - AI rebrand
-  - wjhnow
 categories:
   - AI
   - Technology
