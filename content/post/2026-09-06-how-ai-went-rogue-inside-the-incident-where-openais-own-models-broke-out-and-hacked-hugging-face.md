@@ -15,7 +15,6 @@ tags:
   - ExploitGym
   - AI Hacking
   - Cybersecurity
-  - wjhnow
 categories:
   - Technology
   - AI
