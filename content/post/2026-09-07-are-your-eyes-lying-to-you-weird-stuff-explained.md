@@ -13,7 +13,6 @@ tags:
   - Neuroscience
   - Human brain
   - Vision
-  - wjhnow
 categories:
   - Science
   - Health
