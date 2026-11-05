@@ -17,7 +17,6 @@ tags:
   - exoplanets
   - saturn
   - science
-  - wjhnow
 categories:
   - Space
   - Science
