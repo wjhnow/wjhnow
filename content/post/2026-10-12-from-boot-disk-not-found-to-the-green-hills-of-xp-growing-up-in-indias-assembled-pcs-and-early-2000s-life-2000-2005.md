@@ -22,7 +22,6 @@ tags:
   - roadrash
   - NFS2
   - 123greetings
-  - wjhnow
 categories:
   - Nostalgia
   - Technology
