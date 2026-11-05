@@ -14,7 +14,6 @@ tags:
   - QPR2
   - Tech News
   - "Smartphones "
-  - wjhnow
 categories:
   - Technology
   - Android
