@@ -14,7 +14,6 @@ tags:
   - self awareness
   - fear of change
   - how to get unstuck
-  - wjhnow
   - philosophy of comfort
   - routine
 categories:
