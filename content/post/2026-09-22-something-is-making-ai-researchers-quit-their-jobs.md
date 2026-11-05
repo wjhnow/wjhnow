@@ -13,7 +13,6 @@ tags:
   - AI
   - AI safety
   - AI ethics
-  - wjhnow
 categories:
   - AI
   - Technology
