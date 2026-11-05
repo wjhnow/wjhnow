@@ -15,7 +15,6 @@ tags:
   - Facebook AI
   - AI safety
   - FAIR
-  - wjhnow
 categories:
   - AI
   - Technology
