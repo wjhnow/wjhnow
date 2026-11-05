@@ -14,7 +14,6 @@ tags:
   - Space
   - Astronomy
   - Time perception
-  - wjhnow
 categories:
   - Space
   - Science
