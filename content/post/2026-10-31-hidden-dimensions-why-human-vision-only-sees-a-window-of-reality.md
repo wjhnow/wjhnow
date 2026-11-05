@@ -12,7 +12,6 @@ author: Mr. JH
 tags:
   - hidden dimension
   - human vision
-  - umwelt
   - blind spot
 categories:
   - Science
