@@ -17,21 +17,17 @@ tags:
   - sea level rise
   - climate change
   - satellite data
-  - wjhnow
 categories:
   - Climate & Environment
 sources:
   - name: Associated Press report by Seth Borenstein
-    undefined: Associated Press report by Seth Borenstein
     url: https://www.ksl.com/article/51624620/satellites-show-earth-lost-more-than-12-trillion-tons-of-ice-from-greenland-antarctica-in-47-years
   - name: IMBIE study in Scientific Data
-    undefined: IMBIE study in Scientific Data
     url: https://www.nature.com/articles/s41597-026-08088-0
   - name: ESA press release
-    undefined: ESA press release
     url: https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Faster-flowing_glaciers_fuel_decades_of_polar_ice_loss
 ---
-<p class="has-dropcap">Satellites Watched Earth Lose 12.5 Trillion Tons of Ice Since 1979 </p>
+Satellites Watched Earth Lose 12.5 Trillion Tons of Ice Since 1979
 
 Greenland and Antarctica have lost 12.5 trillion tons of ice since 1979. Enough to bury the entire continental US under 5 feet of ice, coast to coast. And we watched it happen from space.
 
