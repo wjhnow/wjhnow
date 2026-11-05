@@ -16,7 +16,6 @@ tags:
   - Flatland
   - String theory
   - Optical illusion
-  - wjhnow
 categories:
   - Science
 sources:
