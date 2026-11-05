@@ -13,7 +13,6 @@ tags:
   - Anthropic
   - AI ethics
   - "AI policy "
-  - WJHnow
 categories:
   - Technology
 ---
