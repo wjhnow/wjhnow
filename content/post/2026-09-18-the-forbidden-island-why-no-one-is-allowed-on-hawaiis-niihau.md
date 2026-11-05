@@ -14,7 +14,6 @@ tags:
   - Ni'ihau
   - Forbidden Island
   - Hawaii
-  - wjhnow
   - private island Hawaii
 categories:
   - Travel
