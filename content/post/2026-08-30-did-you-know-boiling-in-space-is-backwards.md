@@ -9,7 +9,6 @@ image: /img/boiling.jpeg
 author: Mr. JH
 tags:
   - Space
-  - wjhnow
   - Physics
   - Microgravity
 categories:
