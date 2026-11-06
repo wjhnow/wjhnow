@@ -2,7 +2,7 @@
 title: How I Turned Our Old Tablet Into a Math-Only Tablet (No YouTube, No Games)
 slug: math-only-ai-tablet-for-kids
 date: 2026-11-06
-draft: true
+draft: false
 description: Turn a spare Android tablet into a free, math-only study station
   for kids up to 11 using Google AI Studio and Fully Kiosk Browser.
 image: /img/math-only-tablet-for-kids.jpg
