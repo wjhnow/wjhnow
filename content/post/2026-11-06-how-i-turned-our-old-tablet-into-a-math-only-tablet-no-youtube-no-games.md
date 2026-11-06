@@ -20,6 +20,8 @@ categories:
   - Mathematics
   - Technology
   - Learning Tips
+sources:
+  - name: Own experience with Google AI Studio and Fully Kiosk Browser. Gemini assist
 ---
 I gave my kid our old tablet last month. Big mistake.
 Within five minutes he was on YouTube. Then a game. Then he was asking the AI about Minecraft.
