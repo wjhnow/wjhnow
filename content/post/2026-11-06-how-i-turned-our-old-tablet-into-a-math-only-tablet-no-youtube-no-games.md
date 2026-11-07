@@ -52,7 +52,7 @@ What you need:
 4. Set the Thinking Level to Low (or lower the Temperature to 0.2). This just tells the AI: "Don't be silly, be steady."
 5. Turn OFF all Tools (Search, Maps, Code, etc.). We don't want the teacher wandering off to Google things.
 6. Paste the rule book into the System instructions box. You can customize it however you like. Tell Gemini what you need and it will draft rules for you. An example is below, and my full custom prompt is at the bottom of this post.
-7. ![](/img/01.jpg)
+  ![](/img/01.jpg)
 
 Example instruction:  
 You are a Math Teacher for kids up to 6th grade. First, check: is this question about math? If it is not math, do NOT answer it. Just say: "I am strictly your math tutor! I can only help you with studying mathematics. Let's get back to math." Teach like you are talking to a 10-year-old using pizza, toys, and blocks. Break big problems into small steps. End with ONE practice problem.  
@@ -68,14 +68,14 @@ This is the part I messed up the first time, so follow the order carefully!
 1. On the old Android tablet, open the Play Store and install Fully Kiosk Browser & Launcher.
 2. Open Fully Kiosk and swipe in from the left to open Settings.
 3. Go to Web Content Settings → Start URL and paste your teacher's saved workspace link.
-4. ![](/img/02.jpg)
-5. Go back to the main browser screen and sign in with YOUR Google account NOW. (Crucial tip: on my first try I set the whitelist first. It blocked Google's login page and locked me out! Save the whitelist step for last.)
-6. Now return to Settings → Web Content Settings → URL Whitelist. Type your workspace link with an asterisk at the very end, like this: [https://aistudio.google.com/prompts/YOUR_ID](https://aistudio.google.com/prompts/YOUR_ID)*. (In my test, the free version of Fully Kiosk showed a small watermark once I enabled a few options, such as the whitelist. You can buy the full license if you want to remove it.)
-7. ![](/img/03.jpg)
-8. Checkmark Reload Start URL on Block. This is the magic button! If your kid clicks an external link or tries to navigate away, the tablet instantly bounces back to math.
-9. Go to Kiosk Mode in Settings, set your 4-digit PIN, and turn Kiosk Mode ON. Lock the status bar pull-down and the home button. (Pro tip: use the search bar at the top of Fully Kiosk's settings to find these toggles quickly.)
-10. ![](/img/04.jpg)
-11. Press the tablet's Home button, select Fully Kiosk, and tap Always.
+  ![](/img/02.jpg)
+4. Go back to the main browser screen and sign in with YOUR Google account NOW. (Crucial tip: on my first try I set the whitelist first. It blocked Google's login page and locked me out! Save the whitelist step for last.)
+5. Now return to Settings → Web Content Settings → URL Whitelist. Type your workspace link with an asterisk at the very end, like this: [https://aistudio.google.com/prompts/YOUR_ID](https://aistudio.google.com/prompts/YOUR_ID)*. (In my test, the free version of Fully Kiosk showed a small watermark once I enabled a few options, such as the whitelist. You can buy the full license if you want to remove it.)
+  ![](/img/03.jpg)
+6. Checkmark Reload Start URL on Block. This is the magic button! If your kid clicks an external link or tries to navigate away, the tablet instantly bounces back to math.
+7. Go to Kiosk Mode in Settings, set your 4-digit PIN, and turn Kiosk Mode ON. Lock the status bar pull-down and the home button. (Pro tip: use the search bar at the top of Fully Kiosk's settings to find these toggles quickly.)
+  ![](/img/04.jpg)
+8. Press the tablet's Home button, select Fully Kiosk, and tap Always.
 
 Honest note: I did not test Fully Kiosk's Kiosk Mode lock myself. My own tablet is already locked down with NetGuard's lockdown mode, which blocks all internet except the Fully Kiosk app. So I can't promise exactly how steps 7 and 8 behave on your tablet. Run the test below before handing it over, and keep your PIN handy.
 Done!
