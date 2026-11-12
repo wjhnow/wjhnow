@@ -25,7 +25,7 @@ sources:
     url: https://physicsworld.com/a/planck-telescope-peers-into-the-early-universe/
   - {}
 ---
-*The Window We Look Through*
+The Window We Look Through
 
 ## The house with the holes
 
