@@ -29,7 +29,7 @@ That picture sits behind a question many people ask: why spend so much searching
 
 It turns out there are two good answers that pull in different directions, and this article gives both.
 
-## Our window is bigger than our eyes*
+### Our window is bigger than our eyes*
 
 Our window isn't only what our eyes can see. It is our senses, our tools, our brains, and even our sense of scale.
 
@@ -43,7 +43,7 @@ In each case the fix is the same: change where we stand, or add a second view. T
 
 Evolution tuned our minds for medium-sized things moving at medium speeds. That is why the physics of the very small and the very fast feels so strange. So every guess about what exists, and what life can be, is made from inside this window. That cuts both ways, as we'll see.
 
-## What science has shown, and what it hasn't
+### What science has shown, and what it hasn't
 
 Things we can't see have turned out to be real, again and again. Germs were invisible until microscopes revealed them. Radio waves were predicted on paper first and found in the 1880s. Neutrinos, tiny particles that stream through your body in huge numbers every second, were proposed in 1930 and finally found in 1956. And in 2015 we detected ripples in space itself, a century after Einstein said they should exist. Each one needed a better window.
 
@@ -55,7 +55,7 @@ It means that ordinary matter — everything we are made of, plus all the stars 
 
 Hidden dimensions are another popular idea. Some theories, such as string theory, say space may have extra directions we can't sense. Physicists take this seriously, but no experiment has found one. That makes it unproven, which is not the same as false.
 
-## What is life?
+### What is life?
 
 Science has no single agreed definition. A common working one, used by NASA, says life is a chemical system that keeps itself going and can evolve over generations. Notice that this describes what a thing *does*, not what it is made of.
 
@@ -65,7 +65,7 @@ Some people go further and say that nature itself might be a kind of life, actin
 
 A scientific cousin of that idea, the Gaia hypothesis, pictures Earth's living things and the planet as one system that keeps itself in balance, though most scientists treat that as a way of speaking, not a literal fact. It may equally be that nature has no purposes at all. We have no test for either, which also means no way to dismiss either.
 
-## The case for leaving other worlds alone
+### The case for leaving other worlds alone
 
 The argument starts from humility. We look through a limited window, so we cannot know what our actions will cost, and some harm can't be undone. Invasive species on Earth show how a harmless-looking move can ruin an ecosystem. Moons like Europa and Enceladus may hide oceans under their ice, and carrying Earth's germs there could destroy something we'd never get back.
 
@@ -77,7 +77,7 @@ The challenge to this view comes in three parts. Nature already moves rocks betw
 
 Those who hold this view answer that nature's moves aren't ours to copy, and that "we don't know" is reason enough for care.
 
-## The case for looking
+### The case for looking
 
 The argument here is that looking costs nothing out there. Telescopes and probes that only observe take nothing and change nothing. They do change where we stand, which is the lesson of the blind spot and the sheet of paper: a new viewpoint shows what the old one hid. Space telescopes are how we measured the 5% figure and mapped the faint glow left over from the Big Bang. We are also part of nature, and the curiosity that drives the search came from the same process that made everything else, so searching may be nature looking at itself. Every widening of the window so far has shown things nobody thought to ask about. And samples brought back can be re-tested for decades with tools that don't exist yet.
 
@@ -87,7 +87,7 @@ The challenge to this view is serious. Contamination, meaning carrying Earth's g
 
 "It might help us" treats other worlds only as resources, while some hold that places have value for their own sake. Those who favor looking and sampling answer that the risk can be managed, through rules that clean spacecraft before launch and seal samples brought home — which lower the risk, but can't remove it entirely — and that ignorance has costs of its own.
 
-## Where the two views meet
+### Where the two views meet
 
 Both sides agree on a lot: the search isn't needed for survival, our window is limited, and nobody can prove what nature's purpose is, or that it has none. The real disagreement is where to draw the line. Drawing it at what we can see fails, because the window keeps moving, and almost everything we now know was once unseen.
 
