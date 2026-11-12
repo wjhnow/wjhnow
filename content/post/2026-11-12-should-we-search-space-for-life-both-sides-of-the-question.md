@@ -18,6 +18,12 @@ tags:
 categories:
   - Extraterrestrial Life
   - Space
+sources:
+  - name: "USAFacts: NASA spending "
+    url: https://usafacts.org/answers/national-defense/federal-budget/how-much-does-the-us-spend-on-nasa/
+  - name: "Physics World:"
+    url: https://physicsworld.com/a/planck-telescope-peers-into-the-early-universe/
+  - {}
 ---
 *The Window We Look Through*
 
