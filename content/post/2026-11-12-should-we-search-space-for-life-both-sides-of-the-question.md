@@ -2,7 +2,7 @@
 title: Should We Search Space for Life? Both Sides of the Question
 slug: window-we-look-through
 date: 2026-11-12
-draft: true
+draft: false
 description: Why search space for life when we can't see everything around us?
   Two honest answers — leave other worlds alone, or go look — and where they
   meet
