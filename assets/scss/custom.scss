@@ -1345,3 +1345,60 @@ img.responsive,
 .article-byline {
   text-transform: uppercase !important; letter-spacing: 0.08em !important; font-size: 1.2rem !important;
 }
+
+/* ==========================================================================
+   Telegram follow block, Medium-style (v2).
+   Paste at the very END of custom.scss. It overrides the first version.
+   No new fonts are loaded: the small text and button use the system sans-serif.
+   ========================================================================== */
+
+.tg-cta {
+  max-width: 760px !important;
+  margin: 3.2rem 0 !important;
+  padding: 2.8rem 1rem !important;
+  text-align: center !important;
+  border-top: 1px solid #d9d2c4 !important;
+  border-bottom: 1px solid #d9d2c4 !important;
+}
+
+/* Heading: serif, regular weight */
+.tg-cta__title {
+  font-family: "Libre Baskerville", Georgia, "Times New Roman", serif !important;
+  font-size: 2.2rem !important;
+  font-weight: 400 !important;
+  line-height: 1.3 !important;
+  color: #111 !important;
+  margin: 0 auto 0.9rem auto !important;
+  max-width: 30rem !important;
+}
+
+/* Small line: sans-serif, soft grey */
+.tg-cta__text {
+  font-family: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+  font-size: 1.45rem !important;
+  line-height: 1.55 !important;
+  color: #6b6558 !important;
+  margin: 0 auto 2rem auto !important;
+  max-width: 30rem !important;
+}
+
+/* Button: sans-serif, normal case, rounded like the reference */
+.tg-cta__btn {
+  display: inline-block !important;
+  background: #111 !important;
+  color: #f4efe6 !important;
+  padding: 1.2rem 3.4rem !important;
+  border-radius: 999px !important;
+  font-family: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+  font-size: 1.5rem !important;
+  font-weight: 500 !important;
+  letter-spacing: 0 !important;
+  text-transform: none !important;
+  text-decoration: none !important;
+}
+
+.tg-cta__btn:hover {
+  background: var(--accent) !important;
+  color: #fff !important;
+}
+
