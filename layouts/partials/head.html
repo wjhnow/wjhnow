@@ -70,3 +70,29 @@
 }
 </script>
 {{- end }}
+{{- if .IsPage }}
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var box = document.querySelector('.article-content');
+  if (!box) return;
+  if (document.querySelector('.tg-cta')) return;
+
+  var heads = box.querySelectorAll('h2');
+  var last = heads.length > 1 ? heads[heads.length - 1] : null;
+
+  var cta = document.createElement('aside');
+  cta.className = 'tg-cta';
+  cta.innerHTML =
+    '<div class="tg-cta__title">Get new posts on Telegram</div>' +
+    '<div class="tg-cta__text">Follow @wjh_now and see each new post as it goes up.</div>' +
+    '<a class="tg-cta__btn" href="https://t.me/wjh_now" target="_blank" rel="noopener noreferrer">Join the channel</a>';
+
+  if (last && last.parentNode) {
+    last.parentNode.insertBefore(cta, last);
+  } else {
+    box.appendChild(cta);
+  }
+});
+</script>
+{{- end }}
+
